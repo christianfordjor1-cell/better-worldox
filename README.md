@@ -1,6 +1,12 @@
 # Tiny World — Phase 1 art review
 
-This repository currently contains the Phase 1 concept-art review package only. These are static concepts, not functional sprite assets. No game code or saved worlds are included or modified.
+This repository contains the Phase 1 concept-art review and Phase 2 warrior test sheets. These are not functional production sprite assets. No game code or saved worlds are included or modified.
+
+## Phase 2 test sheets
+
+[View the two warrior test sheets and audit](art-review/phase-2-audit/README.md) · [Download Phase 2 test ZIP](https://github.com/christianfordjor1-cell/better-worldox/raw/refs/heads/main/art-review/phase-2-tests.zip)
+
+These are failed production tests, not completed modular animations. Wolffolk and dragon production assets and the functional sprite viewer remain incomplete.
 
 ## Download
 
