@@ -1,0 +1,9 @@
+{
+  "reference_html_sha256": "83bc95867919490989d76beeea785a542f7af6496eef2f952a15fb05431de3eb",
+  "reference_html_unchanged": true,
+  "preexisting_tracked_files_changed": [],
+  "main_game_changes": false,
+  "existing_saves_accessed": false,
+  "baseline_main_commit": "07aa6e808d7019c8d18464fb2fe838b1367a7f1a",
+  "note": "Specific-branch fetch updated FETCH_HEAD; origin/main was stale. Preservation is compared against the verified fetched main commit."
+}

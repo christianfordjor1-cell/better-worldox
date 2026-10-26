@@ -1,0 +1,141 @@
+{
+  "stage": 1,
+  "production_approved": false,
+  "cell": [
+    144,
+    144
+  ],
+  "body_centre_x": 72,
+  "feet_anchor_y": 130,
+  "target_figure_height": 100,
+  "camera_look": [
+    0.34716641902923584,
+    -0.8100548982620239,
+    0.4725320637226105
+  ],
+  "world_units_per_pixel": 0.03661835287241455,
+  "palettes": {
+    "steel": [
+      "#252b3c",
+      "#424e62",
+      "#718598",
+      "#b0c1c7",
+      "#e3e6d6"
+    ],
+    "blade": [
+      "#343e52",
+      "#687e92",
+      "#9eb7c4",
+      "#cddbdc",
+      "#f0efdc"
+    ],
+    "steel_dark": [
+      "#222837",
+      "#374354",
+      "#566b7d",
+      "#91a6b0"
+    ],
+    "gold": [
+      "#5a382c",
+      "#916139",
+      "#c59654",
+      "#ecd18a"
+    ],
+    "skin": [
+      "#50322d",
+      "#7e4b34",
+      "#ab7147",
+      "#d59b63",
+      "#edbb82"
+    ],
+    "skin_dark": [
+      "#472f2b",
+      "#694132",
+      "#8c593b",
+      "#bb8150"
+    ],
+    "cloth": [
+      "#361f2c",
+      "#642d32",
+      "#983d3e",
+      "#c2644c"
+    ],
+    "cloth_dark": [
+      "#241f2b",
+      "#3b2933",
+      "#603439",
+      "#8c4841"
+    ],
+    "leather": [
+      "#211e28",
+      "#3e2d2c",
+      "#654638",
+      "#967049"
+    ],
+    "hair": [
+      "#291d27",
+      "#50272b",
+      "#81382f",
+      "#b65537",
+      "#da7d43"
+    ],
+    "hair_dark": [
+      "#231d26",
+      "#41252a",
+      "#6b302d",
+      "#99432f"
+    ],
+    "eye": [
+      "#171b25",
+      "#171b25",
+      "#2a2429",
+      "#4c342a"
+    ],
+    "ivory": [
+      "#54473b",
+      "#908368",
+      "#c7b992",
+      "#e3d7b0"
+    ],
+    "mouth": [
+      "#3f2630",
+      "#623634",
+      "#865044",
+      "#b16e52"
+    ]
+  },
+  "mesh_objects": 234,
+  "vertices": 32374,
+  "triangles": 60450,
+  "renders": [
+    {
+      "name": "warrior-144",
+      "width": 144,
+      "height": 144,
+      "ray_surface_hits": 2857,
+      "ray_samples_per_pixel": 1,
+      "supersampling": false,
+      "downscaled_illustration": false,
+      "outline": true
+    },
+    {
+      "name": "model-stepped-render",
+      "width": 720,
+      "height": 720,
+      "ray_surface_hits": 71492,
+      "ray_samples_per_pixel": 1,
+      "supersampling": false,
+      "downscaled_illustration": false,
+      "outline": false
+    }
+  ],
+  "excluded": [
+    "rigging",
+    "animation",
+    "modular reconstruction",
+    "colour variants",
+    "compositor",
+    "viewer",
+    "game integration"
+  ]
+}

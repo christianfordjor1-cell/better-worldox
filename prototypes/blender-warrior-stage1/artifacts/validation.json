@@ -1,0 +1,69 @@
+{
+  "stage": 1,
+  "technical_checks_pass": true,
+  "visual_quality": "awaiting user review; not certified by automated tests",
+  "production_approved": false,
+  "checks": {
+    "exact_144x144_rgba": true,
+    "binary_alpha_no_partial_pixels": true,
+    "background_transparent": true,
+    "empty_pixels_have_zero_rgb": true,
+    "declared_discrete_palette_only": true,
+    "fully_inside_cell": true,
+    "visible_bottom_pixel_at_y130": true,
+    "figure_height_100_pixels": true,
+    "body_root_projection_x72": true,
+    "orthographic_camera": true,
+    "no_armature": true,
+    "no_animation_actions": true,
+    "no_ground_plane": true,
+    "single_connected_silhouette": true,
+    "nearest_neighbour_all_pixels_exact": true,
+    "repeat_native_render_identical": true
+  },
+  "image": {
+    "size": [
+      144,
+      144
+    ],
+    "mode": "RGBA",
+    "visible_bounds_exclusive": [
+      44,
+      31,
+      97,
+      131
+    ],
+    "figure_height": 100,
+    "visible_colour_count": 51,
+    "transparent_pixels": 17486,
+    "opaque_pixels": 3250,
+    "partial_alpha_pixels": 0,
+    "alpha_components": [
+      3250
+    ]
+  },
+  "authored_native_pixel_changes": 17,
+  "render_method": "Single pixel-centre orthographic ray per native pixel against original Blender meshes, discrete shading ramps, hard contact shading, silhouette outline and explicit authored facial corrections. No supersampling or downsized illustration.",
+  "model_render_note": "The separate 768px standard Blender Cycles model render has normal render filtering. Binary-alpha and no-antialiasing checks apply to the native sprite.",
+  "not_implemented": [
+    "rigging",
+    "animation",
+    "anatomical reconstruction",
+    "part variants",
+    "independent colour-mask assets",
+    "compositor",
+    "viewer",
+    "game integration"
+  ],
+  "artistic_limitations": [
+    "3D-derived armour and hair styling differ from the hand-designed Phase 1 illustration.",
+    "Face and engraving detail are simplified at the 100px figure height.",
+    "A single static pose and direction establish no animation or modular-production readiness."
+  ],
+  "files": {
+    "warrior-144.png": "510a7f07b63998dbe7cd46e472694a840aca642da11ad1d895adecd09b842a0a",
+    "warrior-nearest-6x.png": "a1a33e9cf988749a3acbaf6a2b530a7c29624385c740b6cb7384e8426c08f753",
+    "blender-model-render.png": "2b269a072a5d19efb4938774a810ec98af7d910d951b96953664b8b550fa7ad8",
+    "warrior-stage1.blend": "147b746ca9852e695f369ed7aded2fd5c5a473cfe8950164e8a4504bf629f302"
+  }
+}

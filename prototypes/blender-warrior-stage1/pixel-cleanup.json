@@ -1,0 +1,12 @@
+{
+  "purpose": "Authored native-pixel correction of eye, brow, nose and lip clusters after inspecting the 1x render and projected facial landmarks. No resizing, quantization, silhouette substitution or generated illustration is used.",
+  "edits": [
+    [65,44,"#694132"], [66,44,"#41252a"], [67,44,"#41252a"],
+    [66,45,"#c7b992"], [67,45,"#2a2429"], [68,45,"#d59b63"],
+    [71,45,"#41252a"], [72,45,"#41252a"], [73,45,"#50322d"],
+    [71,46,"#c7b992"], [72,46,"#2a2429"], [69,46,"#d59b63"],
+    [69,47,"#edbb82"], [70,47,"#ab7147"], [69,48,"#694132"],
+    [74,47,"#d59b63"], [72,49,"#ab7147"],
+    [69,50,"#623634"], [70,50,"#623634"], [70,51,"#ab7147"], [71,51,"#7e4b34"]
+  ]
+}

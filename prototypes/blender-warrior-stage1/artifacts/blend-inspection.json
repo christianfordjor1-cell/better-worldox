@@ -1,0 +1,11 @@
+{
+  "blender_version": "4.3.2",
+  "body_root_projected_x": 72.0000171661377,
+  "orthographic_camera": true,
+  "armatures": 0,
+  "animation_actions": 0,
+  "mesh_count": 234,
+  "render_engine": "CYCLES",
+  "transparent_film": true,
+  "no_ground_plane": true
+}
