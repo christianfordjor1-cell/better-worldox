@@ -1,5 +1,7 @@
 # Human warrior — Blender-to-pixel Stage 1
 
+**Simple visual review:** [Open the review folder](review/README.md) · [Download Tiny-World-Warrior-Stage1-Review.zip](https://github.com/christianfordjor1-cell/better-worldox/raw/refs/heads/prototype/blender-warrior-stage1/prototypes/blender-warrior-stage1/review/Tiny-World-Warrior-Stage1-Review.zip)
+
 **Static visual-review candidate. Artistic approval is pending.** This delivers Stage 1 only. No armature, animation, anatomical reconstruction, colour-mask system, compositor, sprite viewer, additional character or game integration has been created.
 
 ## Inspect the actual artwork
