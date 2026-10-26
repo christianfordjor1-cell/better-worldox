@@ -1,0 +1,35 @@
+{
+  "file": "warrior-candidate-1-REJECTED.png",
+  "expected_canvas": [
+    1024,
+    1024
+  ],
+  "actual_canvas": [
+    1254,
+    1254
+  ],
+  "unique_rgba": 171089,
+  "visible_rgb_colours": 113416,
+  "transparent_pixels": 1152944,
+  "opaque_pixels": 892,
+  "partial_alpha_pixels": 418680,
+  "alpha_levels": 256,
+  "checks": {
+    "requested_canvas_size": false,
+    "divisible_into_four_by_four_grid": false,
+    "transparent_background_present": true,
+    "binary_alpha_only": false,
+    "visible_colours_within_16_times_32_upper_bound": false
+  },
+  "machine_checks_pass": false,
+  "production_ready": false,
+  "not_verified": [
+    "144x144 layer alignment",
+    "feet and body anchors",
+    "attachment continuity",
+    "independent facial and material masks",
+    "frame poses and animation",
+    "anatomical variations",
+    "artistic quality at native scale"
+  ]
+}
