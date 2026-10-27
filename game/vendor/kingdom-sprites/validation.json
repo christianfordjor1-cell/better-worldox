@@ -1,0 +1,70 @@
+{
+  "sheetCount": 713,
+  "frameCount": 256396,
+  "cell": [
+    144,
+    144
+  ],
+  "columns": 14,
+  "anchor": [
+    72,
+    130
+  ],
+  "allBodyFeetAnchoredAt130": true,
+  "maxColors": 11,
+  "alphaValues": [
+    0,
+    255
+  ],
+  "allTintMasksNeutral": true,
+  "allPNGIndexConversionsPixelExact": true,
+  "transparentRGBNormalised": true,
+  "edgeTouchingFrames": 0,
+  "raceCount": 19,
+  "beastCount": 17,
+  "rootCount": 30,
+  "specialisationCount": 48,
+  "browser": {
+    "browser": "system Chromium via Playwright",
+    "errors": [],
+    "checks": {
+      "identityStable": true,
+      "attackDistinct": true,
+      "deathDistinct": true,
+      "fourDistinctBuilds": true,
+      "raceAgePlans": 21,
+      "beastAgePlans": 34,
+      "rootPlans": 30,
+      "allPlansReady": true,
+      "planCount": 93,
+      "cache": {
+        "images": 0,
+        "rawRows": 200,
+        "cells": 520,
+        "composites": 1
+      },
+      "game": {
+        "adapterPresent": true,
+        "spriteSize": [
+          144,
+          144
+        ],
+        "identityUnchanged": true,
+        "creatures": 28,
+        "citizens": 0
+      },
+      "finalSmoke": {
+        "actualCitizenRendered": true,
+        "renderedPixels": 149,
+        "identityUnchanged": true,
+        "portraitSize": [
+          144,
+          144
+        ],
+        "creatureCount": 29
+      }
+    },
+    "finalErrors": [],
+    "spriteConsoleErrors": []
+  }
+}
