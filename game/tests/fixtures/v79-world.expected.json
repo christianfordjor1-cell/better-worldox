@@ -1,0 +1,517 @@
+{
+  "W": 96,
+  "H": 64,
+  "time": 120,
+  "people": {
+    "1": {
+      "name": "Regression Human",
+      "race": "human",
+      "cls": "warrior",
+      "spec": "knight",
+      "preferredSpec": "knight",
+      "roots": [
+        "Water"
+      ],
+      "tw69Root": "water",
+      "tw69Path": "control",
+      "tier": 4,
+      "cultStage": 3,
+      "cultFoundation": 1,
+      "genome": {
+        "alleles": {
+          "strength": [
+            2,
+            2
+          ],
+          "speed": [
+            1,
+            2
+          ],
+          "lifespan": [
+            2,
+            1
+          ],
+          "mass": [
+            1,
+            1
+          ],
+          "cognition": [
+            3,
+            3
+          ],
+          "hippocampus": [
+            3,
+            3
+          ],
+          "cortex": [
+            3,
+            3
+          ]
+        },
+        "origin": "human",
+        "gen": 1,
+        "mutationCount": 0,
+        "subspecies": "human:2221333"
+      },
+      "gear": {},
+      "tw79": {
+        "seed": 1188642669,
+        "skin": 5,
+        "hair": 0,
+        "style": 3,
+        "eyes": 1,
+        "face": 1,
+        "build": 0,
+        "ornament": 3,
+        "material": 1,
+        "weapon": "hoe"
+      },
+      "tw74": {
+        "seed": 1188642669,
+        "root": "Water",
+        "temperament": "calm",
+        "style": "duelist",
+        "aptitude": 79,
+        "techniques": [
+          577,
+          19,
+          26,
+          573,
+          584,
+          22,
+          565,
+          576,
+          18,
+          25,
+          568
+        ],
+        "mastery": {},
+        "weapon": {
+          "name": "Moonsteel Hammer",
+          "type": "Hammer",
+          "material": "Moonsteel",
+          "affinity": "Water",
+          "grade": 3,
+          "mastery": 11,
+          "durability": 100,
+          "spirit": null,
+          "history": []
+        },
+        "history": [
+          "Began cultivating the Water path"
+        ],
+        "lastStudy": 0
+      }
+    },
+    "2": {
+      "name": "Regression Elf",
+      "race": "elf",
+      "cls": "mage",
+      "spec": "wizard",
+      "preferredSpec": "wizard",
+      "roots": [
+        "Wood"
+      ],
+      "tw69Root": "wood",
+      "tw69Path": "spirit",
+      "tier": 2,
+      "cultStage": 4,
+      "cultFoundation": 1.02,
+      "genome": {
+        "alleles": {
+          "strength": [
+            1,
+            1
+          ],
+          "speed": [
+            2,
+            1
+          ],
+          "lifespan": [
+            2,
+            2
+          ],
+          "mass": [
+            2,
+            2
+          ],
+          "cognition": [
+            3,
+            3
+          ],
+          "hippocampus": [
+            3,
+            3
+          ],
+          "cortex": [
+            3,
+            3
+          ]
+        },
+        "origin": "human",
+        "gen": 1,
+        "mutationCount": 0,
+        "subspecies": "human:1222333"
+      },
+      "gear": {},
+      "tw79": {
+        "seed": 1138309812,
+        "skin": 0,
+        "hair": 1,
+        "style": 2,
+        "eyes": 2,
+        "face": 0,
+        "build": 3,
+        "ornament": 2,
+        "material": 0,
+        "weapon": "none"
+      },
+      "tw74": {
+        "seed": 1138309812,
+        "root": "Wood",
+        "temperament": "patient",
+        "style": "support",
+        "aptitude": 46,
+        "techniques": [
+          606,
+          40,
+          599,
+          39,
+          598,
+          38
+        ],
+        "mastery": {},
+        "weapon": {
+          "name": "Bloodstone Spear",
+          "type": "Spear",
+          "material": "Bloodstone",
+          "affinity": "Wood",
+          "grade": 2,
+          "mastery": 9,
+          "durability": 100,
+          "spirit": null,
+          "history": []
+        },
+        "history": [
+          "Began cultivating the Wood path"
+        ],
+        "lastStudy": 0
+      }
+    },
+    "3": {
+      "name": "Regression Dwarf",
+      "race": "dwarf",
+      "cls": "tank",
+      "spec": "guardian",
+      "preferredSpec": "guardian",
+      "roots": [
+        "Metal"
+      ],
+      "tw69Root": "metal",
+      "tw69Path": "offense",
+      "tier": 2,
+      "cultStage": 5,
+      "cultFoundation": 1.04,
+      "genome": {
+        "alleles": {
+          "strength": [
+            2,
+            2
+          ],
+          "speed": [
+            1,
+            2
+          ],
+          "lifespan": [
+            2,
+            2
+          ],
+          "mass": [
+            1,
+            1
+          ],
+          "cognition": [
+            3,
+            3
+          ],
+          "hippocampus": [
+            3,
+            3
+          ],
+          "cortex": [
+            3,
+            3
+          ]
+        },
+        "origin": "human",
+        "gen": 1,
+        "mutationCount": 0,
+        "subspecies": "human:2221333"
+      },
+      "gear": {},
+      "tw79": {
+        "seed": 1155087431,
+        "skin": 3,
+        "hair": 6,
+        "style": 7,
+        "eyes": 3,
+        "face": 3,
+        "build": 2,
+        "ornament": 5,
+        "material": 3,
+        "weapon": "none"
+      },
+      "tw74": {
+        "seed": 1155087431,
+        "root": "Metal",
+        "temperament": "fierce",
+        "style": "support",
+        "aptitude": 80,
+        "techniques": [
+          647,
+          75,
+          646,
+          74,
+          645,
+          73,
+          638
+        ],
+        "mastery": {},
+        "weapon": {
+          "name": "Spiritwood Bow",
+          "type": "Bow",
+          "material": "Spiritwood",
+          "affinity": "Metal",
+          "grade": 2,
+          "mastery": 8,
+          "durability": 100,
+          "spirit": null,
+          "history": []
+        },
+        "history": [
+          "Began cultivating the Metal path"
+        ],
+        "lastStudy": 0
+      }
+    },
+    "4": {
+      "name": "Regression Orc",
+      "race": "orc",
+      "cls": "archer",
+      "spec": "sniper",
+      "preferredSpec": "sniper",
+      "roots": [
+        "Fire"
+      ],
+      "tw69Root": "fire",
+      "tw69Path": "offense",
+      "tier": 2,
+      "cultStage": 6,
+      "cultFoundation": 1.06,
+      "genome": {
+        "alleles": {
+          "strength": [
+            2,
+            1
+          ],
+          "speed": [
+            1,
+            2
+          ],
+          "lifespan": [
+            1,
+            1
+          ],
+          "mass": [
+            2,
+            2
+          ],
+          "cognition": [
+            3,
+            3
+          ],
+          "hippocampus": [
+            3,
+            3
+          ],
+          "cortex": [
+            3,
+            3
+          ]
+        },
+        "origin": "human",
+        "gen": 1,
+        "mutationCount": 0,
+        "subspecies": "human:2212333"
+      },
+      "gear": {},
+      "tw79": {
+        "seed": 1104754574,
+        "skin": 2,
+        "hair": 3,
+        "style": 4,
+        "eyes": 0,
+        "face": 2,
+        "build": 1,
+        "ornament": 0,
+        "material": 2,
+        "weapon": "none"
+      },
+      "tw74": {
+        "seed": 1104754574,
+        "root": "Fire",
+        "temperament": "impulsive",
+        "style": "skirmisher",
+        "aptitude": 91,
+        "techniques": [
+          560,
+          540,
+          559,
+          5,
+          558,
+          4,
+          551,
+          3
+        ],
+        "mastery": {},
+        "weapon": {
+          "name": "Jade Spear",
+          "type": "Spear",
+          "material": "Jade",
+          "affinity": "Fire",
+          "grade": 2,
+          "mastery": 6,
+          "durability": 100,
+          "spirit": null,
+          "history": []
+        },
+        "history": [
+          "Began cultivating the Fire path"
+        ],
+        "lastStudy": 0
+      }
+    }
+  },
+  "beasts": [
+    {
+      "uid": 5,
+      "type": "wolf",
+      "tw74Beast": {
+        "seed": 203991013,
+        "species": "Wolves",
+        "bloodline": "Ember",
+        "element": "Lightning",
+        "temperament": "patient",
+        "rank": 1,
+        "loyalty": 0,
+        "master": null,
+        "territory": [
+          48,
+          34
+        ],
+        "techniques": [
+          "Pounce"
+        ],
+        "memories": []
+      },
+      "tw79Beast": {
+        "seed": 4194790291,
+        "pattern": 1,
+        "crest": 0,
+        "eye": 2,
+        "accent": 1,
+        "tail": 1,
+        "bloodline": "ordinary"
+      }
+    },
+    {
+      "uid": 6,
+      "type": "deer",
+      "tw74Beast": {
+        "seed": 153658156,
+        "species": "Deer",
+        "bloodline": "Ancient",
+        "element": "Metal",
+        "temperament": "curious",
+        "rank": 1,
+        "loyalty": 0,
+        "master": null,
+        "territory": [
+          46,
+          33
+        ],
+        "techniques": [
+          "Wing Gust"
+        ],
+        "memories": []
+      },
+      "tw79Beast": {
+        "seed": 2232038072,
+        "pattern": 2,
+        "crest": 1,
+        "eye": 0,
+        "accent": 0,
+        "tail": 2,
+        "bloodline": "ordinary"
+      }
+    },
+    {
+      "uid": 7,
+      "type": "dragon",
+      "tw74Beast": {
+        "seed": 170435775,
+        "species": "Dragon",
+        "bloodline": "Ancient",
+        "element": "Water",
+        "temperament": "aggressive",
+        "rank": 1,
+        "loyalty": 0,
+        "master": null,
+        "territory": [
+          50,
+          30
+        ],
+        "techniques": [
+          "Tail Sweep"
+        ],
+        "memories": []
+      },
+      "tw79Beast": null
+    }
+  ],
+  "sects": {
+    "Sect of Regression Human": {
+      "name": "Sect of Regression Human",
+      "x": 8,
+      "y": 48,
+      "founder": 1,
+      "pills": 0,
+      "at": 120,
+      "noTown": 1,
+      "foundedAt": 120,
+      "v71Sited": true,
+      "independentHQ": true
+    }
+  },
+  "buildings": [
+    [
+      3120,
+      "campfire"
+    ],
+    [
+      2735,
+      "house"
+    ],
+    [
+      3405,
+      "house"
+    ]
+  ],
+  "notes": [
+    "Generated using native spawning, race powers, class setup, town foundation and mentoring.",
+    "Dragon has no baseline TW79.beastIdentity entry; its tw74Beast remains authoritative.",
+    "Derived combat stats and rarity may be recomputed by baseline restoration."
+  ],
+  "baselineSha256": "83bc95867919490989d76beeea785a542f7af6496eef2f952a15fb05431de3eb",
+  "fixtureSha256": "1a05e0632e7df7dff96773f852454450703857313eccc8fbcb1a9e3f9b0572ca"
+}

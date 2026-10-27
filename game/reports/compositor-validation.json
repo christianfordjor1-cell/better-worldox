@@ -1,0 +1,762 @@
+{
+  "test": "compositor actual PNG and browser validation",
+  "html": "dist/Tiny-World-v79-Modular.html",
+  "htmlSHA256": "5dc749ce392bdb4495efbb9311a611ef65859e05af5f10a394beff2ffa636c9a",
+  "browser": "Chromium",
+  "firefoxAvailable": false,
+  "dependencies": "Free Python, Pillow, Playwright and system Chromium",
+  "assets": {
+    "ok": true,
+    "sheets": 713,
+    "logicalFrames": 256396,
+    "modeCounts": {
+      "P": 713
+    },
+    "alphaValues": [
+      0,
+      255
+    ],
+    "maxColours": 11,
+    "neutralTintSheets": 600,
+    "cellEdgeViolations": [],
+    "idleBodyRowsChecked": 490,
+    "idleRowsAtY130": 486,
+    "groundExceptions": [
+      {
+        "path": "beasts/snake/baby/body.png",
+        "row": 0,
+        "bounds": [
+          48,
+          92,
+          99,
+          130
+        ],
+        "lowestVisibleY": 129
+      },
+      {
+        "path": "beasts/snake/adult/body.png",
+        "row": 0,
+        "bounds": [
+          31,
+          67,
+          116,
+          130
+        ],
+        "lowestVisibleY": 129
+      },
+      {
+        "path": "beasts/spider/baby/body.png",
+        "row": 0,
+        "bounds": [
+          43,
+          90,
+          102,
+          129
+        ],
+        "lowestVisibleY": 128
+      },
+      {
+        "path": "beasts/spider/adult/body.png",
+        "row": 0,
+        "bounds": [
+          23,
+          63,
+          122,
+          128
+        ],
+        "lowestVisibleY": 127
+      }
+    ],
+    "errors": []
+  },
+  "pageErrors": [],
+  "browserVersion": "154.0.8037.57",
+  "browserChecks": {
+    "manifest": {
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "Legacy/provisional art: preposed whole bodies; no independent anatomical articulation.",
+        "One south-facing set with horizontal mirroring; no cardinal-direction animations.",
+        "Beast eye rows reuse one mask and select colour; six tiers are an art-pack limit."
+      ],
+      "counts": {
+        "races": 19,
+        "beasts": 17,
+        "gameplayClasses": 15,
+        "sheets": 713,
+        "fits": 12,
+        "specialisations": 48,
+        "weapons": 21,
+        "roots": 30,
+        "tiers": 6
+      }
+    },
+    "catalogPlanErrors": [],
+    "catalogPlanCount": 798,
+    "frameHashes": [
+      {
+        "frame": 0,
+        "pose": "idle",
+        "ready": true,
+        "hash": "cbf0b413",
+        "visiblePixels": 4293
+      },
+      {
+        "frame": 1,
+        "pose": "walk_contact_l",
+        "ready": true,
+        "hash": "08e9fa18",
+        "visiblePixels": 4229
+      },
+      {
+        "frame": 2,
+        "pose": "walk_down_l",
+        "ready": true,
+        "hash": "de84e738",
+        "visiblePixels": 4210
+      },
+      {
+        "frame": 3,
+        "pose": "walk_pass_l",
+        "ready": true,
+        "hash": "cbf0b413",
+        "visiblePixels": 4293
+      },
+      {
+        "frame": 4,
+        "pose": "walk_contact_r",
+        "ready": true,
+        "hash": "9cce5067",
+        "visiblePixels": 4233
+      },
+      {
+        "frame": 5,
+        "pose": "walk_down_r",
+        "ready": true,
+        "hash": "d0b8f42a",
+        "visiblePixels": 4215
+      },
+      {
+        "frame": 6,
+        "pose": "walk_pass_r",
+        "ready": true,
+        "hash": "cbf0b413",
+        "visiblePixels": 4293
+      },
+      {
+        "frame": 7,
+        "pose": "attack",
+        "ready": true,
+        "hash": "2f63c225",
+        "visiblePixels": 4223
+      },
+      {
+        "frame": 8,
+        "pose": "idle_alt",
+        "ready": true,
+        "hash": "18e3a992",
+        "visiblePixels": 4246
+      },
+      {
+        "frame": 9,
+        "pose": "hurt",
+        "ready": true,
+        "hash": "088de89e",
+        "visiblePixels": 4117
+      },
+      {
+        "frame": 10,
+        "pose": "death",
+        "ready": true,
+        "hash": "9707012a",
+        "visiblePixels": 1803
+      },
+      {
+        "frame": 11,
+        "pose": "work_1",
+        "ready": true,
+        "hash": "832b78bc",
+        "visiblePixels": 4117
+      },
+      {
+        "frame": 12,
+        "pose": "cast_2",
+        "ready": true,
+        "hash": "52b7e8c5",
+        "visiblePixels": 4237
+      },
+      {
+        "frame": 13,
+        "pose": "work_cast_3",
+        "ready": true,
+        "hash": "d6775fdb",
+        "visiblePixels": 4175
+      }
+    ],
+    "channelChecks": [
+      {
+        "field": "skin",
+        "changedLayers": [
+          "body",
+          "face"
+        ],
+        "wholeSpriteChanged": true,
+        "independent": true,
+        "ready": true
+      },
+      {
+        "field": "hair",
+        "changedLayers": [
+          "hair"
+        ],
+        "wholeSpriteChanged": true,
+        "independent": true,
+        "ready": true
+      },
+      {
+        "field": "eyes",
+        "changedLayers": [
+          "eyes"
+        ],
+        "wholeSpriteChanged": true,
+        "independent": true,
+        "ready": true
+      },
+      {
+        "field": "material",
+        "changedLayers": [
+          "outfit"
+        ],
+        "wholeSpriteChanged": true,
+        "independent": true,
+        "ready": true
+      }
+    ],
+    "beastBodies": [
+      {
+        "type": "sheep",
+        "path": "beasts/sheep/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "017145a3",
+        "visiblePixels": 4230
+      },
+      {
+        "type": "wolf",
+        "path": "beasts/wolf/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "cf092ca0",
+        "visiblePixels": 3861
+      },
+      {
+        "type": "deer",
+        "path": "beasts/deer/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "fe53e6b5",
+        "visiblePixels": 4140
+      },
+      {
+        "type": "rabbit",
+        "path": "beasts/rabbit/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "1cd3528d",
+        "visiblePixels": 2336
+      },
+      {
+        "type": "boar",
+        "path": "beasts/boar/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "ba20af26",
+        "visiblePixels": 3864
+      },
+      {
+        "type": "fox",
+        "path": "beasts/fox/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "d8f63f60",
+        "visiblePixels": 3861
+      },
+      {
+        "type": "chicken",
+        "path": "beasts/chicken/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "1475fe65",
+        "visiblePixels": 1741
+      },
+      {
+        "type": "tortoise",
+        "path": "beasts/tortoise/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "9a292d0b",
+        "visiblePixels": 4050
+      },
+      {
+        "type": "moonhart",
+        "path": "beasts/moonhart/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "09d4e30b",
+        "visiblePixels": 4140
+      },
+      {
+        "type": "emberfox",
+        "path": "beasts/emberfox/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "54f66614",
+        "visiblePixels": 3861
+      },
+      {
+        "type": "bear",
+        "path": "beasts/bear/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "aa78f115",
+        "visiblePixels": 4162
+      },
+      {
+        "type": "tiger",
+        "path": "beasts/tiger/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "f787f138",
+        "visiblePixels": 3861
+      },
+      {
+        "type": "snake",
+        "path": "beasts/snake/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "ea7ca128",
+        "visiblePixels": 2575
+      },
+      {
+        "type": "eagle",
+        "path": "beasts/eagle/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "3cfc8e1a",
+        "visiblePixels": 2675
+      },
+      {
+        "type": "dragon",
+        "path": "beasts/dragon/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "0bcb89e8",
+        "visiblePixels": 5815
+      },
+      {
+        "type": "spider",
+        "path": "beasts/spider/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "74f60053",
+        "visiblePixels": 3788
+      },
+      {
+        "type": "crow",
+        "path": "beasts/crow/adult/body.png",
+        "row": 0,
+        "ready": true,
+        "hash": "8e561300",
+        "visiblePixels": 1745
+      }
+    ],
+    "artStatus": "provisional Cursor PNGs; not Blender artwork",
+    "identityUnchanged": true,
+    "distinctFrameHashes": 12,
+    "walkDistinctHashes": 5,
+    "duplicateFrameGroups": [
+      [
+        0,
+        3,
+        6
+      ]
+    ],
+    "distinctBeastBodyPaths": 17,
+    "distinctBeastBodyHashes": 17,
+    "invalidManifestRejected": true,
+    "pngFailureFallback": {
+      "path": "people/races/dragonfolk/adult/hair-1.png",
+      "failed": true,
+      "ready": false,
+      "failures": [
+        {
+          "path": "people/races/dragonfolk/adult/hair-1.png",
+          "code": "sheet-load"
+        }
+      ],
+      "legacyPortrait": [
+        84,
+        112
+      ],
+      "visiblePixels": 2300,
+      "counterIncreased": true,
+      "resetCount": 1,
+      "recovered": true
+    },
+    "stress": [
+      {
+        "seconds": 1,
+        "ready": 4,
+        "compose20Ms": 6.7,
+        "stats": {
+          "images": 31,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 82,
+          "activeLoads": 1,
+          "queued": 30,
+          "pendingRows": 61,
+          "failedSheets": 0,
+          "cacheBytes": 94390272,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 73
+      },
+      {
+        "seconds": 2,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 3,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 4,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 5,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 6,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 7,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 8,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 9,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 10,
+        "ready": 20,
+        "compose20Ms": 0.1,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 11,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 12,
+        "ready": 20,
+        "compose20Ms": 0.3,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 13,
+        "ready": 20,
+        "compose20Ms": 0.3,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 14,
+        "ready": 20,
+        "compose20Ms": 0.2,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      },
+      {
+        "seconds": 15,
+        "ready": 20,
+        "compose20Ms": 0.3,
+        "stats": {
+          "images": 0,
+          "rawRows": 48,
+          "cells": 384,
+          "composites": 158,
+          "activeLoads": 0,
+          "queued": 0,
+          "pendingRows": 0,
+          "failedSheets": 0,
+          "cacheBytes": 100694016,
+          "maxCacheBytes": 108822528
+        },
+        "loads": 104
+      }
+    ],
+    "diagnostics": {
+      "compatible": true,
+      "artStatus": "legacy/provisional",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Legacy/provisional art: preposed whole bodies; no independent anatomical articulation.",
+          "One south-facing set with horizontal mirroring; no cardinal-direction animations.",
+          "Beast eye rows reuse one mask and select colour; six tiers are an art-pack limit."
+        ],
+        "counts": {
+          "races": 19,
+          "beasts": 17,
+          "gameplayClasses": 15,
+          "sheets": 713,
+          "fits": 12,
+          "specialisations": 48,
+          "weapons": 21,
+          "roots": 30,
+          "tiers": 6
+        }
+      },
+      "counters": {
+        "loadsStarted": 104,
+        "sheet-load": 1
+      },
+      "failures": [],
+      "events": [
+        {
+          "code": "sheet-load",
+          "path": "people/races/dragonfolk/adult/hair-1.png",
+          "detail": "Image failed to load; explicit resetFailures() is required to retry"
+        }
+      ],
+      "stats": {
+        "images": 0,
+        "rawRows": 48,
+        "cells": 384,
+        "composites": 158,
+        "activeLoads": 0,
+        "queued": 0,
+        "pendingRows": 0,
+        "failedSheets": 0,
+        "cacheBytes": 100694016,
+        "maxCacheBytes": 108822528
+      }
+    }
+  },
+  "catalogSamples": [
+    {
+      "name": "Human warrior",
+      "ready": true
+    },
+    {
+      "name": "Wolffolk ranger",
+      "ready": true
+    },
+    {
+      "name": "Dragon",
+      "ready": true
+    }
+  ],
+  "invalidManifestFailClosed": true,
+  "assertions": {
+    "assetStructure": true,
+    "noJavaScriptExceptions": true,
+    "manifestCompatible": true,
+    "allRaceAgeFramePlansValid": true,
+    "identityReadOnly": true,
+    "posesHaveActualDistinctPixels": true,
+    "allPosesReady": true,
+    "independentColourChannels": true,
+    "allBeastBodyPlansDistinct": true,
+    "invalidManifestRejected": true,
+    "failedPNGHasVisibleLegacyFallback": true,
+    "failedPNGCanRecoverExplicitly": true,
+    "twentyActorWalkCacheWarm": true,
+    "cacheBounds": true,
+    "allCatalogSamplesReady": true
+  },
+  "ok": true,
+  "seconds": 32.26
+}

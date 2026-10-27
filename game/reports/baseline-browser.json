@@ -1,0 +1,456 @@
+{
+  "title": "Tiny World v78 - Clean Asset Replacement",
+  "readyMs": 3588.60000000149,
+  "world": [
+    384,
+    240
+  ],
+  "time": 46,
+  "creatures": 28,
+  "creatureTypes": [
+    "human",
+    "sheep",
+    "wolf",
+    "deer",
+    "rabbit",
+    "boar",
+    "fox",
+    "chicken",
+    "tortoise",
+    "moonhart",
+    "emberfox",
+    "dragon",
+    "demon",
+    "coldOne",
+    "bandit",
+    "wildNecromancer",
+    "ufo",
+    "tumor",
+    "biomass",
+    "slime",
+    "cow",
+    "cat",
+    "dog",
+    "bear",
+    "treerot"
+  ],
+  "stateKeys": [
+    "nextUnit",
+    "subspecies",
+    "genomeArchive",
+    "towns",
+    "history",
+    "roads",
+    "own",
+    "kings",
+    "nextTown",
+    "remains",
+    "buildingHP",
+    "projectiles",
+    "healBeams",
+    "nests",
+    "wildlifeSeeded",
+    "wildlifeRoster",
+    "climate",
+    "nodes",
+    "loot",
+    "ships",
+    "nextItem",
+    "laws",
+    "hazards",
+    "truces",
+    "buildingStyles",
+    "architectureVersion",
+    "renovations",
+    "structureVersion",
+    "structures",
+    "ageCalendarVersion",
+    "depositVersion",
+    "resourceSurvey",
+    "cultures",
+    "languages",
+    "books",
+    "clans",
+    "religions",
+    "alliances",
+    "knowledgeArchive",
+    "nextBook",
+    "nextReligion",
+    "nextAlliance",
+    "plots",
+    "progressStats",
+    "progressionOptions",
+    "deepProgression",
+    "monoliths",
+    "rareOreVersion",
+    "calendarEpochs",
+    "calendarTicksPerYear",
+    "practiceVersion",
+    "dungeons",
+    "dungeonExpeditions",
+    "nextDungeon",
+    "nextExpedition",
+    "dungeonOptions",
+    "dungeonVersion",
+    "distributedRoutinesVersion",
+    "worldRecords",
+    "felledTrees",
+    "pioneerCamps",
+    "nextPioneerCamp",
+    "seasonStamp",
+    "flash",
+    "traps",
+    "helpers",
+    "abilityLines",
+    "nextShip",
+    "navalShots",
+    "soldierFalls",
+    "skillEffects",
+    "worldBehaviours",
+    "nextRealmAt"
+  ],
+  "gameKeys": [
+    "addTerrain",
+    "addCreature",
+    "addBuilding",
+    "addPower",
+    "addSystem",
+    "on",
+    "emit",
+    "inb",
+    "terr",
+    "walk",
+    "setTile",
+    "disc",
+    "throttle",
+    "spawn",
+    "kill",
+    "killAt",
+    "nearest",
+    "nearBld",
+    "wander",
+    "step",
+    "ignite",
+    "generate",
+    "newWorld",
+    "snapshot",
+    "restore",
+    "buildBase",
+    "paintTile",
+    "found",
+    "claim",
+    "declare",
+    "makePeace",
+    "enemy",
+    "fight",
+    "person",
+    "find",
+    "birth",
+    "humanTick",
+    "sprite",
+    "outline",
+    "addPart",
+    "animalAgeYears"
+  ],
+  "prototypeKeys": [
+    "constructor",
+    "__defineGetter__",
+    "__defineSetter__",
+    "hasOwnProperty",
+    "__lookupGetter__",
+    "__lookupSetter__",
+    "isPrototypeOf",
+    "propertyIsEnumerable",
+    "toString",
+    "valueOf",
+    "__proto__",
+    "toLocaleString"
+  ],
+  "peopleSample": [],
+  "personCount": 0,
+  "exposed": [
+    "twRemoveBuilding",
+    "twRestoreBuilding",
+    "twRoadRoute",
+    "twGuardBuildings",
+    "twEnforceDocks",
+    "twDockExclusion",
+    "twDisconnectDockRoads",
+    "twStrictDockValid",
+    "twStrictRepair",
+    "twActualDockOK",
+    "twAllProtectedTiles",
+    "twAuditWorld",
+    "twRoadRebuild",
+    "twMaritimeUnlocked",
+    "twOpenWaterBody",
+    "twDockBordersNavigableWater",
+    "twEligibleDockSite",
+    "twCultInit",
+    "twCultCost",
+    "twWarUrgency",
+    "twWantsBreakthrough",
+    "tw65Tile",
+    "tw65TreeImg",
+    "tw65RockImg",
+    "tw65Art",
+    "tw65Sprite",
+    "tw7423SectSprite",
+    "tw64Plan",
+    "tw64Find",
+    "tw64Carve",
+    "tw65Place",
+    "tw65Duty",
+    "tw65Paint",
+    "tw64Draw",
+    "tw69Root",
+    "tw69Build",
+    "tw69Technique",
+    "tw69Crumble",
+    "tw69Apply",
+    "tw69Sprite",
+    "TW61_SECT_MOUNTAINS",
+    "TW_EQUIPMENT_TEST",
+    "TW_CITIZEN_VISUAL_TEST",
+    "twWorldDiagnostics",
+    "twMaritimeDiagnostics",
+    "twStockpileInventory",
+    "twMillPlots",
+    "twFieldAudit",
+    "twMillRoadAudit",
+    "TinyWorldBehaviours",
+    "tinyWorldBalanceReport",
+    "tinyWorldCultivationReport",
+    "tinyWorldCultivationInspect",
+    "tinyWorldFreezeDiagnostics",
+    "twSpecializationAudit",
+    "twActualSpeed",
+    "TinyWorldUpper",
+    "tinyWorldPowerReport",
+    "twLegacyRootsOf",
+    "twLegacyQiInit",
+    "tw71SetFoundSectHook",
+    "twCombatAudit",
+    "tw69",
+    "tw70ChooseBranch",
+    "tw748Game",
+    "tw73",
+    "tw74",
+    "TW746",
+    "TW747",
+    "tw7414PixelLabEnabled",
+    "tw7417",
+    "tw7418",
+    "tw7420",
+    "tw7421",
+    "tw7422",
+    "tw7424SpriteMode",
+    "twCharScale",
+    "TWART",
+    "TW79_GAME",
+    "TW79"
+  ],
+  "buttons": [
+    {
+      "id": "main-menu",
+      "text": "",
+      "title": "World and settings"
+    },
+    {
+      "id": "bPause",
+      "text": "",
+      "title": "Pause (space)"
+    },
+    {
+      "id": "bSpeed",
+      "text": "1\u00d7",
+      "title": "Simulation speed \u00b7 click to cycle 1\u00d7\u2013250\u00d7"
+    },
+    {
+      "id": "",
+      "text": "2x",
+      "title": "Pixel size"
+    },
+    {
+      "id": "hud-map-button",
+      "text": "",
+      "title": ""
+    },
+    {
+      "id": "bSave",
+      "text": "",
+      "title": "Save / load archive"
+    },
+    {
+      "id": "bLoad",
+      "text": "",
+      "title": "Load"
+    },
+    {
+      "id": "bTheme",
+      "text": "",
+      "title": "Light/dark"
+    },
+    {
+      "id": "",
+      "text": "People",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "Realms",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "Chronicle",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "\u00d7",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "",
+      "title": "Pan tool (or right-drag)"
+    },
+    {
+      "id": "",
+      "text": "",
+      "title": "Zoom in"
+    },
+    {
+      "id": "",
+      "text": "",
+      "title": "Zoom out"
+    },
+    {
+      "id": "",
+      "text": "",
+      "title": "Fit world"
+    },
+    {
+      "id": "",
+      "text": "People",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "World overview",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "Chronicle",
+      "title": ""
+    },
+    {
+      "id": "tw-armoury-button",
+      "text": "\u2694 Armoury",
+      "title": "Browse the supplied weapon and equipment sprite sheet"
+    },
+    {
+      "id": "toggle-labels",
+      "text": "Names",
+      "title": ""
+    },
+    {
+      "id": "toggle-borders",
+      "text": "Borders",
+      "title": ""
+    },
+    {
+      "id": "toggle-night",
+      "text": "Day / night",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "Temperature",
+      "title": ""
+    },
+    {
+      "id": "toggle-resources",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "id": "open-history",
+      "text": "\u2197",
+      "title": ""
+    },
+    {
+      "id": "minimap-toggle",
+      "text": "\u2212",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "\u2212",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "Replay",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "New clip",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "\u2161",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "\u00d7",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "World Atlas",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "Overhaul Status",
+      "title": ""
+    },
+    {
+      "id": "",
+      "text": "Sect Construction",
+      "title": ""
+    }
+  ],
+  "tw79": {
+    "installed": true,
+    "attempts": 0,
+    "births": 0,
+    "failures": 0,
+    "counts": {
+      "sheep": 10,
+      "wolf": 2,
+      "moonhart": 4,
+      "boar": 4,
+      "deer": 4
+    },
+    "characters": 0,
+    "cache": 0
+  },
+  "storageKeys": [
+    "tinyworld-current-session-v1",
+    "tinyworld-qol-layout",
+    "tinyworld-fresh-start-2026-10-20"
+  ],
+  "loadSeconds": 3.599,
+  "pageErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ]
+}

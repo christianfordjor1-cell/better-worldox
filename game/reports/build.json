@@ -1,0 +1,22 @@
+{
+  "baseline": "Tiny-World-v79-original.html",
+  "baselineSHA256": "83bc95867919490989d76beeea785a542f7af6496eef2f952a15fb05431de3eb",
+  "baselineBytes": 13871856,
+  "build": "Tiny-World-v79-Modular.html",
+  "buildSHA256": "5dc749ce392bdb4495efbb9311a611ef65859e05af5f10a394beff2ffa636c9a",
+  "buildBytes": 49578423,
+  "pngSheets": 713,
+  "patches": [
+    "Disable active one-time world wipe",
+    "Disable active v14 world wipe",
+    "Resume the newest valid persisted session; stop saving on unreadable data",
+    "Stop competing legacy renderer reinstall after modular adapter",
+    "Stop competing v79 renderer reinstall after modular adapter",
+    "Correct stale document title",
+    "Remove optional remote font dependency"
+  ],
+  "freeToolsOnly": true,
+  "artStatus": "provisional",
+  "blenderAssetsIncluded": false,
+  "gameplayRegistriesChanged": false
+}

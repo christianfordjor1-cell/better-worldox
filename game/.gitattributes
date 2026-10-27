@@ -1,0 +1,4 @@
+# Generated single-file artifacts and the untouched upload contain embedded atlases.
+baseline/*.html -diff
+dist/*.html -diff
+dist/*.zip binary

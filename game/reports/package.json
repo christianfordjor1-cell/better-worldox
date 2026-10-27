@@ -1,0 +1,11 @@
+{
+  "archive": "Tiny-World-v79-Modular-Playable.zip",
+  "bytes": 52342772,
+  "files": 759,
+  "sha256": "fc752d38403143e57d842082d59366c74e6f2bd44ac2684d142f524c2e967445",
+  "containsUntouchedBaseline": true,
+  "containsOriginalCursorPack": true,
+  "containsBlenderPrototype": false,
+  "archiveCRC": "passed",
+  "packagedHTMLMatchesBuild": true
+}

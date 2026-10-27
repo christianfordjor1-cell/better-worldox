@@ -1,0 +1,2194 @@
+{
+  "schema": "tiny-world-v79-sect-architecture-preservation-v1",
+  "authoritativeSource": {
+    "path": "game/baseline/Tiny-World-v79-original.html",
+    "sha256": "83bc95867919490989d76beeea785a542f7af6496eef2f952a15fb05431de3eb",
+    "titleNote": "The stale v78 HTML title does not change the user-confirmed v79 authority."
+  },
+  "scope": "Read-only preservation of definitions already present in v79; no invented sect registry and no gameplay changes.",
+  "counts": {
+    "architecturalLabels": 30,
+    "visualHelperFamilies": 10,
+    "profilesPerVisualFamily": 3,
+    "architecturalPalettes": 8,
+    "terrainFamilies": 4,
+    "footprintConfigurationBands": 8,
+    "buildingListArchetypes": 4,
+    "buildingStyleSeedValues": 8,
+    "elementalRoots": 30
+  },
+  "namesUsedOutsideDeclaration": false,
+  "namesIndependentOfElementalRoots": true,
+  "registry": [
+    {
+      "id": 0,
+      "name": "Citadel",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 0,
+        "family": "masonry fortress",
+        "profile": 0,
+        "definition": "Broad masonry body with battlements, 2 + profile roofed towers and a central arch.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 0,
+        "family": "fortress",
+        "configuration": 0,
+        "bank": 0,
+        "extent": 2,
+        "annexEnabled": false,
+        "annexSide": "seed side",
+        "annexLength": 0
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "a9c546f3"
+    },
+    {
+      "id": 1,
+      "name": "Sky Monastery",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 0,
+        "family": "masonry fortress",
+        "profile": 1,
+        "definition": "Broad masonry body with battlements, 2 + profile roofed towers and a central arch.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 1,
+        "family": "sanctuary",
+        "configuration": 0,
+        "bank": 0,
+        "extent": 2,
+        "annexEnabled": false,
+        "annexSide": "seed side",
+        "annexLength": 0
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "69be23c2"
+    },
+    {
+      "id": 2,
+      "name": "Iron Foundry",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 0,
+        "family": "masonry fortress",
+        "profile": 2,
+        "definition": "Broad masonry body with battlements, 2 + profile roofed towers and a central arch.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 2,
+        "family": "forge",
+        "configuration": 0,
+        "bank": 0,
+        "extent": 2,
+        "annexEnabled": false,
+        "annexSide": "seed side",
+        "annexLength": 0
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "337ca2f8"
+    },
+    {
+      "id": 3,
+      "name": "Canopy Village",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 1,
+        "family": "sacred temple",
+        "profile": 0,
+        "definition": "Tall roof and central tower; 3 + profile pilasters; roof peak rises with profile.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 3,
+        "family": "ranger",
+        "configuration": 0,
+        "bank": 0,
+        "extent": 2,
+        "annexEnabled": false,
+        "annexSide": "seed side",
+        "annexLength": 0
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "6bd1a0e0"
+    },
+    {
+      "id": 4,
+      "name": "Step Pyramid",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 1,
+        "family": "sacred temple",
+        "profile": 1,
+        "definition": "Tall roof and central tower; 3 + profile pilasters; roof peak rises with profile.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 0,
+        "family": "fortress",
+        "configuration": 1,
+        "bank": 1,
+        "extent": 3,
+        "annexEnabled": false,
+        "annexSide": "opposite seed side",
+        "annexLength": 0
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "2cd40d53"
+    },
+    {
+      "id": 5,
+      "name": "Cliff Dwellings",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 1,
+        "family": "sacred temple",
+        "profile": 2,
+        "definition": "Tall roof and central tower; 3 + profile pilasters; roof peak rises with profile.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 1,
+        "family": "sanctuary",
+        "configuration": 1,
+        "bank": 1,
+        "extent": 3,
+        "annexEnabled": false,
+        "annexSide": "opposite seed side",
+        "annexLength": 0
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "d1a87289"
+    },
+    {
+      "id": 6,
+      "name": "Crystal Spires",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 2,
+        "family": "factory",
+        "profile": 0,
+        "definition": "Asymmetric masonry works with 2 + profile chimneys, gabled wing and lit windows.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 2,
+        "family": "forge",
+        "configuration": 1,
+        "bank": 1,
+        "extent": 3,
+        "annexEnabled": false,
+        "annexSide": "opposite seed side",
+        "annexLength": 0
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "88fc1331"
+    },
+    {
+      "id": 7,
+      "name": "River Delta",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 2,
+        "family": "factory",
+        "profile": 1,
+        "definition": "Asymmetric masonry works with 2 + profile chimneys, gabled wing and lit windows.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 3,
+        "family": "ranger",
+        "configuration": 1,
+        "bank": 1,
+        "extent": 3,
+        "annexEnabled": false,
+        "annexSide": "opposite seed side",
+        "annexLength": 0
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "d1e71c84"
+    },
+    {
+      "id": 8,
+      "name": "Watch Fortress",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 2,
+        "family": "factory",
+        "profile": 2,
+        "definition": "Asymmetric masonry works with 2 + profile chimneys, gabled wing and lit windows.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 0,
+        "family": "fortress",
+        "configuration": 2,
+        "bank": 2,
+        "extent": 4,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 4
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "89d1cf51"
+    },
+    {
+      "id": 9,
+      "name": "Sun Basilica",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 3,
+        "family": "tree dwellings",
+        "profile": 0,
+        "definition": "Two raised timber rooms and a connecting bridge; profiles 1 and 2 add a central tree.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 1,
+        "family": "sanctuary",
+        "configuration": 2,
+        "bank": 2,
+        "extent": 4,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 4
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "fa2977e3"
+    },
+    {
+      "id": 10,
+      "name": "Steamworks",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 3,
+        "family": "tree dwellings",
+        "profile": 1,
+        "definition": "Two raised timber rooms and a connecting bridge; profiles 1 and 2 add a central tree.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 2,
+        "family": "forge",
+        "configuration": 2,
+        "bank": 2,
+        "extent": 4,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 4
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "a17b3d08"
+    },
+    {
+      "id": 11,
+      "name": "Living Grove",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 3,
+        "family": "tree dwellings",
+        "profile": 2,
+        "definition": "Two raised timber rooms and a connecting bridge; profiles 1 and 2 add a central tree.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 3,
+        "family": "ranger",
+        "configuration": 2,
+        "bank": 2,
+        "extent": 4,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 4
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "3557368e"
+    },
+    {
+      "id": 12,
+      "name": "Mesa Stronghold",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 4,
+        "family": "pyramid",
+        "profile": 0,
+        "definition": "4 + profile stepped levels with a glowing summit and three dark entrance openings.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 0,
+        "family": "fortress",
+        "configuration": 3,
+        "bank": 0,
+        "extent": 5,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 5
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "86193a67"
+    },
+    {
+      "id": 13,
+      "name": "Moon Observatory",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 4,
+        "family": "pyramid",
+        "profile": 1,
+        "definition": "4 + profile stepped levels with a glowing summit and three dark entrance openings.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 1,
+        "family": "sanctuary",
+        "configuration": 3,
+        "bank": 0,
+        "extent": 5,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 5
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "ce4cb1a4"
+    },
+    {
+      "id": 14,
+      "name": "Copper Mill",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 4,
+        "family": "pyramid",
+        "profile": 2,
+        "definition": "4 + profile stepped levels with a glowing summit and three dark entrance openings.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 2,
+        "family": "forge",
+        "configuration": 3,
+        "bank": 0,
+        "extent": 5,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 5
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "ac399ab1"
+    },
+    {
+      "id": 15,
+      "name": "Root Sanctuary",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 5,
+        "family": "cliff network",
+        "profile": 0,
+        "definition": "Carved cliff silhouette, 3 + profile ledges and openings; profiles 1 and 2 add a roof.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 3,
+        "family": "ranger",
+        "configuration": 3,
+        "bank": 0,
+        "extent": 5,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 5
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "bd9313fc"
+    },
+    {
+      "id": 16,
+      "name": "Obsidian Keep",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 5,
+        "family": "cliff network",
+        "profile": 1,
+        "definition": "Carved cliff silhouette, 3 + profile ledges and openings; profiles 1 and 2 add a roof.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 0,
+        "family": "fortress",
+        "configuration": 4,
+        "bank": 1,
+        "extent": 2,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 6
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "cbeb7d9c"
+    },
+    {
+      "id": 17,
+      "name": "Desert Ziggurat",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 5,
+        "family": "cliff network",
+        "profile": 2,
+        "definition": "Carved cliff silhouette, 3 + profile ledges and openings; profiles 1 and 2 add a roof.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 1,
+        "family": "sanctuary",
+        "configuration": 4,
+        "bank": 1,
+        "extent": 2,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 6
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "91ef0f24"
+    },
+    {
+      "id": 18,
+      "name": "Glass Conservatory",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 6,
+        "family": "crystal spires",
+        "profile": 0,
+        "definition": "Mineral foundation and 3 + profile polygonal spires with alternating heights.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 2,
+        "family": "forge",
+        "configuration": 4,
+        "bank": 1,
+        "extent": 2,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 6
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "e406eaa4"
+    },
+    {
+      "id": 19,
+      "name": "Hanging Gardens",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 6,
+        "family": "crystal spires",
+        "profile": 1,
+        "definition": "Mineral foundation and 3 + profile polygonal spires with alternating heights.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 3,
+        "family": "ranger",
+        "configuration": 4,
+        "bank": 1,
+        "extent": 2,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 6
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "337cc6ec"
+    },
+    {
+      "id": 20,
+      "name": "Castle of Blades",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 6,
+        "family": "crystal spires",
+        "profile": 2,
+        "definition": "Mineral foundation and 3 + profile polygonal spires with alternating heights.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 0,
+        "family": "fortress",
+        "configuration": 5,
+        "bank": 2,
+        "extent": 3,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 2
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "e35a0786"
+    },
+    {
+      "id": 21,
+      "name": "Star Lanterns",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 7,
+        "family": "river / stilt settlement",
+        "profile": 0,
+        "definition": "Two roofed buildings on stilts connected by decking over a blue water strip.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 1,
+        "family": "sanctuary",
+        "configuration": 5,
+        "bank": 2,
+        "extent": 3,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 2
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "83232756"
+    },
+    {
+      "id": 22,
+      "name": "Volcanic Kilns",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 7,
+        "family": "river / stilt settlement",
+        "profile": 1,
+        "definition": "Two roofed buildings on stilts connected by decking over a blue water strip.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 2,
+        "family": "forge",
+        "configuration": 5,
+        "bank": 2,
+        "extent": 3,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 2
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "4ef6b77b"
+    },
+    {
+      "id": 23,
+      "name": "Mangrove Homes",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 7,
+        "family": "river / stilt settlement",
+        "profile": 2,
+        "definition": "Two roofed buildings on stilts connected by decking over a blue water strip.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 3,
+        "family": "ranger",
+        "configuration": 5,
+        "bank": 2,
+        "extent": 3,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 2
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "e998ac82"
+    },
+    {
+      "id": 24,
+      "name": "Storm Bastion",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 8,
+        "family": "domed civic hall",
+        "profile": 0,
+        "definition": "Large polygonal dome, 3 + profile pilasters and an arched entrance.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 0,
+        "family": "fortress",
+        "configuration": 6,
+        "bank": 0,
+        "extent": 4,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 3
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "6307d81a"
+    },
+    {
+      "id": 25,
+      "name": "Crescent Shrine",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 8,
+        "family": "domed civic hall",
+        "profile": 1,
+        "definition": "Large polygonal dome, 3 + profile pilasters and an arched entrance.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 1,
+        "family": "sanctuary",
+        "configuration": 6,
+        "bank": 0,
+        "extent": 4,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 3
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "91c72dbf"
+    },
+    {
+      "id": 26,
+      "name": "Mechanical Yard",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 8,
+        "family": "domed civic hall",
+        "profile": 2,
+        "definition": "Large polygonal dome, 3 + profile pilasters and an arched entrance.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 2,
+        "family": "forge",
+        "configuration": 6,
+        "bank": 0,
+        "extent": 4,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 3
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "2780153c"
+    },
+    {
+      "id": 27,
+      "name": "Mushroom Commune",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 9,
+        "family": "sky archive / pagoda",
+        "profile": 0,
+        "definition": "2 + profile stacked roofed storeys, central tower and three lit windows.",
+        "globalProfileDetail": "no extra side fixture"
+      },
+      "terrain": {
+        "familyId": 3,
+        "family": "ranger",
+        "configuration": 6,
+        "bank": 0,
+        "extent": 4,
+        "annexEnabled": true,
+        "annexSide": "seed side",
+        "annexLength": 3
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "40751487"
+    },
+    {
+      "id": 28,
+      "name": "Snow Ramparts",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 9,
+        "family": "sky archive / pagoda",
+        "profile": 1,
+        "definition": "2 + profile stacked roofed storeys, central tower and three lit windows.",
+        "globalProfileDetail": "right hanging lamp"
+      },
+      "terrain": {
+        "familyId": 0,
+        "family": "fortress",
+        "configuration": 7,
+        "bank": 1,
+        "extent": 5,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 4
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          0,
+          2
+        ],
+        "possibleArchetypes": [
+          "fortress",
+          "forge"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "9bf1a985"
+    },
+    {
+      "id": 29,
+      "name": "Floating Archives",
+      "nameSourceLine": 6288,
+      "authoredDefinition": null,
+      "status": "existing architectural style label; not a verified gameplay sect type",
+      "visualHelper": {
+        "familyId": 9,
+        "family": "sky archive / pagoda",
+        "profile": 2,
+        "definition": "2 + profile stacked roofed storeys, central tower and three lit windows.",
+        "globalProfileDetail": "left illuminated post and right vertical post"
+      },
+      "terrain": {
+        "familyId": 1,
+        "family": "sanctuary",
+        "configuration": 7,
+        "bank": 1,
+        "extent": 5,
+        "annexEnabled": true,
+        "annexSide": "opposite seed side",
+        "annexLength": 4
+      },
+      "buildingList": {
+        "fixedByNamedStyle": false,
+        "possibleArchetypeIds": [
+          1,
+          3
+        ],
+        "possibleArchetypes": [
+          "sanctuary",
+          "ranger"
+        ],
+        "reason": "Building lists use (hs >>> 13) % 8, while the named style uses (hs >>> 13) % 30."
+      },
+      "helperSectHallPixelHash": "d54fc4da"
+    }
+  ],
+  "visualFamilies": [
+    {
+      "id": 0,
+      "name": "masonry fortress",
+      "definition": "Broad masonry body with battlements, 2 + profile roofed towers and a central arch."
+    },
+    {
+      "id": 1,
+      "name": "sacred temple",
+      "definition": "Tall roof and central tower; 3 + profile pilasters; roof peak rises with profile."
+    },
+    {
+      "id": 2,
+      "name": "factory",
+      "definition": "Asymmetric masonry works with 2 + profile chimneys, gabled wing and lit windows."
+    },
+    {
+      "id": 3,
+      "name": "tree dwellings",
+      "definition": "Two raised timber rooms and a connecting bridge; profiles 1 and 2 add a central tree."
+    },
+    {
+      "id": 4,
+      "name": "pyramid",
+      "definition": "4 + profile stepped levels with a glowing summit and three dark entrance openings."
+    },
+    {
+      "id": 5,
+      "name": "cliff network",
+      "definition": "Carved cliff silhouette, 3 + profile ledges and openings; profiles 1 and 2 add a roof."
+    },
+    {
+      "id": 6,
+      "name": "crystal spires",
+      "definition": "Mineral foundation and 3 + profile polygonal spires with alternating heights."
+    },
+    {
+      "id": 7,
+      "name": "river / stilt settlement",
+      "definition": "Two roofed buildings on stilts connected by decking over a blue water strip."
+    },
+    {
+      "id": 8,
+      "name": "domed civic hall",
+      "definition": "Large polygonal dome, 3 + profile pilasters and an arched entrance."
+    },
+    {
+      "id": 9,
+      "name": "sky archive / pagoda",
+      "definition": "2 + profile stacked roofed storeys, central tower and three lit windows."
+    }
+  ],
+  "terrainFamilies": [
+    {
+      "name": "fortress",
+      "description": "Broad stepped citadel with paired bastions, defensive gatehouse extensions and upper cliff posts.",
+      "threeTierHalfWidths": [
+        13,
+        11,
+        9
+      ],
+      "twoTierHalfWidths": [
+        12,
+        9
+      ]
+    },
+    {
+      "name": "sanctuary",
+      "description": "Shrine landform with paired ceremonial side courts, upper side chapels and a four-tile approach.",
+      "threeTierHalfWidths": [
+        12,
+        7,
+        10
+      ],
+      "twoTierHalfWidths": [
+        11,
+        8
+      ]
+    },
+    {
+      "name": "forge",
+      "description": "Asymmetric seven-tile industrial wing and tall narrow summit crest; bottom tier gains two extra half-width tiles.",
+      "threeTierHalfWidths": [
+        14,
+        10,
+        6
+      ],
+      "twoTierHalfWidths": [
+        13,
+        7
+      ]
+    },
+    {
+      "name": "ranger",
+      "description": "Separated side lookout platforms with narrow branch paths.",
+      "threeTierHalfWidths": [
+        11,
+        7,
+        11
+      ],
+      "twoTierHalfWidths": [
+        10,
+        9
+      ]
+    }
+  ],
+  "buildingListArchetypes": [
+    {
+      "id": 0,
+      "name": "fortress",
+      "low": [
+        [
+          "house",
+          1
+        ],
+        [
+          "house",
+          2
+        ],
+        [
+          "barracks",
+          2
+        ],
+        [
+          "range",
+          3
+        ],
+        [
+          "tower",
+          3
+        ]
+      ],
+      "middle": [
+        [
+          "barracks",
+          2
+        ],
+        [
+          "tower",
+          2
+        ],
+        [
+          "blacksmith",
+          3
+        ],
+        [
+          "range",
+          3
+        ]
+      ],
+      "summit": [
+        [
+          "sectHall",
+          1
+        ],
+        [
+          "tower",
+          2
+        ],
+        [
+          "tower",
+          3
+        ],
+        [
+          "sectAltar",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "name": "sanctuary",
+      "low": [
+        [
+          "house",
+          1
+        ],
+        [
+          "house",
+          2
+        ],
+        [
+          "temple",
+          2
+        ],
+        [
+          "house",
+          3
+        ],
+        [
+          "range",
+          4
+        ]
+      ],
+      "middle": [
+        [
+          "temple",
+          2
+        ],
+        [
+          "house",
+          3
+        ],
+        [
+          "sectAltar",
+          2
+        ],
+        [
+          "temple",
+          4
+        ]
+      ],
+      "summit": [
+        [
+          "sectHall",
+          1
+        ],
+        [
+          "temple",
+          2
+        ],
+        [
+          "sectAltar",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "forge",
+      "low": [
+        [
+          "blacksmith",
+          1
+        ],
+        [
+          "house",
+          2
+        ],
+        [
+          "blacksmith",
+          3
+        ],
+        [
+          "tower",
+          3
+        ]
+      ],
+      "middle": [
+        [
+          "blacksmith",
+          2
+        ],
+        [
+          "barracks",
+          3
+        ],
+        [
+          "tower",
+          4
+        ]
+      ],
+      "summit": [
+        [
+          "sectHall",
+          1
+        ],
+        [
+          "blacksmith",
+          2
+        ],
+        [
+          "tower",
+          3
+        ],
+        [
+          "sectAltar",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ranger",
+      "low": [
+        [
+          "house",
+          1
+        ],
+        [
+          "range",
+          2
+        ],
+        [
+          "house",
+          2
+        ],
+        [
+          "range",
+          3
+        ]
+      ],
+      "middle": [
+        [
+          "range",
+          2
+        ],
+        [
+          "temple",
+          3
+        ],
+        [
+          "house",
+          3
+        ]
+      ],
+      "summit": [
+        [
+          "sectHall",
+          1
+        ],
+        [
+          "temple",
+          2
+        ],
+        [
+          "sectAltar",
+          1
+        ]
+      ]
+    }
+  ],
+  "architecturalPalette": [
+    "#9b4750",
+    "#315e9e",
+    "#4c8661",
+    "#ac833e",
+    "#855e9f",
+    "#b2b9c1",
+    "#247e89",
+    "#a96282"
+  ],
+  "generation": {
+    "seed": "hs = tw64H(sect.name); rolling signed 31 hash followed by Math.abs.",
+    "style": "(hs >>> 13) % 30",
+    "terrainFamily": "sectStyle % 4",
+    "configuration": "Math.floor(sectStyle / 4)",
+    "buildingStyle": "(hs >>> 13) % 8",
+    "buildingArchetype": "buildingStyle % 4",
+    "colorVariant": "(hs >>> 7) % 8",
+    "tierCount": "Try a three-tier site, then a two-tier fallback.",
+    "widthVariation": "Add clamp(((hs >>> 3) % 7) - 3, -2, 2) to each tier width, with forge bottom-tier extension; minimum half-width 5.",
+    "stairs": "Three-tile switchback links alternate using (tier + (hs >> 1)) % 2.",
+    "configurationRules": "bank = configuration % 3; extent = 2 + configuration % 4. Skip a side when (configuration + sign + 30) % 3 == 0. Side paths vary in elevation by configuration parity. Add summit annex when configuration >= 2.",
+    "rooms": "Always propose sectGate and summit sectHall; fill registered PLOTS with best-fit packing in free walkway spans, ordered by building level then width. Actual built set depends on available space and construction.",
+    "placement": "tw64Find searches nearby clear walkable terrain; rejects coasts, existing sect terrain, building overlaps and nearby dungeons; checks full generated footprint and same-region access.",
+    "unusedControls": [
+      "shape = (hs >>> 10) % 5 is declared but not used by tw64Plan.",
+      "themes array and pool are selected but replaces = 0 disables the replacement loop."
+    ]
+  },
+  "activeRendering": {
+    "normalRoute": "v73:<sect.name> -> architectureSprite/developedArchitecture -> styleSprite -> tw65Sprite(type, snow, seededVariant) -> tint",
+    "normalSectBuildingsUseTenFamilyHelper": false,
+    "reason": "Later v73 buildingRace, tw65Place and migrate wrappers rewrite sect buildingStyles to v73:<name>; the normal renderer then selects old detailed type-specific tw65Sprite art and faction palette tint instead of tw7423SectSprite.",
+    "helperRoute": "tw7423SectSprite remains callable, and earlier wrappers handle sectstyleNcolorM strings if not subsequently migrated.",
+    "typeSpecificArt": "tw65Sprite uses TW65ART[type]. The 30-style helper varies style silhouettes but uses type only to obtain original canvas dimensions; the same geometric family drawing is reused for building types.",
+    "identityDescriptors": "v73 has independent seeded site/plan/doctrine/architecture strings, 20 element families and palette records. These strings are not an executable registry of 30 distinct architectures."
+  },
+  "persistence": {
+    "preserve": [
+      "All 30 exact labels and numeric order",
+      "SECT77_COLORS",
+      "mt.sectStyle, mt.colorVariant, mt.snow, mt.tiles, mt.rooms, mt.hw, mt.hs",
+      "state.buildingStyles including sectstyle... and v73:... strings",
+      "sect.v73Identity and all diplomacy/tribute state"
+    ],
+    "migrationPolicy": "No registry renaming, remapping, terrain regeneration or building relocation in this audit."
+  },
+  "validation": {
+    "method": "Source inspection plus isolated Chromium execution of the untouched baseline.",
+    "helperRender": {
+      "building": "sectHall",
+      "snow": false,
+      "palette": 0,
+      "hashes": [
+        "a9c546f3",
+        "69be23c2",
+        "337ca2f8",
+        "6bd1a0e0",
+        "2cd40d53",
+        "d1a87289",
+        "88fc1331",
+        "d1e71c84",
+        "89d1cf51",
+        "fa2977e3",
+        "a17b3d08",
+        "3557368e",
+        "86193a67",
+        "ce4cb1a4",
+        "ac399ab1",
+        "bd9313fc",
+        "cbeb7d9c",
+        "91ef0f24",
+        "e406eaa4",
+        "337cc6ec",
+        "e35a0786",
+        "83232756",
+        "4ef6b77b",
+        "e998ac82",
+        "6307d81a",
+        "91c72dbf",
+        "2780153c",
+        "40751487",
+        "9bf1a985",
+        "d54fc4da"
+      ],
+      "uniqueCount": 30
+    },
+    "runtimePlanProbe": [
+      {
+        "id": 0,
+        "sectStyle": 0,
+        "tileCount": 316,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "barracks",
+          "tower",
+          "range",
+          "blacksmith",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 12,
+        "hw": [
+          11,
+          9,
+          7
+        ]
+      },
+      {
+        "id": 1,
+        "sectStyle": 1,
+        "tileCount": 310,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "temple",
+          "sectAltar",
+          "sectHall"
+        ],
+        "rooms": 10,
+        "hw": [
+          11,
+          6,
+          9
+        ]
+      },
+      {
+        "id": 2,
+        "sectStyle": 2,
+        "tileCount": 395,
+        "roomTypes": [
+          "sectGate",
+          "blacksmith",
+          "house",
+          "tower",
+          "barracks",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 11,
+        "hw": [
+          17,
+          11,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "sectStyle": 3,
+        "tileCount": 405,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "range",
+          "temple",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 11,
+        "hw": [
+          13,
+          9,
+          13
+        ]
+      },
+      {
+        "id": 4,
+        "sectStyle": 4,
+        "tileCount": 315,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "barracks",
+          "tower",
+          "range",
+          "blacksmith",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 12,
+        "hw": [
+          11,
+          9,
+          7
+        ]
+      },
+      {
+        "id": 5,
+        "sectStyle": 5,
+        "tileCount": 337,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "temple",
+          "sectAltar",
+          "sectHall"
+        ],
+        "rooms": 11,
+        "hw": [
+          12,
+          7,
+          10
+        ]
+      },
+      {
+        "id": 6,
+        "sectStyle": 6,
+        "tileCount": 419,
+        "roomTypes": [
+          "sectGate",
+          "blacksmith",
+          "house",
+          "tower",
+          "barracks",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 12,
+        "hw": [
+          18,
+          12,
+          8
+        ]
+      },
+      {
+        "id": 7,
+        "sectStyle": 7,
+        "tileCount": 303,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "range",
+          "temple",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 9,
+        "hw": [
+          9,
+          5,
+          9
+        ]
+      },
+      {
+        "id": 8,
+        "sectStyle": 8,
+        "tileCount": 345,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "barracks",
+          "tower",
+          "range",
+          "blacksmith",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 13,
+        "hw": [
+          12,
+          10,
+          8
+        ]
+      },
+      {
+        "id": 9,
+        "sectStyle": 9,
+        "tileCount": 370,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "temple",
+          "range",
+          "sectAltar",
+          "sectHall"
+        ],
+        "rooms": 13,
+        "hw": [
+          13,
+          8,
+          11
+        ]
+      },
+      {
+        "id": 10,
+        "sectStyle": 10,
+        "tileCount": 431,
+        "roomTypes": [
+          "sectGate",
+          "blacksmith",
+          "house",
+          "tower",
+          "barracks",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 12,
+        "hw": [
+          18,
+          12,
+          8
+        ]
+      },
+      {
+        "id": 11,
+        "sectStyle": 11,
+        "tileCount": 303,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "range",
+          "temple",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 9,
+        "hw": [
+          9,
+          5,
+          9
+        ]
+      },
+      {
+        "id": 12,
+        "sectStyle": 12,
+        "tileCount": 377,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "barracks",
+          "range",
+          "tower",
+          "blacksmith",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 14,
+        "hw": [
+          13,
+          11,
+          9
+        ]
+      },
+      {
+        "id": 13,
+        "sectStyle": 13,
+        "tileCount": 397,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "temple",
+          "range",
+          "sectAltar",
+          "sectHall"
+        ],
+        "rooms": 13,
+        "hw": [
+          14,
+          9,
+          12
+        ]
+      },
+      {
+        "id": 14,
+        "sectStyle": 14,
+        "tileCount": 341,
+        "roomTypes": [
+          "sectGate",
+          "blacksmith",
+          "house",
+          "tower",
+          "barracks",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 10,
+        "hw": [
+          14,
+          8,
+          5
+        ]
+      },
+      {
+        "id": 15,
+        "sectStyle": 15,
+        "tileCount": 331,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "range",
+          "temple",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 10,
+        "hw": [
+          10,
+          6,
+          10
+        ]
+      },
+      {
+        "id": 16,
+        "sectStyle": 16,
+        "tileCount": 396,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "barracks",
+          "range",
+          "tower",
+          "blacksmith",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 14,
+        "hw": [
+          14,
+          12,
+          10
+        ]
+      },
+      {
+        "id": 17,
+        "sectStyle": 17,
+        "tileCount": 395,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "temple",
+          "range",
+          "sectAltar",
+          "sectHall"
+        ],
+        "rooms": 13,
+        "hw": [
+          14,
+          9,
+          12
+        ]
+      },
+      {
+        "id": 18,
+        "sectStyle": 18,
+        "tileCount": 333,
+        "roomTypes": [
+          "sectGate",
+          "blacksmith",
+          "house",
+          "tower",
+          "barracks",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 10,
+        "hw": [
+          14,
+          8,
+          5
+        ]
+      },
+      {
+        "id": 19,
+        "sectStyle": 19,
+        "tileCount": 356,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "range",
+          "temple",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 11,
+        "hw": [
+          11,
+          7,
+          11
+        ]
+      },
+      {
+        "id": 20,
+        "sectStyle": 20,
+        "tileCount": 419,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "barracks",
+          "range",
+          "tower",
+          "blacksmith",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 14,
+        "hw": [
+          15,
+          13,
+          11
+        ]
+      },
+      {
+        "id": 21,
+        "sectStyle": 21,
+        "tileCount": 284,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "temple",
+          "sectAltar",
+          "sectHall"
+        ],
+        "rooms": 10,
+        "hw": [
+          10,
+          5,
+          8
+        ]
+      },
+      {
+        "id": 22,
+        "sectStyle": 22,
+        "tileCount": 348,
+        "roomTypes": [
+          "sectGate",
+          "blacksmith",
+          "house",
+          "tower",
+          "barracks",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 10,
+        "hw": [
+          15,
+          9,
+          5
+        ]
+      },
+      {
+        "id": 23,
+        "sectStyle": 23,
+        "tileCount": 381,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "range",
+          "temple",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 11,
+        "hw": [
+          12,
+          8,
+          12
+        ]
+      },
+      {
+        "id": 24,
+        "sectStyle": 24,
+        "tileCount": 422,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "barracks",
+          "range",
+          "tower",
+          "blacksmith",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 14,
+        "hw": [
+          15,
+          13,
+          11
+        ]
+      },
+      {
+        "id": 25,
+        "sectStyle": 25,
+        "tileCount": 296,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "temple",
+          "sectAltar",
+          "sectHall"
+        ],
+        "rooms": 10,
+        "hw": [
+          10,
+          5,
+          8
+        ]
+      },
+      {
+        "id": 26,
+        "sectStyle": 26,
+        "tileCount": 378,
+        "roomTypes": [
+          "sectGate",
+          "blacksmith",
+          "house",
+          "tower",
+          "barracks",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 11,
+        "hw": [
+          16,
+          10,
+          6
+        ]
+      },
+      {
+        "id": 27,
+        "sectStyle": 27,
+        "tileCount": 408,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "range",
+          "temple",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 11,
+        "hw": [
+          13,
+          9,
+          13
+        ]
+      },
+      {
+        "id": 28,
+        "sectStyle": 28,
+        "tileCount": 322,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "barracks",
+          "tower",
+          "range",
+          "blacksmith",
+          "sectHall",
+          "sectAltar"
+        ],
+        "rooms": 12,
+        "hw": [
+          11,
+          9,
+          7
+        ]
+      },
+      {
+        "id": 29,
+        "sectStyle": 29,
+        "tileCount": 316,
+        "roomTypes": [
+          "sectGate",
+          "house",
+          "temple",
+          "sectAltar",
+          "sectHall"
+        ],
+        "rooms": 10,
+        "hw": [
+          11,
+          6,
+          9
+        ]
+      }
+    ],
+    "caveat": "The 30 distinct helper pixel hashes establish that helper renders differ; they do not establish 30 unique gameplay sect doctrines or 30 active normal-render architectural silhouettes."
+  },
+  "sourceReferences": [
+    {
+      "lines": [
+        6285,
+        6341
+      ],
+      "subject": "Thirty labels, eight palettes, ten visual families, three profiles."
+    },
+    {
+      "lines": [
+        6343,
+        6351
+      ],
+      "subject": "Terrain/building registration and initial sectstyle renderer wrappers."
+    },
+    {
+      "lines": [
+        6357,
+        6418
+      ],
+      "subject": "Four terrain families, eight configuration bands and real tile extensions."
+    },
+    {
+      "lines": [
+        6419,
+        6470
+      ],
+      "subject": "Seeded physical building lists, disabled theme replacement and plot packing."
+    },
+    {
+      "lines": [
+        6471,
+        6489
+      ],
+      "subject": "Site search, carving, saved metadata and original building style assignment."
+    },
+    {
+      "lines": [
+        6852,
+        6904
+      ],
+      "subject": "Later v73 identity and active building rendering override."
+    }
+  ],
+  "preservedSourceExcerpts": {
+    "v77VisualDefinitions": "/* v77: independent architecture silhouettes, 30 templates x 8 colourways.\n   Buildings are procedural sprite canvases; no flat illustration overlays. */\nconst SECT77_NAMES=['Citadel','Sky Monastery','Iron Foundry','Canopy Village','Step Pyramid','Cliff Dwellings','Crystal Spires','River Delta','Watch Fortress','Sun Basilica','Steamworks','Living Grove','Mesa Stronghold','Moon Observatory','Copper Mill','Root Sanctuary','Obsidian Keep','Desert Ziggurat','Glass Conservatory','Hanging Gardens','Castle of Blades','Star Lanterns','Volcanic Kilns','Mangrove Homes','Storm Bastion','Crescent Shrine','Mechanical Yard','Mushroom Commune','Snow Ramparts','Floating Archives'];\nconst SECT77_COLORS=['#9b4750','#315e9e','#4c8661','#ac833e','#855e9f','#b2b9c1','#247e89','#a96282'];\nfunction tw7423SectSprite(type,snow,variant,style){\n style=((style|0)%30+30)%30;const shade=((variant|0)%8+8)%8;\n const key='v77/architecture/'+style+'/'+shade+'/'+type+'/'+!!snow;\n if(TW65.spr[key])return TW65.spr[key];\n const original=tw65Sprite(type,snow,shade%2),cv=document.createElement('canvas');\n cv.width=original.width;cv.height=original.height;\n const g=cv.getContext('2d');g.imageSmoothingEnabled=false;\n const W=cv.width,H=cv.height,unit=Math.max(2,Math.round(Math.min(W,H)/42));\n const px=(x)=>Math.round(x*W),py=(y)=>Math.round(y*H);\n const fill=(color,x,y,w,h)=>{g.fillStyle=color;g.fillRect(px(x),py(y),Math.max(unit,px(w)),Math.max(unit,py(h)))};\n const polygon=(color,pts)=>{g.fillStyle=color;g.beginPath();pts.forEach(([x,y],i)=>i?g.lineTo(px(x),py(y)):g.moveTo(px(x),py(y)));g.closePath();g.fill()};\n const outline='#251d26', stone=snow?'#cbd9da':'#a59b88', shadow=snow?'#728c99':'#574f50';\n const paint=SECT77_COLORS[shade],glow=shade===5?'#eff9ff':'#f5d794';\n const styleGroup=Math.floor(style/3),substyle=style%3;\n // Independent structural silhouettes: ten architecture families, three roof/vertical profiles each.\n // Buildings are assembled as crisp opaque pixels, and support eight independent palettes.\n g.clearRect(0,0,W,H);\n const baseY=.72;\n function body(x,y,w,h,material=stone){fill(outline,x-.012,y-.012,w+.024,h+.025);fill(shadow,x+.018,y+.018,w,h);fill(material,x,y,w-.027,h-.03)}\n function windows(x,y,n=3){for(let k=0;k<n;k++){let xx=x+k*.17;fill(outline,xx,y,.063,.12);fill(glow,xx+.014,y+.016,.032,.079)}}\n function roof(x,y,w,peak=.11){polygon(outline,[[x-.035,y+.033],[x+w/2,y-peak-.025],[x+w+.035,y+.033]]);polygon(paint,[[x,y],[x+w/2,y-peak],[x+w,y]]);fill(outline,x-.034,y+.022,w+.067,.026)}\n function battlement(x,y,w){fill(outline,x-.016,y,w+.032,.045);fill(stone,x,y,w,.029);for(let k=0;k<7;k++)fill(stone,x+w*(k/7),y-.065,w*.075,.07)}\n function tower(x,y,w,h){body(x,y,w,h);roof(x-.03,y+.01,w+.06,.075);fill(outline,x+w*.36,y+h*.36,w*.28,.13);fill(glow,x+w*.39,y+h*.39,w*.19,.065)}\n function pilaster(x,y,h){fill(outline,x,y,.055,h);fill(stone,x+.012,y+.01,.030,h-.02)}\n function tree(x,y,h){fill('#392e30',x,y,.095,h);for(let t=0;t<3;t++)polygon(t%2?'#36654d':'#568a59',[[x-.14,y+h*.48-t*.10],[x+.055,y-h*.20-t*.11],[x+.24,y+h*.48-t*.10]])}\n function arch(x,y,w,h){body(x,y,w,h);fill(outline,x+w*.32,y+h*.37,w*.36,h*.64);fill('#373039',x+w*.36,y+h*.44,w*.28,h*.52)}\n // Ground baseline deliberately remains at .93 for uniform placement.\n if(styleGroup===0){ // masonry fortress with distinct wall/tower configurations\n   body(.10,.42,.80,.40);battlement(.10,.42,.80);for(let k=0;k<2+substyle;k++)tower(.05+k*(.77/(1+substyle)),.24+(k%2)*.10,.17,.52);arch(.37,.59,.25,.30);\n }else if(styleGroup===1){ // tall sacred/temple skyline\n   body(.13,.47,.74,.40,'#d4c2a1');for(let k=0;k<3+substyle;k++)pilaster(.19+k*.18,.49,.36);roof(.07,.46,.86,.16+substyle*.04);tower(.39,.16-substyle*.035,.22,.32);windows(.25,.65,3);\n }else if(styleGroup===2){ // factory asymmetry and smokestacks\n   body(.11,.48,.78,.39,'#766e67');roof(.07,.47,.52,.17);for(let k=0;k<2+substyle;k++){fill(outline,.60+k*.095,.08+(k%2)*.07,.088,.46);fill('#9c6952',.619+k*.095,.12+(k%2)*.07,.049,.39)}windows(.18,.67,3);\n }else if(styleGroup===3){ // organic connected tree dwellings\n   tree(.18,.38,.50);tree(.70,.32,.54);body(.13,.41,.31,.17,'#957a54');body(.58,.35,.32,.19,'#957a54');roof(.09,.42,.39,.12);roof(.55,.35,.37,.15);fill('#533f30',.37,.56,.35,.035);if(substyle)tree(.44,.32,.41);\n }else if(styleGroup===4){ // pyramid complex\n   for(let level=0;level<4+substyle;level++){let w=.82-level*.125;fill(level%2?stone:shadow,(1-w)/2,.76-level*.12,w,.13)}fill(glow,.45,.25,.10,.09);for(let k=0;k<3;k++)fill(outline,.34+k*.11,.76,.06,.12);\n }else if(styleGroup===5){ // vertical cliff-carved network with bridges\n   polygon(shadow,[[.10,.87],[.13,.34],[.32,.17],[.56,.21],[.83,.08],[.91,.90]]);for(let k=0;k<3+substyle;k++){let yy=.33+k*.14;fill(stone,.23,yy,.48,.064);fill(outline,.29,yy+.015,.10,.065);fill(glow,.32,yy+.03,.042,.031)}fill('#826b51',.44,.35,.05,.46);if(substyle)roof(.18,.31,.64,.07);\n }else if(styleGroup===6){ // crystalline spires with mineral foundations\n   body(.16,.63,.68,.25);for(let k=0;k<3+substyle;k++){let xx=.14+k*.17;polygon(outline,[[xx,.67],[xx-.03,.38],[xx+.075,.07+(k%2)*.18],[xx+.14,.39],[xx+.14,.67]]);polygon(paint,[[xx+.01,.63],[xx,.40],[xx+.077,.12+(k%2)*.18],[xx+.11,.47],[xx+.13,.64]])}windows(.28,.74,3);\n }else if(styleGroup===7){ // stilt, river or floating settlement, connected decking\n   for(let k=0;k<4;k++)fill(outline,.13+k*.20,.58,.05,.34);fill('#957a50',.06,.62,.86,.055);body(.11,.38,.33,.24);body(.53,.30,.35,.32);roof(.07,.39,.39,.13);roof(.49,.31,.44,.17);fill('#5b8392',.04,.92,.91,.035);\n }else if(styleGroup===8){ // huge rounded dome and arched civic hall\n   body(.09,.54,.82,.34,'#c5b7a5');polygon(outline,[[.11,.55],[.16,.37],[.34,.22],[.66,.22],[.85,.38],[.90,.55]]);polygon(paint,[[.15,.53],[.20,.39],[.35,.26],[.65,.26],[.81,.40],[.85,.53]]);for(let k=0;k<3+substyle;k++)pilaster(.19+k*.16,.58,.28);arch(.40,.62,.20,.27);\n }else{ // sky archive / spired modular pagodas\n   body(.10,.54,.80,.34);for(let level=0;level<2+substyle;level++){let ww=.76-level*.18,x=(1-ww)/2,y=.49-level*.15;body(x,y,ww,.12);roof(x-.06,y,ww+.12,.07)}tower(.42,.06,.15,.19);windows(.26,.71,3);\n }\n // Independent detailing across each of 30 types: equipment, roofs and skyline differ.\n if(substyle===1){fill(glow,.90,.31,.04,.13);fill(outline,.895,.29,.05,.02)}\n if(substyle===2){fill(outline,.03,.56,.055,.31);fill(glow,.04,.52,.034,.07);fill(outline,.91,.48,.045,.38)}\n if(snow){g.fillStyle='#e8f3f1';g.fillRect(px(.12),py(.89),px(.76),Math.max(2,unit))}",
+    "v65TerrainAndBuildingPlan": "const TW64KEY={K:'sectcliff',O:'sectcliff',F:'sectcliff',H:'secthall',W:'sectterrace',S:'sectstair',P:'sectpath',p:'sectpath'};\n/* Layout: stacked terraces. Each = 2 hall rows (non-walk plot ground) + 1 walkway (buildings are anchored here, like village doors) + 1 cliff-face row.\n   A 3-tile stair column links each walkway to the one above; sides alternate (switchback). Building slots are fitted from the engine's real PLOTS sizes. */\nfunction tw64Plan(cx,top,T,hs,rooms){\n const sectStyle=(hs>>>13)%30,sectFamily=sectStyle%4,spread=((hs>>>3)%7)-3,shape=(hs>>>10)%5;\n // FOUR distinct landforms, not four recolors of the same mountain.\n // Fortress: broad, stepped rectangular citadel; sanctuary: tiered shrine with side chapels;\n // forge: offset asymmetric foundry; ranger: split forest platforms and branch walks.\n const profiles=sectFamily===0?(T===3?[13,11,9]:[12,9]):sectFamily===1?(T===3?[12,7,10]:[11,8]):sectFamily===2?(T===3?[14,10,6]:[13,7]):(T===3?[11,7,11]:[10,9]);\n const hw=profiles.map((w,t)=>Math.max(5,w+Math.max(-2,Math.min(2,spread))+(sectFamily===2&&t===0?2:0)));\n const M=new Map(),bottom=top+4*T,side=hs&1?-1:1,stairX=[],deco=[];\n const put=(x,y,k,t)=>M.set(x+','+y,{x,y,k,t}),jag=(x,y)=>tw64N(x,y,hs)<.3,R4=t=>{const f=bottom-4*t;return[f-3,f-2,f-1,f]};\n for(let t=0;t<T;t++){const[h0,h1,w,f]=R4(t),W=hw[t];\n  for(let y=h0;y<=f;y++)for(const sg of[-1,1]){put(cx+sg*(W+1),y,'K',t);if((t==0&&sg==side)||!(jag(cx+sg*(W+2),y)||(t==0&&y==f)))put(cx+sg*(W+2),y,'O',t)}\n  for(let x=cx-W;x<=cx+W;x++){put(x,f,'F',t);put(x,w,'W',t);put(x,h0,'H',t);put(x,h1,'H',t)}}\n const hT=hw[T-1];for(let x=cx-hT-1;x<=cx+hT+1;x++)put(x,top,'K',T-1);\n for(const sg of[-1,1])if(!jag(cx+sg*(hT+2),top))put(cx+sg*(hT+2),top,'O',T-1);\n for(let t=0;t<T-1;t++){const[h0,h1]=R4(t),xs=cx+(((t+(hs>>1))%2)?-1:1)*(hw[t+1]-1);stairX[t]=xs;put(xs,h0,'S',t);put(xs,h1,'S',t);put(xs,R4(t+1)[3],'S',t+1)}\n put(cx,bottom,'S',0);for(let i=1;i<=3;i++)put(cx,bottom+i,'p',0);\n // Landform extensions are REAL world tiles, included in placement safety checks.\n const wings=(x,y,width,kind,t)=>{for(let dx=0;dx<width;dx++){put(x+dx,y,'W',t);put(x+dx,y+1,kind,t);}};\n if(sectFamily===0){ // fortress: bastions and a defensive gatehouse\n   for(const sign of [-1,1]){const anchor=cx+sign*(hw[0]+1);\n     for(let yy=bottom-4;yy<=bottom-1;yy++)for(let dx=0;dx<4;dx++)put(anchor+sign*dx,yy,dx===3?'K':yy===bottom-1?'F':'W',0);\n     for(let dy=0;dy<2;dy++)put(cx+sign*(hw[T-1]+2),top+dy,'K',T-1);\n   }\n }else if(sectFamily===1){ // sanctuary: paired shrine courts and an open ceremonial approach\n   for(const sign of [-1,1]){const ax=cx+sign*(hw[0]+2);\n     for(let yy=bottom-4;yy<=bottom-2;yy++)for(let dx=0;dx<4;dx++)put(ax+sign*dx,yy,yy===bottom-2?'F':'W',0);\n     for(let dy=0;dy<3;dy++)put(cx+sign*(hw[T-1]+2),top+dy,dy===2?'F':'H',T-1);\n   }\n   for(let yy=bottom+1;yy<=bottom+4;yy++)put(cx,yy,'P',0);\n }else if(sectFamily===2){ // forge: single large industrial wing and a tall narrow crest\n   const ax=cx+side*(hw[0]+1);\n   for(let yy=bottom-5;yy<bottom;yy++)for(let dx=0;dx<7;dx++)put(ax+side*dx,yy,yy===bottom-1?'F':dx===6?'K':'W',0);\n   for(let yy=top-2;yy<=top;yy++)for(let dx=-2;dx<=2;dx++)put(cx+dx,yy,yy===top?'K':'H',T-1);\n }else{ // ranger: separated lookout platforms connected by narrow walkways\n   for(const sign of [-1,1]){const ax=cx+sign*(hw[0]+2);\n     for(let yy=bottom-3;yy<=bottom;yy++)for(let dx=0;dx<5;dx++)put(ax+sign*dx,yy,yy===bottom?'F':dx===4?'K':'W',0);\n     for(let dx=1;dx<=3;dx++)put(cx+sign*(hw[0]+dx),bottom-2,'P',0);\n   }\n }\n // Thirty distinct footprint configurations, separate from the faction palette.\n // Side terraces are real, walkable tiles, not composited illustrations.\n const configuration=Math.floor(sectStyle/4),bank=configuration%3,extent=2+configuration%4;\n for(const sign of [-1,1]){\n   if((configuration+sign+30)%3===0)continue;\n   const edge=cx+sign*(hw[0]+2),level=bottom-2-(configuration%2);\n   for(let d=0;d<extent;d++){\n     put(edge+sign*d,level,'P',0);\n     if(bank===0)put(edge+sign*d,level+1,'W',0);\n     if(bank===1&&d===extent-1)put(edge+sign*d,level-1,'K',0);\n     if(bank===2&&d%2===0)put(edge+sign*d,level+1,'F',0);\n   }\n }\n // Eight architectural arrangements vary annex length, direction and elevation.\n const annexSide=(configuration%2)?-side:side;\n if(configuration>=2){\n   const ay=top+1+(configuration%Math.max(1,T));\n   const base=cx+annexSide*(hw[T-1]+2);\n   for(let d=0;d<2+configuration%5;d++){\n     put(base+annexSide*d,ay,'W',T-1);\n     if(d%2===0)put(base+annexSide*d,ay-1,'H',T-1);\n   }\n }\n const P={M,hw,bottom,side,sectStyle,stairX,rooms:[],deco,wf:{x0:side>0?cx+hw[0]+1:cx-hw[0]-2,y0:bottom-3}};\n if(!rooms)return P;\n const LIST=T==3?[[['house',1],['house',2],['house',3],['house',4],['blacksmith',3]],[['barracks',2],['temple',2],['range',3],['house',4],['tower',4]],[['sectHall',1],['tower',2],['sectAltar',1]]]:[[['house',1],['house',2],['barracks',2],['house',3],['temple',3],['house',4]],[['sectHall',1],['tower',2],['sectAltar',1]]];\n // Each founder has a persistent compound vocabulary, not one common blueprint.\n // Only use existing registered buildings with known plots: placement and pathfinding stay valid.\n const style=(hs>>>13)%8;\n // Structural archetypes: different *physical building lists*, floor populations and construction priorities.\n const archetype=style%4;\n const architectures=[\n  {low:[['house',1],['house',2],['barracks',2],['range',3],['tower',3]],middle:[['barracks',2],['tower',2],['blacksmith',3],['range',3]],summit:[['sectHall',1],['tower',2],['tower',3],['sectAltar',1]]},\n  {low:[['house',1],['house',2],['temple',2],['house',3],['range',4]],middle:[['temple',2],['house',3],['sectAltar',2],['temple',4]],summit:[['sectHall',1],['temple',2],['sectAltar',1]]},\n  {low:[['blacksmith',1],['house',2],['blacksmith',3],['tower',3]],middle:[['blacksmith',2],['barracks',3],['tower',4]],summit:[['sectHall',1],['blacksmith',2],['tower',3],['sectAltar',1]]},\n  {low:[['house',1],['range',2],['house',2],['range',3]],middle:[['range',2],['temple',3],['house',3]],summit:[['sectHall',1],['temple',2],['sectAltar',1]]}\n ];\n const pattern=architectures[archetype];\n for(let t=0;t<T;t++)LIST[t]=(t===0?pattern.low:t===T-1?pattern.summit:pattern.middle).map(v=>v.slice());\n const themes=[\n  [['house',2],['range',3]], [['temple',2],['house',3]],\n  [['blacksmith',3],['tower',3]], [['barracks',2],['range',2]],\n  [['tower',2],['temple',3]], [['house',2],['blacksmith',3]],\n  [['range',2],['tower',4]], [['temple',3],['barracks',3]]\n ];\n for(let t=0;t<T;t++){\n  const pool=themes[(style+t*3)%themes.length];\n  // Rotate which specialist facilities dominate each tier, but keep the ancestral hall.\n  const ordinary=LIST[t].filter(([k])=>k!=='sectHall');\n  const replaces=0;\n  for(let j=0;j<replaces;j++){\n   const target=ordinary.findIndex(([k])=>k==='house'||k==='tower'||k==='range');\n   if(target>=0)ordinary[target]=pool[j%pool.length].slice();\n  }\n  LIST[t]=t===T-1?[['sectHall',1],...ordinary]:ordinary;\n }\n P.rooms.push({type:'sectGate',ax:cx,ay:bottom,lv:1,t:0});\n for(let t=0;t<T;t++){const yw=R4(t)[2];let cur=[[cx-hw[t],cx+hw[t]+1]];const cut=(c0,c1)=>{const nx=[];for(const[s0,s1]of cur){if(c1<=s0||c0>=s1){nx.push([s0,s1]);continue}if(c0>s0)nx.push([s0,c0]);if(c1<s1)nx.push([c1,s1])}cur=nx};\n  if(t<T-1)cut(stairX[t]-.15,stairX[t]+1.15);if(t==0)cut(cx-1.4,cx+2.4);\n  const list=LIST[t].slice().sort((a,b)=>tw64N(hs+t,a[0].length+a[1],hs)-tw64N(hs+t,b[0].length+b[1],hs));\n  if(t==T-1){const w=PLOTS.sectHall[0];P.rooms.push({type:'sectHall',ax:cx,ay:yw,lv:1,t});cut(cx+.5-w/2-.55,cx+.5+w/2+.55);const hallIndex=list.findIndex(([kind])=>kind==='sectHall');if(hallIndex!==-1)list.splice(hallIndex,1)}\n  /* best-fit packing of the engine's real plot widths into the free stretches of this walkway */\n  const items=list.map(([type,lv])=>({type,lv,w:PLOTS[type][0]})).sort((a,b)=>a.lv-b.lv||b.w-a.w);\n  for(const it of items){let best=null;for(const s of cur){const ax=Math.ceil(s[0]+it.w/2-.5),end=ax+.5+it.w/2;if(end<=s[1]+.35){const left=s[1]-end;if(!best||left<best.left)best={s,ax,end,left}}}\n   if(best){P.rooms.push({type:it.type,ax:best.ax,ay:yw,lv:it.lv,t});best.s[0]=best.end+.5}}}\n for(const m of M.values())if(m.k=='K'&&tw64N(m.x,m.y,hs+5)>.82&&!(m.t==0&&Math.sign(m.x-cx)==side))deco.push({k:'tree',x:m.x+.5,y:m.y+1,s:2.1+tw64N(m.y,m.x,3)*.6,v:tw64N(m.x,m.y,9)*3|0});\n for(const sg of[-1,1])if(sg!=side)deco.push({k:'rock',x:cx+sg*(hw[0]+1)+.5,y:bottom+1,s:1.5,v:0});\n return P}\nfunction tw64Find(s,T){\n const W=G.W,H=G.H,hs=tw64H(s.name),sx=s.x|0,sy=s.y|0,hw0=(T==3?10:8)+(((hs>>>3)%5)-2),cand=[],bl=[...G.bld].filter(([i])=>Number.isInteger(i)&&Math.abs(i%W-sx)<48&&Math.abs((i/W|0)-sy)<48).map(([i,b])=>plot(b,i%W,i/W|0)),dg=Object.values(G.state.dungeons||{});\n const free=(x,y)=>{if(x<2||y<2||x>=W-2||y>=H-2||!G.walk(x,y))return false;const k=G.terr(y*W+x).key;return k!=='coast'&&!k.startsWith('sect')};\n for(let top=sy-4*T-18;top<=sy+6;top+=2)for(let cx=sx-22;cx<=sx+22;cx+=2){\n  const bot=top+4*T,rect={left:cx-hw0-2,right:cx+hw0+3,top:top-1,bottom:bot+2};\n  if(!s.town&&!s.noTown&&sx>=rect.left-5&&sx<=rect.right+5&&sy>=rect.top-5&&sy<=rect.bottom+5)continue;   /* town not founded yet: leave its spot free */",
+    "v73RenderingOverride": " const oldBuildingRace=buildingRace;\n buildingRace=function(i){const v=G.state?.buildingStyles?.[i];if(typeof v==='string'&&v.startsWith('v73:'))return v;\n  for(const s of Object.values(G.state?.sects||{})){if(!s.mt)continue;if(s.mt.rooms?.some(r=>r.i===i)){const name='v73:'+s.name;G.state.buildingStyles[i]=name;return name}}\n  return oldBuildingRace(i);\n };\n const priorArch=architectureSprite,priorDev=developedArchitecture;\n function styleSprite(type,race,variant,level){if(typeof race!=='string'||!race.startsWith('v73:'))return null;\n  const s=G.state?.sects?.[race.slice(4)];if(!s)return null;\n  const id=identity(s);const base=tw65Sprite(type,!!s.mt?.snow,(id.seed>>>4)%2);\n  return tint(base,id,type+'|'+(level||0));\n }\n architectureSprite=function(type,race,variant=0){return styleSprite(type,race,variant)||priorArch(type,race,variant)};\n developedArchitecture=function(type,race,level,variant=0){return styleSprite(type,race,variant,level)||priorDev(type,race,level,variant)};\n const oldPlace=tw65Place;\n tw65Place=function(s,r){const ok=oldPlace(s,r);if(ok&&r.i!==undefined){G.state.buildingStyles[r.i]='v73:'+s.name;identity(s)}return ok};\n // existing mountain buildings are migrated to faction-specific art without relocating players' buildings\n function migrate(g){for(const s of Object.values(g.state?.sects||{})){identity(s);for(const r of s.mt?.rooms||[])if(r.i!==undefined&&g.bld.get(r.i)===r.type)g.state.buildingStyles[r.i]='v73:'+s.name}}"
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "build": "dist/Tiny-World-v79-Modular.html",
+  "suite": "actual-gameplay-browser-smoke",
+  "elapsedSeconds": 8.06,
+  "passed": true,
+  "checks": [
+    {
+      "name": "Native registries and simulation systems preserved",
+      "passed": true,
+      "evidence": {
+        "classes": 15,
+        "specialisations": 48,
+        "existingMechanicRaces": 4,
+        "existingActorTypes": 25,
+        "systems": 107,
+        "roots": 30,
+        "techniques": 1260,
+        "separateBranches": [
+          "Assault",
+          "Control",
+          "Cultivation",
+          "Defense",
+          "Movement",
+          "Support"
+        ]
+      }
+    },
+    {
+      "name": "New world generation through existing pipeline",
+      "passed": true,
+      "evidence": {
+        "seed": "tiny-world-regression-v79",
+        "width": 384,
+        "height": 240,
+        "map": 92160,
+        "walkable": 35383,
+        "creatures": 28
+      }
+    },
+    {
+      "name": "Native adult spawn and all fifteen class assignments",
+      "passed": true,
+      "evidence": {
+        "classes": [
+          "warrior",
+          "tank",
+          "archer",
+          "mage",
+          "healer",
+          "rogue",
+          "bard",
+          "monk",
+          "engineer",
+          "alchemist",
+          "psychic",
+          "mime",
+          "gunslinger",
+          "hero",
+          "spellblade"
+        ],
+        "actors": 15
+      }
+    },
+    {
+      "name": "Cultivation substage, complete-foundation breakthrough and specialisation",
+      "passed": true,
+      "evidence": {
+        "initial": {
+          "tier": 1,
+          "stage": 1
+        },
+        "stageResult": true,
+        "stage": {
+          "tier": 1,
+          "stage": 2
+        },
+        "rankResult": true,
+        "rank": {
+          "tier": 2,
+          "stage": 1,
+          "specialisation": "swashbuckler"
+        },
+        "techniques": 7,
+        "root": "Fire"
+      }
+    },
+    {
+      "name": "Real hostile strike applies damage and hurt timing",
+      "passed": true,
+      "evidence": {
+        "before": 100000,
+        "after": 99943,
+        "hits": 1,
+        "hurtUntil": 12,
+        "time": 0,
+        "combatAudit": {
+          "hits": 1,
+          "bySpec": {
+            "swashbuckler": 1
+          },
+          "effects": {},
+          "damage": 57,
+          "healing": 0
+        }
+      }
+    },
+    {
+      "name": "Existing beast spawning and identity hooks",
+      "passed": true,
+      "evidence": {
+        "registered": [
+          {
+            "type": "sheep",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "wolf",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "deer",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "rabbit",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "boar",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "fox",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "chicken",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "tortoise",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "moonhart",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "emberfox",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "bear",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          },
+          {
+            "type": "dragon",
+            "alive": true,
+            "identity": true,
+            "visualIdentity": true
+          }
+        ],
+        "artOnly": [
+          "tiger",
+          "snake",
+          "eagle",
+          "spider",
+          "crow"
+        ]
+      }
+    },
+    {
+      "name": "Beastmaster contract and independent spirit summoning",
+      "passed": true,
+      "evidence": {
+        "bonded": true,
+        "tamerMaster": 31,
+        "tamerUid": 31,
+        "tamerIsSummoner": false,
+        "repaired": true,
+        "summons": [
+          {
+            "type": "emberfox",
+            "bloodline": "Spirit Conjuration",
+            "master": 32
+          }
+        ],
+        "summonerUid": 32,
+        "summonerIsTamer": false
+      }
+    },
+    {
+      "name": "Native sect founding and procedural mountain generation",
+      "passed": true,
+      "evidence": {
+        "name": "Regression Azure Sect",
+        "founder": 3,
+        "disciple": 3,
+        "master": 3,
+        "mountain": {
+          "tiles": 395,
+          "rooms": 13,
+          "terraces": 3
+        },
+        "veins": 1
+      }
+    },
+    {
+      "name": "Existing speed slider advances live simulation and pauses",
+      "passed": true,
+      "evidence": {
+        "selected": {
+          "speed": 3,
+          "paused": false,
+          "time": 141
+        },
+        "after": {
+          "time": 181,
+          "paused": true
+        }
+      }
+    },
+    {
+      "name": "Paused simulation remains stable",
+      "passed": true,
+      "evidence": {
+        "time": 181
+      }
+    },
+    {
+      "name": "Actual world JSON download",
+      "passed": true,
+      "evidence": {
+        "filename": "tiny-world-384x240.json",
+        "bytes": 959628,
+        "version": 4
+      }
+    },
+    {
+      "name": "Actual world file import preserves terrain, sect and warrior identity",
+      "passed": true,
+      "evidence": {
+        "time": 181,
+        "size": [
+          384,
+          240
+        ],
+        "sects": [
+          "Regression Azure Sect"
+        ],
+        "identitySeed": 1188642669
+      }
+    },
+    {
+      "name": "Actual character roster JSON download",
+      "passed": true,
+      "evidence": {
+        "filename": "tiny-world-characters.json",
+        "humanRecords": 15,
+        "totalActorRecords": 64
+      }
+    },
+    {
+      "name": "Actual character file import keeps appearance seeds under new IDs",
+      "passed": true,
+      "evidence": {
+        "newHumans": 15,
+        "preservedSeeds": [
+          1188642669,
+          1138309812,
+          1155087431,
+          1104754574
+        ],
+        "foreignFamilyLinksCleared": true
+      }
+    },
+    {
+      "name": "Existing archive save control stores a version4 world",
+      "passed": true,
+      "evidence": {
+        "slot": 31,
+        "bytes": 732967
+      }
+    },
+    {
+      "name": "Existing archive load control restores saved time",
+      "passed": true,
+      "evidence": {
+        "time": 181
+      }
+    },
+    {
+      "name": "No JavaScript page exceptions",
+      "passed": true,
+      "evidence": []
+    }
+  ],
+  "pageErrors": [],
+  "scope": "Smoke tests exercise existing native gameplay/API and actual file controls; they do not prove long-running balance, every ability or every world layout."
+}

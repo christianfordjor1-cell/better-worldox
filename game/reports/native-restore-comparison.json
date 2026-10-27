@@ -1,0 +1,314 @@
+{
+  "baseline": {
+    "sects": {
+      "Sect of Regression Human": {
+        "name": "Sect of Regression Human",
+        "x": 8,
+        "y": 48,
+        "founder": 1,
+        "pills": 0,
+        "at": 120,
+        "noTown": 1,
+        "foundedAt": 120,
+        "v71Sited": true,
+        "independentHQ": true,
+        "dormant": false,
+        "tributeLedger": [],
+        "sectRelations": {},
+        "tributeStock": {
+          "refined": 0,
+          "heavenly": 0,
+          "stones": 0,
+          "artifacts": 0
+        }
+      }
+    },
+    "buildings": [
+      [
+        3120,
+        "campfire"
+      ],
+      [
+        2735,
+        "house"
+      ],
+      [
+        3405,
+        "house"
+      ]
+    ],
+    "beasts": [
+      {
+        "type": "wolf",
+        "tw74Beast": {
+          "seed": 203991013,
+          "species": "Wolves",
+          "bloodline": "Ember",
+          "element": "Lightning",
+          "temperament": "patient",
+          "rank": 1,
+          "loyalty": 0,
+          "master": null,
+          "territory": [
+            48,
+            34
+          ],
+          "techniques": [
+            "Pounce"
+          ],
+          "memories": [],
+          "parts": {
+            "coat": "Sable",
+            "mark": "Plain",
+            "crest": "Crested",
+            "build": "Slender",
+            "eye": "Emerald"
+          },
+          "personalName": "Sable Crested Wolves",
+          "speciesName": "Wolves",
+          "bondXp": 0,
+          "taming": 0
+        },
+        "tw79Beast": {
+          "seed": 4194790291,
+          "pattern": 1,
+          "crest": 0,
+          "eye": 2,
+          "accent": 1,
+          "tail": 1,
+          "bloodline": "ordinary"
+        }
+      },
+      {
+        "type": "deer",
+        "tw74Beast": {
+          "seed": 153658156,
+          "species": "Deer",
+          "bloodline": "Ancient",
+          "element": "Metal",
+          "temperament": "curious",
+          "rank": 1,
+          "loyalty": 0,
+          "master": null,
+          "territory": [
+            46,
+            33
+          ],
+          "techniques": [
+            "Wing Gust"
+          ],
+          "memories": [],
+          "parts": {
+            "coat": "Pearl",
+            "mark": "Mottled",
+            "crest": "Horned",
+            "build": "Massive",
+            "eye": "Violet"
+          },
+          "personalName": "Pearl Horned Deer",
+          "speciesName": "Deer",
+          "bondXp": 0,
+          "taming": 0
+        },
+        "tw79Beast": {
+          "seed": 2232038072,
+          "pattern": 2,
+          "crest": 1,
+          "eye": 0,
+          "accent": 0,
+          "tail": 2,
+          "bloodline": "ordinary"
+        }
+      },
+      {
+        "type": "dragon",
+        "tw74Beast": {
+          "seed": 170435775,
+          "species": "Dragon",
+          "bloodline": "Ancient",
+          "element": "Water",
+          "temperament": "aggressive",
+          "rank": 1,
+          "loyalty": 0,
+          "master": null,
+          "territory": [
+            50,
+            30
+          ],
+          "techniques": [
+            "Tail Sweep"
+          ],
+          "memories": [],
+          "parts": {
+            "coat": "Amber",
+            "mark": "Striped",
+            "crest": "Smooth",
+            "build": "Long-Limbed",
+            "eye": "Gold"
+          },
+          "personalName": "Amber Smooth Dragon",
+          "speciesName": "Dragon",
+          "bondXp": 0,
+          "taming": 0
+        },
+        "tw79Beast": null
+      }
+    ]
+  },
+  "integrated": {
+    "sects": {
+      "Sect of Regression Human": {
+        "name": "Sect of Regression Human",
+        "x": 8,
+        "y": 48,
+        "founder": 1,
+        "pills": 0,
+        "at": 120,
+        "noTown": 1,
+        "foundedAt": 120,
+        "v71Sited": true,
+        "independentHQ": true,
+        "dormant": false,
+        "tributeLedger": [],
+        "sectRelations": {},
+        "tributeStock": {
+          "refined": 0,
+          "heavenly": 0,
+          "stones": 0,
+          "artifacts": 0
+        }
+      }
+    },
+    "buildings": [
+      [
+        3120,
+        "campfire"
+      ],
+      [
+        2735,
+        "house"
+      ],
+      [
+        3405,
+        "house"
+      ]
+    ],
+    "beasts": [
+      {
+        "type": "wolf",
+        "tw74Beast": {
+          "seed": 203991013,
+          "species": "Wolves",
+          "bloodline": "Ember",
+          "element": "Lightning",
+          "temperament": "patient",
+          "rank": 1,
+          "loyalty": 0,
+          "master": null,
+          "territory": [
+            48,
+            34
+          ],
+          "techniques": [
+            "Pounce"
+          ],
+          "memories": [],
+          "parts": {
+            "coat": "Sable",
+            "mark": "Plain",
+            "crest": "Crested",
+            "build": "Slender",
+            "eye": "Emerald"
+          },
+          "personalName": "Sable Crested Wolves",
+          "speciesName": "Wolves",
+          "bondXp": 0,
+          "taming": 0
+        },
+        "tw79Beast": {
+          "seed": 4194790291,
+          "pattern": 1,
+          "crest": 0,
+          "eye": 2,
+          "accent": 1,
+          "tail": 1,
+          "bloodline": "ordinary"
+        }
+      },
+      {
+        "type": "deer",
+        "tw74Beast": {
+          "seed": 153658156,
+          "species": "Deer",
+          "bloodline": "Ancient",
+          "element": "Metal",
+          "temperament": "curious",
+          "rank": 1,
+          "loyalty": 0,
+          "master": null,
+          "territory": [
+            46,
+            33
+          ],
+          "techniques": [
+            "Wing Gust"
+          ],
+          "memories": [],
+          "parts": {
+            "coat": "Pearl",
+            "mark": "Mottled",
+            "crest": "Horned",
+            "build": "Massive",
+            "eye": "Violet"
+          },
+          "personalName": "Pearl Horned Deer",
+          "speciesName": "Deer",
+          "bondXp": 0,
+          "taming": 0
+        },
+        "tw79Beast": {
+          "seed": 2232038072,
+          "pattern": 2,
+          "crest": 1,
+          "eye": 0,
+          "accent": 0,
+          "tail": 2,
+          "bloodline": "ordinary"
+        }
+      },
+      {
+        "type": "dragon",
+        "tw74Beast": {
+          "seed": 170435775,
+          "species": "Dragon",
+          "bloodline": "Ancient",
+          "element": "Water",
+          "temperament": "aggressive",
+          "rank": 1,
+          "loyalty": 0,
+          "master": null,
+          "territory": [
+            50,
+            30
+          ],
+          "techniques": [
+            "Tail Sweep"
+          ],
+          "memories": [],
+          "parts": {
+            "coat": "Amber",
+            "mark": "Striped",
+            "crest": "Smooth",
+            "build": "Long-Limbed",
+            "eye": "Gold"
+          },
+          "personalName": "Amber Smooth Dragon",
+          "speciesName": "Dragon",
+          "bondXp": 0,
+          "taming": 0
+        },
+        "tw79Beast": null
+      }
+    ]
+  }
+}

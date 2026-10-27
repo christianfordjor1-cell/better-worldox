@@ -1,0 +1,339 @@
+{
+  "suite": "full-game-performance-smoke",
+  "build": "dist/Tiny-World-v79-Modular.html",
+  "browser": "154.0.8037.57",
+  "environment": "Headless system Chromium in the managed cloud CPU environment; no hardware-independent frame-rate guarantee.",
+  "setup": {
+    "world": [
+      96,
+      64
+    ],
+    "seed": "tiny-world-performance-v79",
+    "addedHumans": 100,
+    "addedBeasts": 30,
+    "totalActors": 130,
+    "camera": {
+      "x": 0,
+      "y": 0,
+      "z": 12
+    },
+    "logicalViewport": [
+      1280,
+      900
+    ],
+    "actualCanvas": [
+      640,
+      450
+    ],
+    "pixelScale": 2,
+    "visibleHumans": 100
+  },
+  "warmup": {
+    "ready": 19,
+    "elapsedMs": 1991.0999999999767,
+    "stats": {
+      "images": 0,
+      "rawRows": 48,
+      "cells": 384,
+      "composites": 168,
+      "activeLoads": 0,
+      "queued": 0,
+      "pendingRows": 0,
+      "failedSheets": 0,
+      "cacheBytes": 101523456,
+      "maxCacheBytes": 108822528
+    }
+  },
+  "original": {
+    "mode": "original v79",
+    "samples": 60,
+    "meanDrawMs": 2.241666666663756,
+    "medianDrawMs": 2.2000000000116415,
+    "p95DrawMs": 2.900000000023283,
+    "maxDrawMs": 3,
+    "drawOnlyFpsEquivalent": 446.09665427567217,
+    "beforeCounters": {
+      "citizenDraws": 5259,
+      "beastDraws": 1002,
+      "pendingFallbacks": 3890,
+      "failedFallbacks": 0,
+      "lodDraws": 0
+    },
+    "afterCounters": {
+      "citizenDraws": 5259,
+      "beastDraws": 1002,
+      "pendingFallbacks": 3890,
+      "failedFallbacks": 0,
+      "lodDraws": 0
+    },
+    "compositor": {
+      "images": 0,
+      "rawRows": 48,
+      "cells": 384,
+      "composites": 168,
+      "activeLoads": 0,
+      "queued": 0,
+      "pendingRows": 0,
+      "failedSheets": 0,
+      "cacheBytes": 101523456,
+      "maxCacheBytes": 108822528
+    }
+  },
+  "provisional": {
+    "mode": "provisional PNG",
+    "samples": 60,
+    "meanDrawMs": 1.7183333333339155,
+    "medianDrawMs": 1.6999999999534339,
+    "p95DrawMs": 2.400000000023283,
+    "maxDrawMs": 2.6000000000349246,
+    "drawOnlyFpsEquivalent": 581.9592628514032,
+    "beforeCounters": {
+      "citizenDraws": 5259,
+      "beastDraws": 1002,
+      "pendingFallbacks": 3890,
+      "failedFallbacks": 0,
+      "lodDraws": 0
+    },
+    "afterCounters": {
+      "citizenDraws": 13659,
+      "beastDraws": 3522,
+      "pendingFallbacks": 3890,
+      "failedFallbacks": 0,
+      "lodDraws": 0
+    },
+    "compositor": {
+      "images": 0,
+      "rawRows": 48,
+      "cells": 384,
+      "composites": 168,
+      "activeLoads": 0,
+      "queued": 0,
+      "pendingRows": 0,
+      "failedSheets": 0,
+      "cacheBytes": 101523456,
+      "maxCacheBytes": 108822528
+    }
+  },
+  "simulation": {
+    "ticks": 100,
+    "elapsedMs": 371.4000000000233,
+    "calls": 100,
+    "actors": 128,
+    "targetTicks": 100,
+    "budgetMs": 1000
+  },
+  "retainedCanvasCachesBounded": true,
+  "finalDiagnostics": {
+    "version": "v79-modular-1",
+    "enabled": true,
+    "artStatus": "provisional Cursor PNGs; original artwork fallback",
+    "races": 19,
+    "beasts": 17,
+    "registeredBeasts": [
+      "sheep",
+      "wolf",
+      "deer",
+      "rabbit",
+      "boar",
+      "fox",
+      "chicken",
+      "tortoise",
+      "moonhart",
+      "emberfox",
+      "bear",
+      "dragon"
+    ],
+    "artOnlyBeasts": [
+      "tiger",
+      "snake",
+      "eagle",
+      "spider",
+      "crow"
+    ],
+    "counters": {
+      "citizenDraws": 14055,
+      "beastDraws": 3638,
+      "pendingFallbacks": 4335,
+      "failedFallbacks": 0,
+      "lodDraws": 0
+    },
+    "compositor": {
+      "compatible": true,
+      "artStatus": "legacy/provisional",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Legacy/provisional art: preposed whole bodies; no independent anatomical articulation.",
+          "One south-facing set with horizontal mirroring; no cardinal-direction animations.",
+          "Beast eye rows reuse one mask and select colour; six tiers are an art-pack limit."
+        ],
+        "counts": {
+          "races": 19,
+          "beasts": 17,
+          "gameplayClasses": 15,
+          "sheets": 713,
+          "fits": 12,
+          "specialisations": 48,
+          "weapons": 21,
+          "roots": 30,
+          "tiers": 6
+        }
+      },
+      "counters": {
+        "loadsStarted": 172,
+        "queue-capacity": 1394
+      },
+      "failures": [],
+      "events": [
+        {
+          "code": "queue-capacity",
+          "path": "beasts/moonhart/adult/eyes.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/emberfox/adult/tail.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/emberfox/adult/body.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/emberfox/adult/pattern.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/emberfox/adult/crest.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/emberfox/adult/accent.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/emberfox/adult/eyes.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/bear/adult/tail.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/bear/adult/body.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/bear/adult/pattern.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/bear/adult/crest.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/bear/adult/accent.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/bear/adult/eyes.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/dragon/adult/tail.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/dragon/adult/body.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/dragon/adult/pattern.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/dragon/adult/crest.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/dragon/adult/accent.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/dragon/adult/eyes.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "people/fits/human/adult/outfit-0.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "people/fits/human/adult/tunic.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "people/races/human/adult/face.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "people/fits/human/adult/eyes-0.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "people/races/human/adult/hair-0.png",
+          "detail": ""
+        },
+        {
+          "code": "queue-capacity",
+          "path": "beasts/chicken/adult/eyes.png",
+          "detail": ""
+        }
+      ],
+      "stats": {
+        "images": 64,
+        "rawRows": 48,
+        "cells": 384,
+        "composites": 188,
+        "activeLoads": 1,
+        "queued": 63,
+        "pendingRows": 153,
+        "failedSheets": 0,
+        "cacheBytes": 103182336,
+        "maxCacheBytes": 108822528
+      }
+    }
+  },
+  "pageErrors": [],
+  "elapsedSeconds": 5.58,
+  "passed": true,
+  "limitations": [
+    "Draw timings measure synchronous draw() CPU time, not end-to-end display FPS.",
+    "Paused atlas actors use their actual idle poses; all walking frames and large-population animation are outside this benchmark.",
+    "The canvas cache estimate excludes embedded HTML/data strings, image decode buffers, browser overhead and last-complete actor snapshots.",
+    "A large cold population may use preserved original sprites while PNG rows load; counters disclose these fallbacks.",
+    "One native simulation batch is a smoke check, not long-run balance or speed-accuracy proof."
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "browser": "Chromium",
+  "checks": [
+    {
+      "name": "Baseline save restores terrain, shade, time and dimensions",
+      "passed": true
+    },
+    {
+      "name": "Saved race, class, spec, roots, cultivation, genome, gear and identity preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Saved sect definitions and buildings preserved",
+      "passed": true
+    },
+    {
+      "name": "Both independent saved beast identities preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Native Ancient bloodline casing maps to ancient visual layer without rewriting identity",
+      "passed": true
+    },
+    {
+      "name": "Startup never deletes quicksave, slot, autosave or other world keys",
+      "passed": true
+    },
+    {
+      "name": "Historical fresh-start flags are not written",
+      "passed": true
+    },
+    {
+      "name": "Actual layered PNGs load and render through game creature sprite API",
+      "passed": true,
+      "detail": {
+        "citizenDraws": 58,
+        "beastDraws": 35,
+        "pendingFallbacks": 308,
+        "failedFallbacks": 0,
+        "lodDraws": 0
+      }
+    },
+    {
+      "name": "Rendering does not rewrite saved person records",
+      "passed": true
+    },
+    {
+      "name": "Equipped native firearm maps to gun while keeping saved fields intact",
+      "passed": true
+    },
+    {
+      "name": "All19visualraces/all17beasts catalogued; unregistered gameplay species explicit",
+      "passed": true
+    },
+    {
+      "name": "Legacy renderer timers cannot replace modular adapter",
+      "passed": true
+    },
+    {
+      "name": "Original-art fallback toggle works",
+      "passed": true
+    },
+    {
+      "name": "Provisional-art mode restored",
+      "passed": true
+    },
+    {
+      "name": "Native archive slot save/load restores time and seeded appearance",
+      "passed": true
+    },
+    {
+      "name": "Current-session write succeeds",
+      "passed": true
+    },
+    {
+      "name": "Reload resumes the saved world without generating a replacement",
+      "passed": true
+    },
+    {
+      "name": "Reload preserves all protected sentinel saves",
+      "passed": true
+    },
+    {
+      "name": "IndexedDB resumes the current world when the local copy is absent",
+      "passed": true
+    },
+    {
+      "name": "Unreadable current-world data is kept and auto-saving blocked",
+      "passed": true
+    },
+    {
+      "name": "Self-contained HTML decodes embedded PNGs with all later networking blocked",
+      "passed": true,
+      "detail": {
+        "externalRequests": [],
+        "fileURLTest": "Not verified: managed browser policy blocks file:// navigation. Embedded offline assets tested through local HTTP instead."
+      }
+    },
+    {
+      "name": "No JavaScript page exceptions during normal game tests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Game remains playable with browser storage unavailable",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "loadSeconds": 2.13,
+  "rendering": {
+    "version": "v79-modular-1",
+    "enabled": true,
+    "artStatus": "provisional Cursor PNGs; original artwork fallback",
+    "races": 19,
+    "beasts": 17,
+    "registeredBeasts": [
+      "sheep",
+      "wolf",
+      "deer",
+      "rabbit",
+      "boar",
+      "fox",
+      "chicken",
+      "tortoise",
+      "moonhart",
+      "emberfox",
+      "bear",
+      "dragon"
+    ],
+    "artOnlyBeasts": [
+      "tiger",
+      "snake",
+      "eagle",
+      "spider",
+      "crow"
+    ],
+    "counters": {
+      "citizenDraws": 398,
+      "beastDraws": 284,
+      "pendingFallbacks": 252,
+      "failedFallbacks": 0,
+      "lodDraws": 0
+    },
+    "compositor": {
+      "compatible": true,
+      "artStatus": "legacy/provisional",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Legacy/provisional art: preposed whole bodies; no independent anatomical articulation.",
+          "One south-facing set with horizontal mirroring; no cardinal-direction animations.",
+          "Beast eye rows reuse one mask and select colour; six tiers are an art-pack limit."
+        ],
+        "counts": {
+          "races": 19,
+          "beasts": 17,
+          "gameplayClasses": 15,
+          "sheets": 713,
+          "fits": 12,
+          "specialisations": 48,
+          "weapons": 21,
+          "roots": 30,
+          "tiers": 6
+        }
+      },
+      "counters": {
+        "loadsStarted": 55
+      },
+      "failures": [],
+      "events": [],
+      "stats": {
+        "images": 0,
+        "rawRows": 48,
+        "cells": 55,
+        "composites": 7,
+        "activeLoads": 0,
+        "queued": 0,
+        "pendingRows": 0,
+        "failedSheets": 0,
+        "cacheBytes": 60880896,
+        "maxCacheBytes": 108822528
+      }
+    }
+  },
+  "fileURLTest": "Not verified: managed browser policy blocks file:// navigation. Embedded offline assets tested through local HTTP instead.",
+  "passed": true
+}

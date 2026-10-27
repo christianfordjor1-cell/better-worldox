@@ -1,6 +1,14 @@
-# Tiny World — Phase 1 art review
+# Tiny World
 
-This repository contains the Phase 1 concept-art review and Phase 2 warrior test sheets. These are not functional production sprite assets. No game code or saved worlds are included or modified.
+The playable v79 development build is in [game/](game/README.md), on branch `development/v79-modular-integration`.
+
+[Download the playable package](game/dist/Tiny-World-v79-Modular-Playable.zip) · [Launch and save-transfer instructions](game/README.md) · [Validation results](game/reports/validation-summary.md) · [Preserved 30 architectural styles](game/reports/sect-registry.md)
+
+The authoritative uploaded v79 and Cursor pack are preserved unchanged. The game adds a replaceable provisional PNG renderer, compatible saved identities and protected current-world startup. The Blender prototype remains separate. Existing game mechanics are preserved; unfinished artwork and missing gameplay definitions are documented.
+
+## Preserved artwork reviews
+
+The earlier Phase 1 concepts and failed Phase 2 test sheets below are retained as historical references. They are not functional production sprites.
 
 ## Phase 2 test sheets
 
@@ -32,4 +40,4 @@ The proposed asset cells are 144 × 144 pixels. Actual gameplay screen size and 
 
 The ZIP includes a standalone HTML scale reviewer and individual previews. Extract it and open `scale-review.html` in a browser.
 
-No full sprite pack or game integration has been performed. No missing sect registry has been invented. Awaiting Phase 1 visual feedback before further art production.
+These archived art reviews predate the playable v79 integration. No missing sect registry has been invented.
