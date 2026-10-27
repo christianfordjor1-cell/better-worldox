@@ -1,0 +1,10 @@
+{
+  "purpose": "Small authored eye, nose and mouth corrections after the revised skull, head yaw, brow and hair geometry were rendered and facial landmarks inspected. Uses existing palette only; no silhouette or decorative-pixel additions.",
+  "edits": [
+    [70,44,"#c7b992"], [71,44,"#2a2429"],
+    [76,43,"#c7b992"], [77,43,"#2a2429"],
+    [75,45,"#d59b63"], [74,46,"#7e4b34"], [75,46,"#694132"],
+    [73,48,"#623634"], [74,48,"#623634"],
+    [74,49,"#ab7147"], [75,49,"#7e4b34"]
+  ]
+}

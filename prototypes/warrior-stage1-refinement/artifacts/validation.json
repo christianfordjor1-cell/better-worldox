@@ -1,0 +1,118 @@
+{
+  "stage": 1,
+  "revision": "visual-refinement",
+  "technical_checks_pass": true,
+  "production_approved": false,
+  "visual_quality": "Awaiting user review; not certified by automated checks",
+  "checks": {
+    "exact_144x144_rgba": true,
+    "binary_alpha_no_partial_pixels": true,
+    "background_transparent": true,
+    "empty_pixels_have_zero_rgb": true,
+    "declared_discrete_palette_only": true,
+    "palette_definitions_unchanged": true,
+    "no_colours_outside_original_palette": true,
+    "fully_inside_cell": true,
+    "visible_bottom_pixel_at_y130": true,
+    "figure_height_100_pixels": true,
+    "body_root_projection_x72": true,
+    "orthographic_camera": true,
+    "no_armature": true,
+    "no_animation_actions": true,
+    "no_ground_plane": true,
+    "single_connected_silhouette": true,
+    "nearest_neighbour_6x_all_pixels_exact": true,
+    "nearest_neighbour_3x_all_pixels_exact": true,
+    "first_prototype_files_unchanged": true,
+    "repeat_native_render_identical": true
+  },
+  "not_run": [],
+  "image": {
+    "size": [
+      144,
+      144
+    ],
+    "mode": "RGBA",
+    "visible_bounds_exclusive": [
+      43,
+      31,
+      96,
+      131
+    ],
+    "figure_height": 100,
+    "visible_colour_count": 46,
+    "transparent_pixels": 17607,
+    "opaque_pixels": 3129,
+    "partial_alpha_pixels": 0,
+    "alpha_components": [
+      3129
+    ]
+  },
+  "camera": {
+    "blender_version": "4.3.2",
+    "body_root_projected_x": 72.00000858306885,
+    "orthographic_camera": true,
+    "armatures": 0,
+    "animation_actions": 0,
+    "mesh_count": 166,
+    "render_engine": "CYCLES",
+    "transparent_film": true,
+    "no_ground_plane": true,
+    "facial_landmarks_px": {
+      "iris_-1": [
+        71.731,
+        44.325
+      ],
+      "iris_1": [
+        77.057,
+        43.418
+      ],
+      "nose": [
+        74.463,
+        45.008
+      ],
+      "mouth_line": [
+        74.056,
+        48.002
+      ]
+    }
+  },
+  "authored_native_pixel_changes": 11,
+  "original_palette_colour_count": 61,
+  "baseline_hashes": {
+    "warrior-nearest-6x.png": "a1a33e9cf988749a3acbaf6a2b530a7c29624385c740b6cb7384e8426c08f753",
+    "blender-model-render.png": "2b269a072a5d19efb4938774a810ec98af7d910d951b96953664b8b550fa7ad8",
+    "warrior-144.png": "510a7f07b63998dbe7cd46e472694a840aca642da11ad1d895adecd09b842a0a",
+    "model-stepped-render.png": "8184ce35cdad4bc5f29dc8c6fd9d86594c0b73035badcaf1232b771cee217ef0",
+    "source-preservation.json": "a0353099063b7e2a4fd7c2a0f9eb8a57a65f3636da8a3699815a8f2d1994dd38",
+    "validation.json": "6cc7210e006031ed540ca43d39121262d065ee95434467b9aa916bb748470324",
+    "blend-inspection.json": "b6149a19ca3c05531abf7eb3d40e8c6dc1599df1f54d3354fa32da5111c4e45f",
+    "warrior-stage1.blend": "147b746ca9852e695f369ed7aded2fd5c5a473cfe8950164e8a4504bf629f302",
+    "warrior-raw-144.png": "d52806b67c6188d1334f4d269b08aa5b638a5a4b8b0191be78fc0f65a484e0ce",
+    "transparency-review.png": "2d63a251de6d285a08ed47936f38be87e85477d52fab10067fff208246855aeb",
+    "approved-warrior-reference-crop.png": "41df98f0c019d146b8156a657df14006f42a203b9ace887a4770eea1a3a38ae5",
+    "comparison.png": "f62b7c0aba603a70a1315e3b1962f2d822a0889b8c85ef5a0fcb6807024cb23b",
+    "render-metadata.json": "f6db56a076076132645f3a2cbce0cc5cfd8d728bdf79f5642f177c2a1d13a2db"
+  },
+  "not_implemented": [
+    "rigging",
+    "animation",
+    "anatomical reconstruction",
+    "part variants",
+    "independent colour-mask assets",
+    "compositor",
+    "sprite viewer",
+    "game integration"
+  ],
+  "render_method": "Direct 144x144 pixel-centre sampling of Blender geometry with discrete material ramps; no illustration downscaling or automatic quantisation.",
+  "model_render_note": "The separate high-resolution Cycles illustration uses normal model-render filtering. Binary alpha and no-antialiasing checks apply to the native sprite.",
+  "files": {
+    "warrior-144.png": "ef75f614a62ec1951292a8a17867932c7a53857ca335e6beb4fa1f03cb6b5053",
+    "warrior-nearest-6x.png": "c442921ce9c3a5f88bcc9f9999e2a880018bc26c85d97cdb04aa03b47cdb1883",
+    "warrior-preview-3x.png": "cc85fcdd73b3fea81e12138e61d43494f0d3844f1cff67a5c85fb6830206a103",
+    "blender-model-render.png": "02acce1a1bbef03c30ad90f30ae1d4a7b3af926f0d0ce5d52d0f8fe9f2eb93bf",
+    "warrior-stage1.blend": "d25d4485fca5c26fffcee65be46568d67b1a6907d68d4bfcf45787947fe49e3f",
+    "comparison.png": "7bb571bd1013b3af4ddbb4cf5e27cceb3f21e7bff8a03dd4cf802de62b750c7b",
+    "pixel-comparison.png": "be29121666a0ef7b67706bcfd3e8b1b10ae73858276a70331dfd29dcfe35eaee"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "blender_version": "4.3.2",
+  "body_root_projected_x": 72.00000858306885,
+  "orthographic_camera": true,
+  "armatures": 0,
+  "animation_actions": 0,
+  "mesh_count": 166,
+  "render_engine": "CYCLES",
+  "transparent_film": true,
+  "no_ground_plane": true,
+  "facial_landmarks_px": {
+    "iris_-1": [
+      71.731,
+      44.325
+    ],
+    "iris_1": [
+      77.057,
+      43.418
+    ],
+    "nose": [
+      74.463,
+      45.008
+    ],
+    "mouth_line": [
+      74.056,
+      48.002
+    ]
+  }
+}
