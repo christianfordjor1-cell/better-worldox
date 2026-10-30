@@ -1,0 +1,11 @@
+{
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/hall-a.png",
+  "arguments": {
+    "description": "Transform this hall into one compact branch-house residence: one rough-barked trunk supports a single curved timber home with a deep green leaf-shingle roof, carved front door, woven walls, a small open balcony, golden lantern and short root stairs. One building only. Preserve the exact source pixel density, forest palette, refined wood shading, shallow three-quarter low-top-down view and upper-left light. Transparent background, no painted ground or cast shadow. Leave 6px clear border.",
+    "width": 96,
+    "height": 100,
+    "no_background": true,
+    "seed": 330100
+  }
+}

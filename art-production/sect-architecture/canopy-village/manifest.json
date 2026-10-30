@@ -1,0 +1,724 @@
+{
+  "schemaVersion": 1,
+  "name": "Canopy Village",
+  "registryId": 3,
+  "status": "provisional",
+  "currentGameChanged": false,
+  "integrationStatus": "not installed",
+  "palette": {
+    "file": "palette.json",
+    "sha256": "8dabec9bd152a851c7ddd05b55fae648e06295d6a60705d2db419610d722897c",
+    "declaredColorCount": 32,
+    "uniqueColorCount": 32,
+    "exactly32UniqueColors": true
+  },
+  "coordinateSource": "../grid-contract.md",
+  "humanReview": "pending",
+  "assets": [
+    {
+      "id": "hall-a",
+      "role": "principal hall",
+      "variant": "A",
+      "status": "provisional",
+      "generationRequest": "requests/hall-a.json",
+      "generationReceipt": "receipts/hall-a.json",
+      "rejectedIteration": null,
+      "currentGameSlot": "sectHall",
+      "groundFootprintTiles": {
+        "width": 4.6,
+        "depth": 2.7
+      },
+      "footprintSource": "../grid-contract.md",
+      "canvas": [
+        147,
+        141
+      ],
+      "groundAnchor": [
+        73.5,
+        141
+      ],
+      "existingGameSlotCanvas": [
+        147,
+        141
+      ],
+      "existingGameSlotCanvasMatches": true,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": false,
+      "recommendedPorts": {
+        "left": [
+          12,
+          93
+        ],
+        "right": [
+          135,
+          93
+        ]
+      },
+      "recommendedPortsSource": "../grid-contract.md",
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "existing slot is a visual compatibility suggestion only",
+      "sourceMaster": "masters/hall-a.png",
+      "input": "palette-normalized/hall-a.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/hall-a.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "5c11af1f11759b4e94ca9e6da775b0c003a4c718e0676c7b4152c4f1c1ea1f17",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          6,
+          2,
+          134,
+          140
+        ],
+        "pasteTopLeft": [
+          9,
+          3
+        ],
+        "pastedRectangle": [
+          9,
+          3,
+          137,
+          141
+        ],
+        "horizontalCentreOffsetPixels": -0.5,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "ce4912fdcdd26a70333179d40ad22d082816d62217273c35c8861af36170371d",
+        "outputCropRgbaSha256": "ce4912fdcdd26a70333179d40ad22d082816d62217273c35c8861af36170371d"
+      },
+      "sourceMasterSha256": "9fe31567250d149281bba6388e77f9e453199364cd2f247d1e4a84fd3aa1e967",
+      "inputSha256": "9ec3f791636658d32752e8746c1569f9b5bcc4adbfe280bfd044658475835834",
+      "technicalValidation": "pass"
+    },
+    {
+      "id": "hall-b",
+      "role": "principal hall",
+      "variant": "B",
+      "status": "provisional",
+      "generationRequest": "requests/hall-b.json",
+      "generationReceipt": "receipts/hall-b.json",
+      "rejectedIteration": null,
+      "currentGameSlot": "sectHall",
+      "groundFootprintTiles": {
+        "width": 4.6,
+        "depth": 2.7
+      },
+      "footprintSource": "../grid-contract.md",
+      "canvas": [
+        147,
+        141
+      ],
+      "groundAnchor": [
+        73.5,
+        141
+      ],
+      "existingGameSlotCanvas": [
+        147,
+        141
+      ],
+      "existingGameSlotCanvasMatches": true,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": false,
+      "recommendedPorts": {
+        "left": [
+          12,
+          93
+        ],
+        "right": [
+          135,
+          93
+        ]
+      },
+      "recommendedPortsSource": "../grid-contract.md",
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "existing slot is a visual compatibility suggestion only",
+      "sourceMaster": "masters/hall-b.png",
+      "input": "palette-normalized/hall-b.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/hall-b.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "4ef53e81685e48921b7005161d4ae2edca9045fc2dea93fdbc7828117a95d9d9",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          5,
+          9,
+          139,
+          138
+        ],
+        "pasteTopLeft": [
+          6,
+          12
+        ],
+        "pastedRectangle": [
+          6,
+          12,
+          140,
+          141
+        ],
+        "horizontalCentreOffsetPixels": -0.5,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "204989c309dce4f23f1811b74905a0f0762306e66ffc5ef7bc0ec916ac4f1d0e",
+        "outputCropRgbaSha256": "204989c309dce4f23f1811b74905a0f0762306e66ffc5ef7bc0ec916ac4f1d0e"
+      },
+      "sourceMasterSha256": "251b29cd38ba45227bd0c04dbb6ed039029ca7a94f308a8924d2392be5fedaec",
+      "inputSha256": "9e4a4d9756c1775c582ee88a09529a36a1d79bc35cd035233343ef995bb6a5ea",
+      "technicalValidation": "pass"
+    },
+    {
+      "id": "house-a",
+      "role": "branch house",
+      "variant": "A",
+      "status": "provisional",
+      "generationRequest": "requests/house-a.json",
+      "generationReceipt": "receipts/house-a.json",
+      "rejectedIteration": null,
+      "currentGameSlot": "house",
+      "groundFootprintTiles": {
+        "width": 2.8,
+        "depth": 1.8
+      },
+      "footprintSource": "../grid-contract.md",
+      "canvas": [
+        90,
+        99
+      ],
+      "groundAnchor": [
+        45.0,
+        99
+      ],
+      "existingGameSlotCanvas": [
+        90,
+        99
+      ],
+      "existingGameSlotCanvasMatches": true,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": false,
+      "recommendedPorts": {
+        "left": [
+          8,
+          51
+        ],
+        "right": [
+          82,
+          51
+        ]
+      },
+      "recommendedPortsSource": "../grid-contract.md",
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "existing slot is a visual compatibility suggestion only",
+      "sourceMaster": "masters/house-a.png",
+      "input": "palette-normalized/house-a.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/house-a.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "7bcaba54b1a5df912fcd322f8b5ecfab7e69f8275068c3cf189965e295a41eed",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          4,
+          1,
+          90,
+          97
+        ],
+        "pasteTopLeft": [
+          2,
+          3
+        ],
+        "pastedRectangle": [
+          2,
+          3,
+          88,
+          99
+        ],
+        "horizontalCentreOffsetPixels": 0.0,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "433ac486ab145ecc87192d1d6196ee0545f7a89a0a60aef6671462dc381620d5",
+        "outputCropRgbaSha256": "433ac486ab145ecc87192d1d6196ee0545f7a89a0a60aef6671462dc381620d5"
+      },
+      "sourceMasterSha256": "8cd18da3bd6fa8f9d17c3a61f39b49fa3f961ceb06deb42a1640768f3d8b7c6e",
+      "inputSha256": "3aae105e8e793b22b550b6025a35f3b0fb42ed702548658ffeb1ff39f5befe5d",
+      "technicalValidation": "pass"
+    },
+    {
+      "id": "house-b",
+      "role": "hanging branch house",
+      "variant": "B",
+      "status": "provisional",
+      "generationRequest": "requests/house-b-correction.json",
+      "generationReceipt": "receipts/house-b.json",
+      "rejectedIteration": "iterations/house-b-trunk-mounted.png",
+      "currentGameSlot": "house",
+      "groundFootprintTiles": {
+        "width": 2.8,
+        "depth": 1.8
+      },
+      "footprintSource": "../grid-contract.md",
+      "canvas": [
+        96,
+        99
+      ],
+      "groundAnchor": [
+        48.0,
+        99
+      ],
+      "existingGameSlotCanvas": [
+        90,
+        99
+      ],
+      "existingGameSlotCanvasMatches": false,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": true,
+      "recommendedPorts": {
+        "left": [
+          8,
+          51
+        ],
+        "right": [
+          82,
+          51
+        ]
+      },
+      "recommendedPortsSource": "../grid-contract.md",
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "existing slot is a visual compatibility suggestion only",
+      "sourceMaster": "masters/house-b.png",
+      "input": "palette-normalized/house-b.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/house-b.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "ce4f94a4ab2110c65866426dc92a7d5a5380f5047c477323fb593d4f3a05c707",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          0,
+          0,
+          93,
+          91
+        ],
+        "pasteTopLeft": [
+          1,
+          8
+        ],
+        "pastedRectangle": [
+          1,
+          8,
+          94,
+          99
+        ],
+        "horizontalCentreOffsetPixels": -0.5,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "56be4b0e6d2c1c1e491b5be64d761b6a9d5237a7766b2a9736b14fd17a5d50c3",
+        "outputCropRgbaSha256": "56be4b0e6d2c1c1e491b5be64d761b6a9d5237a7766b2a9736b14fd17a5d50c3"
+      },
+      "sourceMasterSha256": "ee5fe244af3233fe2c84f91e1068a924c0f302fe115e20f039d2904fb832f7ac",
+      "inputSha256": "3c07dbc5d79ab52b8a66b5f1eef934c7a923521202f60f38d172b21af8fa8e39",
+      "technicalValidation": "fail"
+    },
+    {
+      "id": "tree-shrine",
+      "role": "tree shrine",
+      "variant": null,
+      "status": "provisional",
+      "generationRequest": "requests/tree-shrine.json",
+      "generationReceipt": "receipts/tree-shrine.json",
+      "rejectedIteration": null,
+      "currentGameSlot": "sectAltar",
+      "groundFootprintTiles": {
+        "width": 1.8,
+        "depth": 1.5
+      },
+      "footprintSource": "../grid-contract.md",
+      "canvas": [
+        58,
+        77
+      ],
+      "groundAnchor": [
+        29.0,
+        77
+      ],
+      "existingGameSlotCanvas": [
+        58,
+        77
+      ],
+      "existingGameSlotCanvasMatches": true,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": false,
+      "recommendedPorts": {
+        "leftOptional": [
+          6,
+          29
+        ],
+        "rightOptional": [
+          52,
+          29
+        ]
+      },
+      "recommendedPortsSource": "../grid-contract.md",
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "existing slot is a visual compatibility suggestion only",
+      "sourceMaster": "masters/tree-shrine.png",
+      "input": "palette-normalized/tree-shrine.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/tree-shrine.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "ace2dfa46b8297471cdd9b45c5b390a5848ccc50693d5945fe0ee4bebb806d48",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          3,
+          1,
+          60,
+          78
+        ],
+        "pasteTopLeft": [
+          0,
+          0
+        ],
+        "pastedRectangle": [
+          0,
+          0,
+          57,
+          77
+        ],
+        "horizontalCentreOffsetPixels": -0.5,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "f4cd5ae5817bd0c33405b40ced1dca00718502017d699ea2a97cef5595f0ba9a",
+        "outputCropRgbaSha256": "f4cd5ae5817bd0c33405b40ced1dca00718502017d699ea2a97cef5595f0ba9a"
+      },
+      "sourceMasterSha256": "66cd38f96d9ca6323230f7a61aca35c4ce5231603a9685a4ba0a3edbbff6a41a",
+      "inputSha256": "d82d85e7ca9203b7e955b2f66772ef8c6aad3fdc118c55c99eeff96c23e93547",
+      "technicalValidation": "pass"
+    },
+    {
+      "id": "root-gate",
+      "role": "root-supported entrance",
+      "variant": null,
+      "status": "provisional",
+      "generationRequest": "requests/root-gate.json",
+      "generationReceipt": "receipts/root-gate.json",
+      "rejectedIteration": null,
+      "currentGameSlot": "sectGate",
+      "groundFootprintTiles": {
+        "width": 3.0,
+        "depth": 0.6
+      },
+      "footprintSource": "../grid-contract.md",
+      "canvas": [
+        96,
+        90
+      ],
+      "groundAnchor": [
+        48.0,
+        90
+      ],
+      "existingGameSlotCanvas": [
+        96,
+        90
+      ],
+      "existingGameSlotCanvasMatches": true,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": false,
+      "recommendedPorts": {},
+      "recommendedPortsSource": null,
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "existing slot is a visual compatibility suggestion only",
+      "sourceMaster": "masters/root-gate.png",
+      "input": "palette-normalized/root-gate.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/root-gate.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "466a3bdbbcd0c552c80f5727f9d274796e6d0547b53ca95addc36f1c3ddd6d69",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          9,
+          7,
+          87,
+          93
+        ],
+        "pasteTopLeft": [
+          9,
+          4
+        ],
+        "pastedRectangle": [
+          9,
+          4,
+          87,
+          90
+        ],
+        "horizontalCentreOffsetPixels": 0.0,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "9322f3f91fe8a432c79a536546e075bac8c1a9ba44f4e75500553492b3ca7f7e",
+        "outputCropRgbaSha256": "9322f3f91fe8a432c79a536546e075bac8c1a9ba44f4e75500553492b3ca7f7e"
+      },
+      "sourceMasterSha256": "8859e55a1f780d541805b88ccaf0855fcd2c61ed6613ce852d6ddd3d64f577b1",
+      "inputSha256": "23aaf01fe7d6c661ff8504b8a45440e982ca1a2f582a363d030c37732e2e97a0",
+      "technicalValidation": "pass"
+    },
+    {
+      "id": "rope-bridge",
+      "role": "decorative rope bridge",
+      "variant": null,
+      "status": "provisional",
+      "generationRequest": "requests/rope-bridge.json",
+      "generationReceipt": "receipts/rope-bridge.json",
+      "rejectedIteration": null,
+      "currentGameSlot": null,
+      "groundFootprintTiles": null,
+      "footprintSource": null,
+      "canvas": [
+        96,
+        80
+      ],
+      "groundAnchor": [
+        48.0,
+        80
+      ],
+      "existingGameSlotCanvas": null,
+      "existingGameSlotCanvasMatches": null,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": false,
+      "recommendedPorts": {
+        "left": [
+          0,
+          32
+        ],
+        "right": [
+          96,
+          32
+        ]
+      },
+      "recommendedPortsSource": "../grid-contract.md",
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "not implemented",
+      "sourceMaster": "masters/rope-bridge.png",
+      "input": "palette-normalized/rope-bridge.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/rope-bridge.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "f9d20ab44ddaef3f319005171adf2496b220a30a671da4673b8bf151c80117c5",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          4,
+          1,
+          89,
+          62
+        ],
+        "pasteTopLeft": [
+          5,
+          19
+        ],
+        "pastedRectangle": [
+          5,
+          19,
+          90,
+          80
+        ],
+        "horizontalCentreOffsetPixels": -0.5,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "5ee893a460561a860ab2a5f1af447055f638c78f3147eada84cfc4f99c424120",
+        "outputCropRgbaSha256": "5ee893a460561a860ab2a5f1af447055f638c78f3147eada84cfc4f99c424120"
+      },
+      "sourceMasterSha256": "1d5fe26249af588d3451f7e66906dbbfc344cb92aaca0fee6fef4896112beb39",
+      "inputSha256": "e8270e2e13a6506241eaafed06c90c5171bf2aa15b28cd5be9aa050697985473",
+      "technicalValidation": "pass"
+    },
+    {
+      "id": "trunk-stairs",
+      "role": "decorative trunk staircase",
+      "variant": null,
+      "status": "provisional",
+      "generationRequest": "requests/trunk-stairs.json",
+      "generationReceipt": "receipts/trunk-stairs.json",
+      "rejectedIteration": null,
+      "currentGameSlot": null,
+      "groundFootprintTiles": null,
+      "footprintSource": null,
+      "canvas": [
+        64,
+        112
+      ],
+      "groundAnchor": [
+        32.0,
+        112
+      ],
+      "existingGameSlotCanvas": null,
+      "existingGameSlotCanvasMatches": null,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": false,
+      "recommendedPorts": {
+        "lower": [
+          32,
+          112
+        ],
+        "upper": [
+          32,
+          64
+        ]
+      },
+      "recommendedPortsSource": "../grid-contract.md",
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "not implemented",
+      "sourceMaster": "masters/trunk-stairs.png",
+      "input": "palette-normalized/trunk-stairs.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/trunk-stairs.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "8193588e206063957c0e2b900420f3ee517bf4666b69ba7ffd17d9e5852e82ca",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          16,
+          15,
+          50,
+          91
+        ],
+        "pasteTopLeft": [
+          15,
+          36
+        ],
+        "pastedRectangle": [
+          15,
+          36,
+          49,
+          112
+        ],
+        "horizontalCentreOffsetPixels": 0.0,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "5ea9aa764c594f2ce3350568202b918ab76eb07f50dae6721f6e69d71d5caf9e",
+        "outputCropRgbaSha256": "5ea9aa764c594f2ce3350568202b918ab76eb07f50dae6721f6e69d71d5caf9e"
+      },
+      "sourceMasterSha256": "d13c24b1217d738fc18ce9c1d2737c8c72a854567559a577a8a10a36802d14a5",
+      "inputSha256": "7d6e23ed7b32104bca238e6f56142ef9fe064180c3f50ccc87f246f2f78e4d8f",
+      "technicalValidation": "pass"
+    },
+    {
+      "id": "ancient-tree",
+      "role": "decorative forest landmark",
+      "variant": null,
+      "status": "provisional",
+      "generationRequest": "requests/ancient-tree.json",
+      "generationReceipt": "receipts/ancient-tree.json",
+      "rejectedIteration": null,
+      "currentGameSlot": null,
+      "groundFootprintTiles": null,
+      "footprintSource": null,
+      "canvas": [
+        128,
+        160
+      ],
+      "groundAnchor": [
+        64.0,
+        160
+      ],
+      "existingGameSlotCanvas": null,
+      "existingGameSlotCanvasMatches": null,
+      "anchorCoordinates": "canvas edges; bottom centre; last pixel row is height - 1",
+      "anchorSource": "../grid-contract.md",
+      "anchorHumanReview": "pending",
+      "anchorMeaning": "canvas placement reference; physical ground contact is unverified",
+      "attachmentRequired": false,
+      "recommendedPorts": {},
+      "recommendedPortsSource": null,
+      "measuredPorts": null,
+      "portHumanReview": "pending",
+      "gameplayNavigation": "not implemented",
+      "sourceMaster": "masters/ancient-tree.png",
+      "input": "palette-normalized/ancient-tree.png",
+      "inputStage": "palette-normalized",
+      "file": "assets/ancient-tree.png",
+      "artQualityReview": "pending",
+      "nativeReadabilityReview": "pending",
+      "sha256": "db64fed8af3e18103ecfe0f17482b247d87c104152d8a942d83e10e3a54600f6",
+      "adaptation": {
+        "method": "crop transparent padding; integer paste at ground-bottom centre",
+        "cropBox": [
+          5,
+          2,
+          119,
+          156
+        ],
+        "pasteTopLeft": [
+          7,
+          6
+        ],
+        "pastedRectangle": [
+          7,
+          6,
+          121,
+          160
+        ],
+        "horizontalCentreOffsetPixels": 0.0,
+        "resampled": false,
+        "repainted": false,
+        "inputCropRgbaSha256": "1eb23d6865fb4e7383de64dcedfd62f4bc6c6dc1e58d77d680933a796fd82dbf",
+        "outputCropRgbaSha256": "1eb23d6865fb4e7383de64dcedfd62f4bc6c6dc1e58d77d680933a796fd82dbf"
+      },
+      "sourceMasterSha256": "9d4e06169e010778364b82a48c91df275ebc6e3f3729215e68c49a539f412e6f",
+      "inputSha256": "b3f1e9d62ed05a20ffb57fcc9a875512ca0fd4702e8b34162176d67c2d2d863f",
+      "technicalValidation": "pass"
+    }
+  ],
+  "limitations": [
+    "Provisional art-production review; no source approval or human approval is implied.",
+    "The current game, renderer, gameplay data and published settings are unchanged; these assets are not installed.",
+    "A palette-subset check verifies the supplied palette.json, not whether that palette or the visual result is artistically approved.",
+    "Canvas bottom-centre anchors come from grid-contract.md. Integer placement can put an even-width object half a pixel from an odd-width canvas centre; no pixels are resampled.",
+    "Measured architectural ports are unknown. Contract port coordinates are recommendations, not measured artwork geometry or functioning connections.",
+    "Bridge, stairs and the landmark have no existing gameplay type or collision footprint. There is no elevated navigation implementation or functional path claim.",
+    "Exact image bounds prove that this adaptation did not clip the input. Source edge contact is reported, but a PNG alone cannot establish whether its generating process clipped an object.",
+    "Native-size readability, clear ground contact, perspective, lighting, architectural variation, silhouette identity and art quality require human review in context.",
+    "The hanging house is 96 pixels wide against the existing 90-pixel house slot. Its 96x99 PNG is a review canvas, not a drop-in game asset. Its branch touches the source top and left edges, so source clipping needs artistic review.",
+    "Four isolated bottom-edge root-tip pixels of the shrine were removed manually to fit its 58x77 slot. The original PixelLab master and exact coordinates are preserved in palette-normalization.json."
+  ]
+}

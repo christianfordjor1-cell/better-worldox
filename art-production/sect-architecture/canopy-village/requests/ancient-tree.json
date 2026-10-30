@@ -1,0 +1,11 @@
+{
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/hall-a.png",
+  "arguments": {
+    "description": "Remove all buildings, balconies, stairs, lanterns and artificial structures. Draw one enormous unbuilt ancient woodland tree as a separate environment landmark: a gnarled chestnut trunk, branching buttress roots, twisting heavy limbs and layered asymmetrical deep-green canopy with natural gaps. Sculptural varied silhouette, not round circles. Preserve the source's deliberate native pixel clusters, material palette, shallow three-quarter game view and upper-left lighting. Transparent background.",
+    "width": 128,
+    "height": 160,
+    "no_background": true,
+    "seed": 330106
+  }
+}

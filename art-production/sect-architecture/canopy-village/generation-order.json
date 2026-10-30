@@ -1,0 +1,14 @@
+{
+  "assets": [
+    "house-a",
+    "house-b",
+    "tree-shrine",
+    "root-gate",
+    "rope-bridge",
+    "trunk-stairs",
+    "ancient-tree"
+  ],
+  "baseImage": "masters/hall-a.png",
+  "maxAdditionalGenerations": 7,
+  "purchaseCredits": false
+}

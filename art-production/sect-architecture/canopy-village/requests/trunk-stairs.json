@@ -1,0 +1,11 @@
+{
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/hall-a.png",
+  "arguments": {
+    "description": "Replace the hall with ONLY one separate narrow timber staircase module curving around the right side of an implied trunk: clearly spaced sturdy steps, carved handrail, reinforced landing at top and bottom, supporting braces and bindings. No tree trunk, house, terrain or canopy. Preserve the exact refined native-pixel style, rich chestnut palette, shallow three-quarter front game view and upper-left light. Transparent background. Keep both landings unobstructed for connection to other sprites.",
+    "width": 64,
+    "height": 96,
+    "no_background": true,
+    "seed": 330105
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/hall-a.png",
+  "arguments": {
+    "description": "Create structural residence variant B: a narrow woven-timber hanging house slung BENEATH a thick curved living branch, with a steep leaf-covered roof, small side balcony, carved door and a visible rope-supported access landing. A single airy hanging residence, not the same trunk hut recoloured. Keep this image's refined native pixel clusters, wood/forest palette, shallow three-quarter perspective and upper-left light. Transparent background, no scenery or cast shadow. Keep 6px clear border.",
+    "width": 96,
+    "height": 100,
+    "no_background": true,
+    "seed": 330101
+  }
+}

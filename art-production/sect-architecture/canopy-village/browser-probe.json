@@ -1,0 +1,43 @@
+{
+  "status": "temporary visual probe",
+  "gameSourceChanged": false,
+  "persistentSavesChanged": false,
+  "elevatedNavigationVerified": false,
+  "images": [
+    "previews/v79-in-memory-16px.png",
+    "previews/v79-in-memory-32px.png"
+  ],
+  "note": "Browser-only draw override uses the existing plot footprint and y-sort; house-b is wider than its slot and drawn compressed by the current width. This is not an integration or gameplay test.",
+  "site": [
+    14,
+    10
+  ],
+  "loadedCanvasSizes": {
+    "hall-a": [
+      147,
+      141
+    ],
+    "hall-b": [
+      147,
+      141
+    ],
+    "house-a": [
+      90,
+      99
+    ],
+    "house-b": [
+      96,
+      99
+    ],
+    "tree-shrine": [
+      58,
+      77
+    ],
+    "root-gate": [
+      96,
+      90
+    ]
+  },
+  "pageErrors": [],
+  "passed": true
+}

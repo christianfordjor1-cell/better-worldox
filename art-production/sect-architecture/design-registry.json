@@ -1,0 +1,1455 @@
+{
+  "schema": "tiny-world-sect-architecture-design-registry-v1",
+  "scope": "Authoritative user-supplied intended architecture briefs and uncompleted production targets. This does not describe or certify the existing workshop assets, active renderer, gameplay sect doctrines or published settings.",
+  "sourceDocument": {
+    "path": "user-uploaded/Pasted text.txt",
+    "sha256": "c8c10c0c50c5242ea6712379cc2a899de013d97609769fa76870c32f72fd49bf",
+    "authority": "User-supplied intended architectural designs",
+    "suppliedBriefIds": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "pendingBriefIds": [
+      0,
+      1,
+      2
+    ],
+    "preservation": "Concatenating registry entries 3–29 source.rawText and technicalArtStandard.rawText exactly reproduces the supplied UTF-8 document."
+  },
+  "labelReconciliation": {
+    "path": "game/reports/sect-registry.json",
+    "schema": "tiny-world-v79-sect-architecture-preservation-v1",
+    "status": "All 30 ID/name pairs match the preserved v79 labels; all 27 supplied brief headings match exactly.",
+    "mismatches": [],
+    "note": "The existing registry preserves implementation facts. This separate registry records intended designs; it does not change or reclassify the preserved implementation."
+  },
+  "counts": {
+    "totalLabels": 30,
+    "suppliedFullBriefs": 27,
+    "pendingFullBriefs": 3
+  },
+  "technicalArtStandard": {
+    "heading": "Required technical art standard",
+    "paragraphs": [
+      "Every architectural sprite must use a single consistent shallow three-quarter perspective, with a clear view of the roof and front façade. The lighting direction, outline thickness, pixel density, shadow treatment and material palettes must match across the entire project.",
+      "Buildings must be authored as properly scaled sprites, while complete settlements are assembled from independent parts aligned to the game's world grid. A multi-building sect must never be flattened into one small hall sprite.",
+      "At minimum, every sect type requires a principal hall, residential architecture, specialty structures, entrance structures, environmental decorations and functional navigation assets. Large landmarks such as mountains, enormous trees and waterfalls require their own world-aligned layers.",
+      "Individual sprites require transparent backgrounds and carefully defined ground anchors. Foundations must meet the real terrain. Large decorative masses cannot conceal traversable roads or entrances.",
+      "Every design should support at least two meaningful architectural variations, plus settlement-growth variations. These must change shapes, arrangements and construction details rather than merely adjusting colours.",
+      "Final quality requirement: When shown without colour, the Citadel, Sky Monastery, Canopy Village, River Delta and all other sects must still be recognisably different. When shown in the actual game at ordinary zoom, roofs, entrances, streets, major structures and characters must remain visually coherent.",
+      "These are the intended designs—not a claim that the existing workshop assets already meet the specification."
+    ],
+    "rawText": "Required technical art standard\n\nEvery architectural sprite must use a single consistent shallow three-quarter perspective, with a clear view of the roof and front façade. The lighting direction, outline thickness, pixel density, shadow treatment and material palettes must match across the entire project.\n\nBuildings must be authored as properly scaled sprites, while complete settlements are assembled from independent parts aligned to the game's world grid. A multi-building sect must never be flattened into one small hall sprite.\n\nAt minimum, every sect type requires a principal hall, residential architecture, specialty structures, entrance structures, environmental decorations and functional navigation assets. Large landmarks such as mountains, enormous trees and waterfalls require their own world-aligned layers.\n\nIndividual sprites require transparent backgrounds and carefully defined ground anchors. Foundations must meet the real terrain. Large decorative masses cannot conceal traversable roads or entrances.\n\nEvery design should support at least two meaningful architectural variations, plus settlement-growth variations. These must change shapes, arrangements and construction details rather than merely adjusting colours.\n\nFinal quality requirement: When shown without colour, the Citadel, Sky Monastery, Canopy Village, River Delta and all other sects must still be recognisably different. When shown in the actual game at ordinary zoom, roofs, entrances, streets, major structures and characters must remain visually coherent.\n\nThese are the intended designs—not a claim that the existing workshop assets already meet the specification.",
+    "status": "required-not-verified-against-artwork"
+  },
+  "productionTargetSemantics": {
+    "appliesTo": "Every sect type, including pending briefs once supplied.",
+    "minimumMeaningfulArchitecturalVariations": 2,
+    "settlementGrowthVariationsRequired": true,
+    "growthStageCount": "The source requires settlement-growth variations but does not prescribe a stage count. Concrete stage counts and shapes remain production work.",
+    "completion": "Targets and source briefs are requirements, not completed assets or evidence of art compliance.",
+    "qualityReviewTargets": [
+      "Greyscale silhouettes distinguish all sect designs.",
+      "At ordinary game zoom, roofs, entrances, streets, major structures and characters remain visually coherent.",
+      "Independent world-grid settlement parts preserve visible entrances, foundations and traversable navigation."
+    ]
+  },
+  "registry": [
+    {
+      "id": 0,
+      "name": "Citadel",
+      "v79Label": "Citadel",
+      "labelMatch": true,
+      "briefStatus": "awaiting-user-brief",
+      "identity": null,
+      "landmark": null,
+      "supportingStructures": null,
+      "terrain": null,
+      "palette": null,
+      "signatureSilhouette": null,
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": null,
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "pending-full-brief",
+        "note": "The label is known from the preserved v79 registry. No architectural definition has been inferred from that label or from comparisons in other briefs."
+      }
+    },
+    {
+      "id": 1,
+      "name": "Sky Monastery",
+      "v79Label": "Sky Monastery",
+      "labelMatch": true,
+      "briefStatus": "awaiting-user-brief",
+      "identity": null,
+      "landmark": null,
+      "supportingStructures": null,
+      "terrain": null,
+      "palette": null,
+      "signatureSilhouette": null,
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": null,
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "pending-full-brief",
+        "note": "The label is known from the preserved v79 registry. No architectural definition has been inferred from that label or from comparisons in other briefs."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Iron Foundry",
+      "v79Label": "Iron Foundry",
+      "labelMatch": true,
+      "briefStatus": "awaiting-user-brief",
+      "identity": null,
+      "landmark": null,
+      "supportingStructures": null,
+      "terrain": null,
+      "palette": null,
+      "signatureSilhouette": null,
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": null,
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "pending-full-brief",
+        "note": "The label is known from the preserved v79 registry. No architectural definition has been inferred from that label or from comparisons in other briefs."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Canopy Village",
+      "v79Label": "Canopy Village",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "An elevated woodland civilization living within enormous ancient trees.",
+      "landmark": "The main hall occupies a massive living tree with several accessible levels, a broad ceremonial platform, curved wooden galleries and lookout balconies.",
+      "supportingStructures": "Supporting sprites include branch houses, tree shrines, suspended gardens, rope lanterns, lookout nests and platforms supported by roots.",
+      "terrain": "The terrain is a dense old-growth forest with varied tree sizes, natural clearings, roots and understory vegetation. Rope bridges, reinforced wooden walkways and trunk staircases connect the elevated buildings.",
+      "palette": "Deep forest green, rich brown wood, moss, golden lanterns and subdued natural fabrics.",
+      "signatureSilhouette": "The signature silhouette is towering living trees carrying an interconnected village, never simple box houses with round green circles behind them.",
+      "additionalArchitecture": [
+        "Buildings are genuinely integrated into gigantic trunks and branches. Their floors wrap around trees, and some homes hang beneath immense limbs. Curved leaf-covered roofs, open timber balconies, woven walls and carved wooden doorframes create a natural architectural language."
+      ],
+      "materialDetails": [],
+      "source": {
+        "heading": "4. Canopy Village — ID 3",
+        "paragraphs": [
+          "Identity: An elevated woodland civilization living within enormous ancient trees.",
+          "Buildings are genuinely integrated into gigantic trunks and branches. Their floors wrap around trees, and some homes hang beneath immense limbs. Curved leaf-covered roofs, open timber balconies, woven walls and carved wooden doorframes create a natural architectural language.",
+          "The main hall occupies a massive living tree with several accessible levels, a broad ceremonial platform, curved wooden galleries and lookout balconies.",
+          "Supporting sprites include branch houses, tree shrines, suspended gardens, rope lanterns, lookout nests and platforms supported by roots.",
+          "The terrain is a dense old-growth forest with varied tree sizes, natural clearings, roots and understory vegetation. Rope bridges, reinforced wooden walkways and trunk staircases connect the elevated buildings.",
+          "Appearance: Deep forest green, rich brown wood, moss, golden lanterns and subdued natural fabrics. The signature silhouette is towering living trees carrying an interconnected village, never simple box houses with round green circles behind them."
+        ],
+        "rawText": "4. Canopy Village — ID 3\n\nIdentity: An elevated woodland civilization living within enormous ancient trees.\n\nBuildings are genuinely integrated into gigantic trunks and branches. Their floors wrap around trees, and some homes hang beneath immense limbs. Curved leaf-covered roofs, open timber balconies, woven walls and carved wooden doorframes create a natural architectural language.\n\nThe main hall occupies a massive living tree with several accessible levels, a broad ceremonial platform, curved wooden galleries and lookout balconies.\n\nSupporting sprites include branch houses, tree shrines, suspended gardens, rope lanterns, lookout nests and platforms supported by roots.\n\nThe terrain is a dense old-growth forest with varied tree sizes, natural clearings, roots and understory vegetation. Rope bridges, reinforced wooden walkways and trunk staircases connect the elevated buildings.\n\nAppearance: Deep forest green, rich brown wood, moss, golden lanterns and subdued natural fabrics. The signature silhouette is towering living trees carrying an interconnected village, never simple box houses with round green circles behind them.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Step Pyramid",
+      "v79Label": "Step Pyramid",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A ceremonial civilization centred on a monumental stepped temple.",
+      "landmark": "The main structure is a broad terraced pyramid with precisely cut stone blocks, recessed ceremonial chambers, carved relief panels and a large sanctuary at the summit.",
+      "supportingStructures": "Small corner shrines, priests' quarters, sacrificial or ceremonial altars, enclosed courtyards and stone monuments surround the pyramid.",
+      "terrain": "The terrain is a dry, elevated rocky mesa. The pyramid dominates an axial settlement in which roads and ceremonial squares align directly with its main staircase.",
+      "palette": "Sandstone, ochre, terracotta and turquoise ornamentation.",
+      "signatureSilhouette": "The silhouette is a massive stepped pyramid with broad central stairs, surrounded by smaller structures.",
+      "additionalArchitecture": [],
+      "materialDetails": [
+        "Stone edges show age, cracks and erosion."
+      ],
+      "source": {
+        "heading": "5. Step Pyramid — ID 4",
+        "paragraphs": [
+          "Identity: A ceremonial civilization centred on a monumental stepped temple.",
+          "The main structure is a broad terraced pyramid with precisely cut stone blocks, recessed ceremonial chambers, carved relief panels and a large sanctuary at the summit.",
+          "Small corner shrines, priests' quarters, sacrificial or ceremonial altars, enclosed courtyards and stone monuments surround the pyramid.",
+          "The terrain is a dry, elevated rocky mesa. The pyramid dominates an axial settlement in which roads and ceremonial squares align directly with its main staircase.",
+          "Appearance: Sandstone, ochre, terracotta and turquoise ornamentation. Stone edges show age, cracks and erosion. The silhouette is a massive stepped pyramid with broad central stairs, surrounded by smaller structures."
+        ],
+        "rawText": "5. Step Pyramid — ID 4\n\nIdentity: A ceremonial civilization centred on a monumental stepped temple.\n\nThe main structure is a broad terraced pyramid with precisely cut stone blocks, recessed ceremonial chambers, carved relief panels and a large sanctuary at the summit.\n\nSmall corner shrines, priests' quarters, sacrificial or ceremonial altars, enclosed courtyards and stone monuments surround the pyramid.\n\nThe terrain is a dry, elevated rocky mesa. The pyramid dominates an axial settlement in which roads and ceremonial squares align directly with its main staircase.\n\nAppearance: Sandstone, ochre, terracotta and turquoise ornamentation. Stone edges show age, cracks and erosion. The silhouette is a massive stepped pyramid with broad central stairs, surrounded by smaller structures.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Cliff Dwellings",
+      "v79Label": "Cliff Dwellings",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A civilization that has carved its architecture directly into enormous limestone cliffs.",
+      "landmark": "The main hall is recessed into a sheer rock face with giant arched entrances, multiple tiers of carved balconies and exposed timber galleries.",
+      "supportingStructures": "Smaller structures consist of cave residences, lookout openings, stone-cut chambers, hanging balconies, bridge supports and tunnel entrances.",
+      "terrain": "The cliff itself forms the dominant architecture. A web of stairways, rock galleries and internal passage entrances connects residential clusters on different elevations.",
+      "palette": "Pale limestone, brown timber, dusty cream stone, worn bronze ornaments and shaded interior doorways.",
+      "signatureSilhouette": "The silhouette must show buildings embedded inside a vertical mountain wall, rather than houses sitting in front of it.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "6. Cliff Dwellings — ID 5",
+        "paragraphs": [
+          "Identity: A civilization that has carved its architecture directly into enormous limestone cliffs.",
+          "The main hall is recessed into a sheer rock face with giant arched entrances, multiple tiers of carved balconies and exposed timber galleries.",
+          "Smaller structures consist of cave residences, lookout openings, stone-cut chambers, hanging balconies, bridge supports and tunnel entrances.",
+          "The cliff itself forms the dominant architecture. A web of stairways, rock galleries and internal passage entrances connects residential clusters on different elevations.",
+          "Appearance: Pale limestone, brown timber, dusty cream stone, worn bronze ornaments and shaded interior doorways. The silhouette must show buildings embedded inside a vertical mountain wall, rather than houses sitting in front of it."
+        ],
+        "rawText": "6. Cliff Dwellings — ID 5\n\nIdentity: A civilization that has carved its architecture directly into enormous limestone cliffs.\n\nThe main hall is recessed into a sheer rock face with giant arched entrances, multiple tiers of carved balconies and exposed timber galleries.\n\nSmaller structures consist of cave residences, lookout openings, stone-cut chambers, hanging balconies, bridge supports and tunnel entrances.\n\nThe cliff itself forms the dominant architecture. A web of stairways, rock galleries and internal passage entrances connects residential clusters on different elevations.\n\nAppearance: Pale limestone, brown timber, dusty cream stone, worn bronze ornaments and shaded interior doorways. The silhouette must show buildings embedded inside a vertical mountain wall, rather than houses sitting in front of it.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Crystal Spires",
+      "v79Label": "Crystal Spires",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "An elegant cultivation settlement built among giant natural crystal formations.",
+      "landmark": "The main sanctuary features an enormous central crystal spire enclosed by a partially open stone structure.",
+      "supportingStructures": "Supporting sprites include crystal laboratories, cultivation chambers, mineral shrines, meditation platforms and smaller crystal clusters.",
+      "terrain": "The settlement follows the natural geometry of the crystals. Stone pathways weave between towering formations without hiding the architecture.",
+      "palette": "Amethyst, icy cyan, pale quartz, desaturated lavender and polished grey stone.",
+      "signatureSilhouette": "The signature silhouette is clusters of tall uneven crystalline towers, not triangular coloured cones.",
+      "additionalArchitecture": [
+        "Tall faceted crystal towers emerge from a mountain basin, surrounded by stone halls with crystalline roof ridges, mineral-framed windows and angular ceremonial arches."
+      ],
+      "materialDetails": [
+        "Crystals have controlled internal colour facets and sharp, readable edges."
+      ],
+      "source": {
+        "heading": "7. Crystal Spires — ID 6",
+        "paragraphs": [
+          "Identity: An elegant cultivation settlement built among giant natural crystal formations.",
+          "Tall faceted crystal towers emerge from a mountain basin, surrounded by stone halls with crystalline roof ridges, mineral-framed windows and angular ceremonial arches.",
+          "The main sanctuary features an enormous central crystal spire enclosed by a partially open stone structure.",
+          "Supporting sprites include crystal laboratories, cultivation chambers, mineral shrines, meditation platforms and smaller crystal clusters.",
+          "The settlement follows the natural geometry of the crystals. Stone pathways weave between towering formations without hiding the architecture.",
+          "Appearance: Amethyst, icy cyan, pale quartz, desaturated lavender and polished grey stone. Crystals have controlled internal colour facets and sharp, readable edges. The signature silhouette is clusters of tall uneven crystalline towers, not triangular coloured cones."
+        ],
+        "rawText": "7. Crystal Spires — ID 6\n\nIdentity: An elegant cultivation settlement built among giant natural crystal formations.\n\nTall faceted crystal towers emerge from a mountain basin, surrounded by stone halls with crystalline roof ridges, mineral-framed windows and angular ceremonial arches.\n\nThe main sanctuary features an enormous central crystal spire enclosed by a partially open stone structure.\n\nSupporting sprites include crystal laboratories, cultivation chambers, mineral shrines, meditation platforms and smaller crystal clusters.\n\nThe settlement follows the natural geometry of the crystals. Stone pathways weave between towering formations without hiding the architecture.\n\nAppearance: Amethyst, icy cyan, pale quartz, desaturated lavender and polished grey stone. Crystals have controlled internal colour facets and sharp, readable edges. The signature silhouette is clusters of tall uneven crystalline towers, not triangular coloured cones.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 7,
+      "name": "River Delta",
+      "v79Label": "River Delta",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A thriving river civilization built across numerous islands and waterways.",
+      "landmark": "The main hall is an expansive timber pavilion on heavy wooden stilts, with broad layered roofs, open verandas, carved supporting posts and a large dock beneath or beside it.",
+      "supportingStructures": "Supporting buildings include smaller stilt residences, storehouses, boat sheds, fishing platforms, river shrines, covered docks and watch platforms.",
+      "terrain": "The environment consists of naturally branching river channels, islands of different sizes, muddy banks, reeds, stones and shallow-water vegetation. Wooden bridges and broad boardwalks connect the settlement.",
+      "palette": "Weathered amber timber, dark teak beams, moss-green and straw-coloured roofing, blue-green water and warm lanterns.",
+      "signatureSilhouette": "The signature silhouette is an interconnected waterfront settlement with visibly supported buildings, never two huts on a rectangular blue patch.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "8. River Delta — ID 7",
+        "paragraphs": [
+          "Identity: A thriving river civilization built across numerous islands and waterways.",
+          "The main hall is an expansive timber pavilion on heavy wooden stilts, with broad layered roofs, open verandas, carved supporting posts and a large dock beneath or beside it.",
+          "Supporting buildings include smaller stilt residences, storehouses, boat sheds, fishing platforms, river shrines, covered docks and watch platforms.",
+          "The environment consists of naturally branching river channels, islands of different sizes, muddy banks, reeds, stones and shallow-water vegetation. Wooden bridges and broad boardwalks connect the settlement.",
+          "Appearance: Weathered amber timber, dark teak beams, moss-green and straw-coloured roofing, blue-green water and warm lanterns. The signature silhouette is an interconnected waterfront settlement with visibly supported buildings, never two huts on a rectangular blue patch."
+        ],
+        "rawText": "8. River Delta — ID 7\n\nIdentity: A thriving river civilization built across numerous islands and waterways.\n\nThe main hall is an expansive timber pavilion on heavy wooden stilts, with broad layered roofs, open verandas, carved supporting posts and a large dock beneath or beside it.\n\nSupporting buildings include smaller stilt residences, storehouses, boat sheds, fishing platforms, river shrines, covered docks and watch platforms.\n\nThe environment consists of naturally branching river channels, islands of different sizes, muddy banks, reeds, stones and shallow-water vegetation. Wooden bridges and broad boardwalks connect the settlement.\n\nAppearance: Weathered amber timber, dark teak beams, moss-green and straw-coloured roofing, blue-green water and warm lanterns. The signature silhouette is an interconnected waterfront settlement with visibly supported buildings, never two huts on a rectangular blue patch.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Watch Fortress",
+      "v79Label": "Watch Fortress",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A defensive frontier sect specializing in surveillance and territorial protection.",
+      "landmark": "Unlike the enclosed Citadel, this architecture is distributed along a long, uneven ridgeline. The dominant features are tall observation towers with exposed lookout platforms, reinforced bases, narrow defensive windows and signal beacons.",
+      "supportingStructures": "Buildings include small barracks, fortified patrol houses, gate posts, supply depots and a command keep positioned above the surrounding landscape.",
+      "terrain": "A continuous patrol route connects lookout towers along the ridge. Defensive paths and low parapets follow natural contours.",
+      "palette": "Cool grey stone, dark timber, iron reinforcement and military-coloured banners.",
+      "signatureSilhouette": "The silhouette is a chain of tall observation towers distributed along a ridge.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "9. Watch Fortress — ID 8",
+        "paragraphs": [
+          "Identity: A defensive frontier sect specializing in surveillance and territorial protection.",
+          "Unlike the enclosed Citadel, this architecture is distributed along a long, uneven ridgeline. The dominant features are tall observation towers with exposed lookout platforms, reinforced bases, narrow defensive windows and signal beacons.",
+          "Buildings include small barracks, fortified patrol houses, gate posts, supply depots and a command keep positioned above the surrounding landscape.",
+          "A continuous patrol route connects lookout towers along the ridge. Defensive paths and low parapets follow natural contours.",
+          "Appearance: Cool grey stone, dark timber, iron reinforcement and military-coloured banners. The silhouette is a chain of tall observation towers distributed along a ridge."
+        ],
+        "rawText": "9. Watch Fortress — ID 8\n\nIdentity: A defensive frontier sect specializing in surveillance and territorial protection.\n\nUnlike the enclosed Citadel, this architecture is distributed along a long, uneven ridgeline. The dominant features are tall observation towers with exposed lookout platforms, reinforced bases, narrow defensive windows and signal beacons.\n\nBuildings include small barracks, fortified patrol houses, gate posts, supply depots and a command keep positioned above the surrounding landscape.\n\nA continuous patrol route connects lookout towers along the ridge. Defensive paths and low parapets follow natural contours.\n\nAppearance: Cool grey stone, dark timber, iron reinforcement and military-coloured banners. The silhouette is a chain of tall observation towers distributed along a ridge.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Sun Basilica",
+      "v79Label": "Sun Basilica",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A monumental religious and ceremonial sect dedicated to light, order and grandeur.",
+      "landmark": "The main basilica is an expansive stone structure with a long central nave, tall columns, layered pediments, a broad staircase and a magnificent golden roof.",
+      "supportingStructures": "Its surroundings include arcaded cloisters, reflecting basins, sun courts, open pavilions, ceremonial gateways and symmetrical gardens.",
+      "terrain": "The settlement occupies a sunlit plateau with wide processional roads and carefully arranged courtyards.",
+      "palette": "Warm ivory stone, cream marble, muted gold roofing, rich ochre decorations and deep blue ceremonial fabric.",
+      "signatureSilhouette": "The silhouette must be a long monumental basilica with colonnades and broad symmetrical wings, not another small temple.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "10. Sun Basilica — ID 9",
+        "paragraphs": [
+          "Identity: A monumental religious and ceremonial sect dedicated to light, order and grandeur.",
+          "The main basilica is an expansive stone structure with a long central nave, tall columns, layered pediments, a broad staircase and a magnificent golden roof.",
+          "Its surroundings include arcaded cloisters, reflecting basins, sun courts, open pavilions, ceremonial gateways and symmetrical gardens.",
+          "The settlement occupies a sunlit plateau with wide processional roads and carefully arranged courtyards.",
+          "Appearance: Warm ivory stone, cream marble, muted gold roofing, rich ochre decorations and deep blue ceremonial fabric. The silhouette must be a long monumental basilica with colonnades and broad symmetrical wings, not another small temple."
+        ],
+        "rawText": "10. Sun Basilica — ID 9\n\nIdentity: A monumental religious and ceremonial sect dedicated to light, order and grandeur.\n\nThe main basilica is an expansive stone structure with a long central nave, tall columns, layered pediments, a broad staircase and a magnificent golden roof.\n\nIts surroundings include arcaded cloisters, reflecting basins, sun courts, open pavilions, ceremonial gateways and symmetrical gardens.\n\nThe settlement occupies a sunlit plateau with wide processional roads and carefully arranged courtyards.\n\nAppearance: Warm ivory stone, cream marble, muted gold roofing, rich ochre decorations and deep blue ceremonial fabric. The silhouette must be a long monumental basilica with colonnades and broad symmetrical wings, not another small temple.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Steamworks",
+      "v79Label": "Steamworks",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A technologically advanced sect built around geothermal energy and complex machinery.",
+      "landmark": "The main hall resembles a huge mechanical power station with industrial roof spans, large enclosed boilers, copper piping, reinforced masonry and turbine chambers.",
+      "supportingStructures": "Supporting sprites include cylindrical pressure vessels, mechanical ventilation towers, valve platforms, pipe junctions, elevated metal walkways and workshops.",
+      "terrain": "The terrain contains geothermal rock terraces, steaming vents, mineral pools and narrow industrial channels. Safe routes are elevated around hazardous vents.",
+      "palette": "Dark steel, oxidized copper, brick-red masonry, muted brass and white steam.",
+      "signatureSilhouette": "The silhouette is distinguished by bulky machine halls, towers and interconnected exposed piping.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "11. Steamworks — ID 10",
+        "paragraphs": [
+          "Identity: A technologically advanced sect built around geothermal energy and complex machinery.",
+          "The main hall resembles a huge mechanical power station with industrial roof spans, large enclosed boilers, copper piping, reinforced masonry and turbine chambers.",
+          "Supporting sprites include cylindrical pressure vessels, mechanical ventilation towers, valve platforms, pipe junctions, elevated metal walkways and workshops.",
+          "The terrain contains geothermal rock terraces, steaming vents, mineral pools and narrow industrial channels. Safe routes are elevated around hazardous vents.",
+          "Appearance: Dark steel, oxidized copper, brick-red masonry, muted brass and white steam. The silhouette is distinguished by bulky machine halls, towers and interconnected exposed piping."
+        ],
+        "rawText": "11. Steamworks — ID 10\n\nIdentity: A technologically advanced sect built around geothermal energy and complex machinery.\n\nThe main hall resembles a huge mechanical power station with industrial roof spans, large enclosed boilers, copper piping, reinforced masonry and turbine chambers.\n\nSupporting sprites include cylindrical pressure vessels, mechanical ventilation towers, valve platforms, pipe junctions, elevated metal walkways and workshops.\n\nThe terrain contains geothermal rock terraces, steaming vents, mineral pools and narrow industrial channels. Safe routes are elevated around hazardous vents.\n\nAppearance: Dark steel, oxidized copper, brick-red masonry, muted brass and white steam. The silhouette is distinguished by bulky machine halls, towers and interconnected exposed piping.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Living Grove",
+      "v79Label": "Living Grove",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A sacred settlement whose architecture has grown organically from living trees.",
+      "landmark": "The main sanctuary is a huge hollow ancient tree containing a broad ceremonial chamber. Its entrance is framed by roots that arch like columns.",
+      "supportingStructures": "Supporting sprites include living-root residences, branch shrines, curved timber chambers and naturally grown platforms.",
+      "terrain": "The surrounding woodland is arranged around the oldest tree, with interconnected root pathways and clearings.",
+      "palette": "Rich chestnut wood, moss, dark emerald leaves, muted amber and soft green bioluminescence.",
+      "signatureSilhouette": "The silhouette is a cluster of enormous organic living structures, not conventional houses.",
+      "additionalArchitecture": [
+        "Unlike Canopy Village, these are not wooden houses placed on branches. The buildings themselves are formed from interwoven trunks, curved roots and naturally fused branches."
+      ],
+      "materialDetails": [],
+      "source": {
+        "heading": "12. Living Grove — ID 11",
+        "paragraphs": [
+          "Identity: A sacred settlement whose architecture has grown organically from living trees.",
+          "Unlike Canopy Village, these are not wooden houses placed on branches. The buildings themselves are formed from interwoven trunks, curved roots and naturally fused branches.",
+          "The main sanctuary is a huge hollow ancient tree containing a broad ceremonial chamber. Its entrance is framed by roots that arch like columns.",
+          "Supporting sprites include living-root residences, branch shrines, curved timber chambers and naturally grown platforms.",
+          "The surrounding woodland is arranged around the oldest tree, with interconnected root pathways and clearings.",
+          "Appearance: Rich chestnut wood, moss, dark emerald leaves, muted amber and soft green bioluminescence. The silhouette is a cluster of enormous organic living structures, not conventional houses."
+        ],
+        "rawText": "12. Living Grove — ID 11\n\nIdentity: A sacred settlement whose architecture has grown organically from living trees.\n\nUnlike Canopy Village, these are not wooden houses placed on branches. The buildings themselves are formed from interwoven trunks, curved roots and naturally fused branches.\n\nThe main sanctuary is a huge hollow ancient tree containing a broad ceremonial chamber. Its entrance is framed by roots that arch like columns.\n\nSupporting sprites include living-root residences, branch shrines, curved timber chambers and naturally grown platforms.\n\nThe surrounding woodland is arranged around the oldest tree, with interconnected root pathways and clearings.\n\nAppearance: Rich chestnut wood, moss, dark emerald leaves, muted amber and soft green bioluminescence. The silhouette is a cluster of enormous organic living structures, not conventional houses.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Mesa Stronghold",
+      "v79Label": "Mesa Stronghold",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A rugged desert fortress civilization occupying broad, flat-topped mesas.",
+      "landmark": "The main hall is a compact but massive adobe-and-stone stronghold, built low and wide with thick buttressed walls and angular parapets.",
+      "supportingStructures": "Supporting structures include flat-roof residences, fortified storage chambers, watch posts, defensive courtyards and water cisterns.",
+      "terrain": "The settlement occupies a large sandstone mesa with different natural ledges and a narrow winding road ascending its side.",
+      "palette": "Burnt sienna, sandstone orange, cream plaster, dark timber and turquoise decorative patterns.",
+      "signatureSilhouette": "Its silhouette is a sprawling flat-roofed stronghold on a substantial sheer-sided mesa.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "13. Mesa Stronghold — ID 12",
+        "paragraphs": [
+          "Identity: A rugged desert fortress civilization occupying broad, flat-topped mesas.",
+          "The main hall is a compact but massive adobe-and-stone stronghold, built low and wide with thick buttressed walls and angular parapets.",
+          "Supporting structures include flat-roof residences, fortified storage chambers, watch posts, defensive courtyards and water cisterns.",
+          "The settlement occupies a large sandstone mesa with different natural ledges and a narrow winding road ascending its side.",
+          "Appearance: Burnt sienna, sandstone orange, cream plaster, dark timber and turquoise decorative patterns. Its silhouette is a sprawling flat-roofed stronghold on a substantial sheer-sided mesa."
+        ],
+        "rawText": "13. Mesa Stronghold — ID 12\n\nIdentity: A rugged desert fortress civilization occupying broad, flat-topped mesas.\n\nThe main hall is a compact but massive adobe-and-stone stronghold, built low and wide with thick buttressed walls and angular parapets.\n\nSupporting structures include flat-roof residences, fortified storage chambers, watch posts, defensive courtyards and water cisterns.\n\nThe settlement occupies a large sandstone mesa with different natural ledges and a narrow winding road ascending its side.\n\nAppearance: Burnt sienna, sandstone orange, cream plaster, dark timber and turquoise decorative patterns. Its silhouette is a sprawling flat-roofed stronghold on a substantial sheer-sided mesa.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Moon Observatory",
+      "v79Label": "Moon Observatory",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A scholarly sect devoted to astronomy, cosmic observation and celestial study.",
+      "landmark": "The central observatory is a circular stone structure crowned by a domed roof with a visible opening for a large telescope.",
+      "supportingStructures": "Additional structures include smaller telescope domes, celestial charts, observatory towers, scholar residences, astrolabe monuments and elevated observation platforms.",
+      "terrain": "The settlement forms concentric rings within an open highland bowl, with broad paths connecting the main observatory and smaller domes.",
+      "palette": "Blue-grey stone, silver metalwork, midnight-blue roofs and restrained pale-violet details.",
+      "signatureSilhouette": "The signature silhouette is a group of distinct astronomical domes surrounding one dominant observatory.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "14. Moon Observatory — ID 13",
+        "paragraphs": [
+          "Identity: A scholarly sect devoted to astronomy, cosmic observation and celestial study.",
+          "The central observatory is a circular stone structure crowned by a domed roof with a visible opening for a large telescope.",
+          "Additional structures include smaller telescope domes, celestial charts, observatory towers, scholar residences, astrolabe monuments and elevated observation platforms.",
+          "The settlement forms concentric rings within an open highland bowl, with broad paths connecting the main observatory and smaller domes.",
+          "Appearance: Blue-grey stone, silver metalwork, midnight-blue roofs and restrained pale-violet details. The signature silhouette is a group of distinct astronomical domes surrounding one dominant observatory."
+        ],
+        "rawText": "14. Moon Observatory — ID 13\n\nIdentity: A scholarly sect devoted to astronomy, cosmic observation and celestial study.\n\nThe central observatory is a circular stone structure crowned by a domed roof with a visible opening for a large telescope.\n\nAdditional structures include smaller telescope domes, celestial charts, observatory towers, scholar residences, astrolabe monuments and elevated observation platforms.\n\nThe settlement forms concentric rings within an open highland bowl, with broad paths connecting the main observatory and smaller domes.\n\nAppearance: Blue-grey stone, silver metalwork, midnight-blue roofs and restrained pale-violet details. The signature silhouette is a group of distinct astronomical domes surrounding one dominant observatory.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Copper Mill",
+      "v79Label": "Copper Mill",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A craft and manufacturing settlement built around water-powered machinery.",
+      "landmark": "The principal structure is a large timber-and-stone mill with a steep copper-sheet roof, reinforced structural beams and an enormous external waterwheel.",
+      "supportingStructures": "Supporting buildings include craft workshops, gearhouses, storage sheds, foundry rooms and channel-control structures.",
+      "terrain": "The environment occupies copper-coloured foothills with streams, diversion channels, bridges and terraced industrial yards.",
+      "palette": "Copper green, warm orange-brown roofing, weathered timber and pale stone.",
+      "signatureSilhouette": "Its silhouette is a workshop village dominated by an enormous operational wheel.",
+      "additionalArchitecture": [],
+      "materialDetails": [
+        "The waterwheel should have individually identifiable paddles, supports and axle details."
+      ],
+      "source": {
+        "heading": "15. Copper Mill — ID 14",
+        "paragraphs": [
+          "Identity: A craft and manufacturing settlement built around water-powered machinery.",
+          "The principal structure is a large timber-and-stone mill with a steep copper-sheet roof, reinforced structural beams and an enormous external waterwheel.",
+          "Supporting buildings include craft workshops, gearhouses, storage sheds, foundry rooms and channel-control structures.",
+          "The environment occupies copper-coloured foothills with streams, diversion channels, bridges and terraced industrial yards.",
+          "Appearance: Copper green, warm orange-brown roofing, weathered timber and pale stone. The waterwheel should have individually identifiable paddles, supports and axle details. Its silhouette is a workshop village dominated by an enormous operational wheel."
+        ],
+        "rawText": "15. Copper Mill — ID 14\n\nIdentity: A craft and manufacturing settlement built around water-powered machinery.\n\nThe principal structure is a large timber-and-stone mill with a steep copper-sheet roof, reinforced structural beams and an enormous external waterwheel.\n\nSupporting buildings include craft workshops, gearhouses, storage sheds, foundry rooms and channel-control structures.\n\nThe environment occupies copper-coloured foothills with streams, diversion channels, bridges and terraced industrial yards.\n\nAppearance: Copper green, warm orange-brown roofing, weathered timber and pale stone. The waterwheel should have individually identifiable paddles, supports and axle details. Its silhouette is a workshop village dominated by an enormous operational wheel.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Root Sanctuary",
+      "v79Label": "Root Sanctuary",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A mystical hidden sanctuary beneath tangled forest roots.",
+      "landmark": "The main hall is partially underground. Its exposed entrance is sheltered by huge curved roots and a living root-vault canopy.",
+      "supportingStructures": "Smaller structures consist of hidden shrines, subterranean chambers, hollow logs, root bridges and secluded meditation chambers.",
+      "terrain": "The landscape is a shaded forest ravine with exposed roots crossing the ground, deep banks and narrow waterways.",
+      "palette": "Dark earth, deep brown wood, moss-green highlights, cream fungi and faint amber lighting.",
+      "signatureSilhouette": "The signature silhouette is a partially submerged settlement beneath sweeping giant roots, rather than ordinary treehouses.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "16. Root Sanctuary — ID 15",
+        "paragraphs": [
+          "Identity: A mystical hidden sanctuary beneath tangled forest roots.",
+          "The main hall is partially underground. Its exposed entrance is sheltered by huge curved roots and a living root-vault canopy.",
+          "Smaller structures consist of hidden shrines, subterranean chambers, hollow logs, root bridges and secluded meditation chambers.",
+          "The landscape is a shaded forest ravine with exposed roots crossing the ground, deep banks and narrow waterways.",
+          "Appearance: Dark earth, deep brown wood, moss-green highlights, cream fungi and faint amber lighting. The signature silhouette is a partially submerged settlement beneath sweeping giant roots, rather than ordinary treehouses."
+        ],
+        "rawText": "16. Root Sanctuary — ID 15\n\nIdentity: A mystical hidden sanctuary beneath tangled forest roots.\n\nThe main hall is partially underground. Its exposed entrance is sheltered by huge curved roots and a living root-vault canopy.\n\nSmaller structures consist of hidden shrines, subterranean chambers, hollow logs, root bridges and secluded meditation chambers.\n\nThe landscape is a shaded forest ravine with exposed roots crossing the ground, deep banks and narrow waterways.\n\nAppearance: Dark earth, deep brown wood, moss-green highlights, cream fungi and faint amber lighting. The signature silhouette is a partially submerged settlement beneath sweeping giant roots, rather than ordinary treehouses.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Obsidian Keep",
+      "v79Label": "Obsidian Keep",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "An intimidating volcanic fortress made from sharp dark stone.",
+      "landmark": "The main keep consists of tall angular black towers, fractured basalt walls, narrow glowing windows and severe triangular battlements.",
+      "supportingStructures": "Supporting architecture includes volcanic watchtowers, fortified halls, black-stone gateways, forges and elevated defensive bridges.",
+      "terrain": "The settlement is embedded into enormous dark cliffs, with ash-covered paths and basalt staircases connecting fortified levels.",
+      "palette": "Matte black, charcoal grey, subdued purple shadows and selective deep-red volcanic lighting.",
+      "signatureSilhouette": "The signature silhouette is a tall, jagged, asymmetrical black fortress integrated into volcanic cliffs.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "17. Obsidian Keep — ID 16",
+        "paragraphs": [
+          "Identity: An intimidating volcanic fortress made from sharp dark stone.",
+          "The main keep consists of tall angular black towers, fractured basalt walls, narrow glowing windows and severe triangular battlements.",
+          "Supporting architecture includes volcanic watchtowers, fortified halls, black-stone gateways, forges and elevated defensive bridges.",
+          "The settlement is embedded into enormous dark cliffs, with ash-covered paths and basalt staircases connecting fortified levels.",
+          "Appearance: Matte black, charcoal grey, subdued purple shadows and selective deep-red volcanic lighting. The signature silhouette is a tall, jagged, asymmetrical black fortress integrated into volcanic cliffs."
+        ],
+        "rawText": "17. Obsidian Keep — ID 16\n\nIdentity: An intimidating volcanic fortress made from sharp dark stone.\n\nThe main keep consists of tall angular black towers, fractured basalt walls, narrow glowing windows and severe triangular battlements.\n\nSupporting architecture includes volcanic watchtowers, fortified halls, black-stone gateways, forges and elevated defensive bridges.\n\nThe settlement is embedded into enormous dark cliffs, with ash-covered paths and basalt staircases connecting fortified levels.\n\nAppearance: Matte black, charcoal grey, subdued purple shadows and selective deep-red volcanic lighting. The signature silhouette is a tall, jagged, asymmetrical black fortress integrated into volcanic cliffs.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Desert Ziggurat",
+      "v79Label": "Desert Ziggurat",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "An ancient monumental civilization located among arid dunes and rock formations.",
+      "landmark": "The main structure is a vast stepped ziggurat with long sloping access ramps, deep shadowed entrances and an upper ceremonial sanctuary.",
+      "supportingStructures": "Supporting sprites include smaller tiered shrines, courtyards, covered colonnades, decorated obelisks and shaded residential chambers.",
+      "terrain": "The landscape consists of large sandy basins, rock outcrops and worn stone roads. Structures are arranged around the dominant central monument.",
+      "palette": "Weathered yellow sandstone, reddish-brown brick, faded blue inlays and dusty bronze.",
+      "signatureSilhouette": "Unlike the Step Pyramid, the ziggurat has broader horizontal terraces, ramped approaches and sprawling satellite courts.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "18. Desert Ziggurat — ID 17",
+        "paragraphs": [
+          "Identity: An ancient monumental civilization located among arid dunes and rock formations.",
+          "The main structure is a vast stepped ziggurat with long sloping access ramps, deep shadowed entrances and an upper ceremonial sanctuary.",
+          "Supporting sprites include smaller tiered shrines, courtyards, covered colonnades, decorated obelisks and shaded residential chambers.",
+          "The landscape consists of large sandy basins, rock outcrops and worn stone roads. Structures are arranged around the dominant central monument.",
+          "Appearance: Weathered yellow sandstone, reddish-brown brick, faded blue inlays and dusty bronze. Unlike the Step Pyramid, the ziggurat has broader horizontal terraces, ramped approaches and sprawling satellite courts."
+        ],
+        "rawText": "18. Desert Ziggurat — ID 17\n\nIdentity: An ancient monumental civilization located among arid dunes and rock formations.\n\nThe main structure is a vast stepped ziggurat with long sloping access ramps, deep shadowed entrances and an upper ceremonial sanctuary.\n\nSupporting sprites include smaller tiered shrines, courtyards, covered colonnades, decorated obelisks and shaded residential chambers.\n\nThe landscape consists of large sandy basins, rock outcrops and worn stone roads. Structures are arranged around the dominant central monument.\n\nAppearance: Weathered yellow sandstone, reddish-brown brick, faded blue inlays and dusty bronze. Unlike the Step Pyramid, the ziggurat has broader horizontal terraces, ramped approaches and sprawling satellite courts.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Glass Conservatory",
+      "v79Label": "Glass Conservatory",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A peaceful botanical sect devoted to plant cultivation and experimentation.",
+      "landmark": "Its main hall is a large greenhouse with a high glass roof, elegant metal framing, vaulted arches and multiple connected wings.",
+      "supportingStructures": "Smaller sprites include glass pavilions, garden laboratories, plant nurseries, irrigation equipment, decorative fountains and shaded garden shelters.",
+      "terrain": "The environment is a sheltered green valley with formal garden quadrants, planting beds, ponds and paths.",
+      "palette": "Pale mint-green glass, muted brass, ivory stone, dark green plants and soft amber lighting.",
+      "signatureSilhouette": "The signature silhouette is a broad transparent greenhouse complex with domes and arched glazed roofs.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "19. Glass Conservatory — ID 18",
+        "paragraphs": [
+          "Identity: A peaceful botanical sect devoted to plant cultivation and experimentation.",
+          "Its main hall is a large greenhouse with a high glass roof, elegant metal framing, vaulted arches and multiple connected wings.",
+          "Smaller sprites include glass pavilions, garden laboratories, plant nurseries, irrigation equipment, decorative fountains and shaded garden shelters.",
+          "The environment is a sheltered green valley with formal garden quadrants, planting beds, ponds and paths.",
+          "Appearance: Pale mint-green glass, muted brass, ivory stone, dark green plants and soft amber lighting. The signature silhouette is a broad transparent greenhouse complex with domes and arched glazed roofs."
+        ],
+        "rawText": "19. Glass Conservatory — ID 18\n\nIdentity: A peaceful botanical sect devoted to plant cultivation and experimentation.\n\nIts main hall is a large greenhouse with a high glass roof, elegant metal framing, vaulted arches and multiple connected wings.\n\nSmaller sprites include glass pavilions, garden laboratories, plant nurseries, irrigation equipment, decorative fountains and shaded garden shelters.\n\nThe environment is a sheltered green valley with formal garden quadrants, planting beds, ponds and paths.\n\nAppearance: Pale mint-green glass, muted brass, ivory stone, dark green plants and soft amber lighting. The signature silhouette is a broad transparent greenhouse complex with domes and arched glazed roofs.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Hanging Gardens",
+      "v79Label": "Hanging Gardens",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A magnificent civilization that combines monumental architecture with vertical horticulture.",
+      "landmark": "The main building occupies several staggered cliff terraces with heavy stone support arches and immense planted balconies.",
+      "supportingStructures": "Smaller structures consist of garden halls, cascading planters, irrigation towers, trellis pavilions and open-sided residences.",
+      "terrain": "Large waterfalls travel between different levels. Stone bridges and elevated galleries connect the planted terraces.",
+      "palette": "Pale sandstone, emerald foliage, terracotta planters, ivory arches and flowing turquoise water.",
+      "signatureSilhouette": "The silhouette is a dramatic multi-level garden complex growing outward from a tall escarpment.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "20. Hanging Gardens — ID 19",
+        "paragraphs": [
+          "Identity: A magnificent civilization that combines monumental architecture with vertical horticulture.",
+          "The main building occupies several staggered cliff terraces with heavy stone support arches and immense planted balconies.",
+          "Smaller structures consist of garden halls, cascading planters, irrigation towers, trellis pavilions and open-sided residences.",
+          "Large waterfalls travel between different levels. Stone bridges and elevated galleries connect the planted terraces.",
+          "Appearance: Pale sandstone, emerald foliage, terracotta planters, ivory arches and flowing turquoise water. The silhouette is a dramatic multi-level garden complex growing outward from a tall escarpment."
+        ],
+        "rawText": "20. Hanging Gardens — ID 19\n\nIdentity: A magnificent civilization that combines monumental architecture with vertical horticulture.\n\nThe main building occupies several staggered cliff terraces with heavy stone support arches and immense planted balconies.\n\nSmaller structures consist of garden halls, cascading planters, irrigation towers, trellis pavilions and open-sided residences.\n\nLarge waterfalls travel between different levels. Stone bridges and elevated galleries connect the planted terraces.\n\nAppearance: Pale sandstone, emerald foliage, terracotta planters, ivory arches and flowing turquoise water. The silhouette is a dramatic multi-level garden complex growing outward from a tall escarpment.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Castle of Blades",
+      "v79Label": "Castle of Blades",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A martial sect built for weapon mastery, discipline and combat training.",
+      "landmark": "The central castle has elongated, blade-like towers, sharp rooflines, angular defensive walls and a dominant training arena.",
+      "supportingStructures": "Supporting structures include weapon halls, sword racks, open sparring platforms, martial barracks, duelling courts and practice towers.",
+      "terrain": "The settlement extends across a narrow knife-edge mountain ridge, with defensive structures enclosing the main arena.",
+      "palette": "Cold blue-grey stone, steel roofs, dark crimson banners and restrained bronze accents.",
+      "signatureSilhouette": "The signature silhouette is angular towers surrounding a visible central combat arena.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "21. Castle of Blades — ID 20",
+        "paragraphs": [
+          "Identity: A martial sect built for weapon mastery, discipline and combat training.",
+          "The central castle has elongated, blade-like towers, sharp rooflines, angular defensive walls and a dominant training arena.",
+          "Supporting structures include weapon halls, sword racks, open sparring platforms, martial barracks, duelling courts and practice towers.",
+          "The settlement extends across a narrow knife-edge mountain ridge, with defensive structures enclosing the main arena.",
+          "Appearance: Cold blue-grey stone, steel roofs, dark crimson banners and restrained bronze accents. The signature silhouette is angular towers surrounding a visible central combat arena."
+        ],
+        "rawText": "21. Castle of Blades — ID 20\n\nIdentity: A martial sect built for weapon mastery, discipline and combat training.\n\nThe central castle has elongated, blade-like towers, sharp rooflines, angular defensive walls and a dominant training arena.\n\nSupporting structures include weapon halls, sword racks, open sparring platforms, martial barracks, duelling courts and practice towers.\n\nThe settlement extends across a narrow knife-edge mountain ridge, with defensive structures enclosing the main arena.\n\nAppearance: Cold blue-grey stone, steel roofs, dark crimson banners and restrained bronze accents. The signature silhouette is angular towers surrounding a visible central combat arena.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Star Lanterns",
+      "v79Label": "Star Lanterns",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A serene hilltop sect recognized by its spectacular elevated lantern towers.",
+      "landmark": "The main hall has a tall central lantern spire surrounded by hanging lamps and intricate roof ornaments.",
+      "supportingStructures": "Its architecture consists of slender timber-and-stone pavilions, open galleries, tiered lantern towers and starlight observation platforms.",
+      "terrain": "Smaller structures are distributed across separate hilltops connected by gently rising stone paths and stairs.",
+      "palette": "Midnight teal roofing, dark polished timber, warm amber lanterns and pale silver details.",
+      "signatureSilhouette": "The silhouette is a scattered constellation of luminous towers and small pavilions.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "22. Star Lanterns — ID 21",
+        "paragraphs": [
+          "Identity: A serene hilltop sect recognized by its spectacular elevated lantern towers.",
+          "Its architecture consists of slender timber-and-stone pavilions, open galleries, tiered lantern towers and starlight observation platforms.",
+          "The main hall has a tall central lantern spire surrounded by hanging lamps and intricate roof ornaments.",
+          "Smaller structures are distributed across separate hilltops connected by gently rising stone paths and stairs.",
+          "Appearance: Midnight teal roofing, dark polished timber, warm amber lanterns and pale silver details. The silhouette is a scattered constellation of luminous towers and small pavilions."
+        ],
+        "rawText": "22. Star Lanterns — ID 21\n\nIdentity: A serene hilltop sect recognized by its spectacular elevated lantern towers.\n\nIts architecture consists of slender timber-and-stone pavilions, open galleries, tiered lantern towers and starlight observation platforms.\n\nThe main hall has a tall central lantern spire surrounded by hanging lamps and intricate roof ornaments.\n\nSmaller structures are distributed across separate hilltops connected by gently rising stone paths and stairs.\n\nAppearance: Midnight teal roofing, dark polished timber, warm amber lanterns and pale silver details. The silhouette is a scattered constellation of luminous towers and small pavilions.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Volcanic Kilns",
+      "v79Label": "Volcanic Kilns",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A specialized industrial sect of ceramicists, fire craftsmen and kiln masters.",
+      "landmark": "The main complex consists of enormous brick kilns with domed combustion chambers, broad chimneys and heavy fire-resistant masonry.",
+      "supportingStructures": "Supporting structures include drying sheds, pottery workshops, furnace platforms, cooling chambers and stacked clay-storage yards.",
+      "terrain": "The settlement occupies volcanic foothills where black basalt causeways cross ash-covered fields and isolated lava channels.",
+      "palette": "Burnt red brick, dark volcanic rock, orange furnace lighting and soot-covered roof tiles.",
+      "signatureSilhouette": "Unlike the Iron Foundry, the silhouette is rounded kiln chambers and thick ceramic firing structures, not metal smelters.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "23. Volcanic Kilns — ID 22",
+        "paragraphs": [
+          "Identity: A specialized industrial sect of ceramicists, fire craftsmen and kiln masters.",
+          "The main complex consists of enormous brick kilns with domed combustion chambers, broad chimneys and heavy fire-resistant masonry.",
+          "Supporting structures include drying sheds, pottery workshops, furnace platforms, cooling chambers and stacked clay-storage yards.",
+          "The settlement occupies volcanic foothills where black basalt causeways cross ash-covered fields and isolated lava channels.",
+          "Appearance: Burnt red brick, dark volcanic rock, orange furnace lighting and soot-covered roof tiles. Unlike the Iron Foundry, the silhouette is rounded kiln chambers and thick ceramic firing structures, not metal smelters."
+        ],
+        "rawText": "23. Volcanic Kilns — ID 22\n\nIdentity: A specialized industrial sect of ceramicists, fire craftsmen and kiln masters.\n\nThe main complex consists of enormous brick kilns with domed combustion chambers, broad chimneys and heavy fire-resistant masonry.\n\nSupporting structures include drying sheds, pottery workshops, furnace platforms, cooling chambers and stacked clay-storage yards.\n\nThe settlement occupies volcanic foothills where black basalt causeways cross ash-covered fields and isolated lava channels.\n\nAppearance: Burnt red brick, dark volcanic rock, orange furnace lighting and soot-covered roof tiles. Unlike the Iron Foundry, the silhouette is rounded kiln chambers and thick ceramic firing structures, not metal smelters.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Mangrove Homes",
+      "v79Label": "Mangrove Homes",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A wetland civilization that lives among twisting mangrove roots and tidal channels.",
+      "landmark": "The main hall is an elongated communal pavilion with an open floor, multiple supporting columns and broad verandas.",
+      "supportingStructures": "Supporting sprites include small huts, fishing docks, suspended baskets, lookout decks and narrow waterfront platforms.",
+      "terrain": "The environment has irregular tidal pools, exposed roots, dense wetland foliage and branching natural channels.",
+      "palette": "Deep olive green, reddish-brown timber, weathered straw roofs, muddy blue-green water and pale driftwood.",
+      "signatureSilhouette": "The silhouette is a dispersed wetland village entangled with elevated mangrove roots.",
+      "additionalArchitecture": [
+        "Residences are lightweight timber-and-thatch structures elevated on narrow supports, often attached to the strong root networks of large mangrove trees."
+      ],
+      "materialDetails": [],
+      "source": {
+        "heading": "24. Mangrove Homes — ID 23",
+        "paragraphs": [
+          "Identity: A wetland civilization that lives among twisting mangrove roots and tidal channels.",
+          "Residences are lightweight timber-and-thatch structures elevated on narrow supports, often attached to the strong root networks of large mangrove trees.",
+          "The main hall is an elongated communal pavilion with an open floor, multiple supporting columns and broad verandas.",
+          "Supporting sprites include small huts, fishing docks, suspended baskets, lookout decks and narrow waterfront platforms.",
+          "The environment has irregular tidal pools, exposed roots, dense wetland foliage and branching natural channels.",
+          "Appearance: Deep olive green, reddish-brown timber, weathered straw roofs, muddy blue-green water and pale driftwood. The silhouette is a dispersed wetland village entangled with elevated mangrove roots."
+        ],
+        "rawText": "24. Mangrove Homes — ID 23\n\nIdentity: A wetland civilization that lives among twisting mangrove roots and tidal channels.\n\nResidences are lightweight timber-and-thatch structures elevated on narrow supports, often attached to the strong root networks of large mangrove trees.\n\nThe main hall is an elongated communal pavilion with an open floor, multiple supporting columns and broad verandas.\n\nSupporting sprites include small huts, fishing docks, suspended baskets, lookout decks and narrow waterfront platforms.\n\nThe environment has irregular tidal pools, exposed roots, dense wetland foliage and branching natural channels.\n\nAppearance: Deep olive green, reddish-brown timber, weathered straw roofs, muddy blue-green water and pale driftwood. The silhouette is a dispersed wetland village entangled with elevated mangrove roots.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Storm Bastion",
+      "v79Label": "Storm Bastion",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A heavily fortified mountain sect designed to withstand violent storms.",
+      "landmark": "The main structure is exceptionally squat and broad, with thick sloped walls, narrow protected windows, heavy buttresses and low reinforced roofs.",
+      "supportingStructures": "Supporting buildings include windbreak towers, storm shelters, fortified storage houses, signal towers and protective gatehouses.",
+      "terrain": "The settlement occupies enormous storm-battered cliffs with defensive walls arranged in curved, overlapping layers.",
+      "palette": "Cold granite, weathered iron, dark slate and muted blue.",
+      "signatureSilhouette": "Its defining silhouette is low, immense defensive walls and rounded wind-resistant bastions, rather than the tall slender towers of the Citadel.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "25. Storm Bastion — ID 24",
+        "paragraphs": [
+          "Identity: A heavily fortified mountain sect designed to withstand violent storms.",
+          "The main structure is exceptionally squat and broad, with thick sloped walls, narrow protected windows, heavy buttresses and low reinforced roofs.",
+          "Supporting buildings include windbreak towers, storm shelters, fortified storage houses, signal towers and protective gatehouses.",
+          "The settlement occupies enormous storm-battered cliffs with defensive walls arranged in curved, overlapping layers.",
+          "Appearance: Cold granite, weathered iron, dark slate and muted blue. Its defining silhouette is low, immense defensive walls and rounded wind-resistant bastions, rather than the tall slender towers of the Citadel."
+        ],
+        "rawText": "25. Storm Bastion — ID 24\n\nIdentity: A heavily fortified mountain sect designed to withstand violent storms.\n\nThe main structure is exceptionally squat and broad, with thick sloped walls, narrow protected windows, heavy buttresses and low reinforced roofs.\n\nSupporting buildings include windbreak towers, storm shelters, fortified storage houses, signal towers and protective gatehouses.\n\nThe settlement occupies enormous storm-battered cliffs with defensive walls arranged in curved, overlapping layers.\n\nAppearance: Cold granite, weathered iron, dark slate and muted blue. Its defining silhouette is low, immense defensive walls and rounded wind-resistant bastions, rather than the tall slender towers of the Citadel.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Crescent Shrine",
+      "v79Label": "Crescent Shrine",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "An elegant lakeside sanctuary dominated by curved ceremonial architecture.",
+      "landmark": "The main shrine has a distinct crescent-shaped roof structure, graceful columns, sweeping eaves and an open central worship chamber.",
+      "supportingStructures": "Smaller structures include curved pavilions, reflection pools, decorative arches, prayer corridors and water gardens.",
+      "terrain": "The settlement follows the shoreline in a wide crescent arrangement. A ceremonial causeway connects the main shrine to the land.",
+      "palette": "Ivory stone, muted lavender-blue roofing, aged silver, pale turquoise water and soft golden lanterns.",
+      "signatureSilhouette": "The signature silhouette is a chain of curved sanctuaries framing a lakeside ceremonial court.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "26. Crescent Shrine — ID 25",
+        "paragraphs": [
+          "Identity: An elegant lakeside sanctuary dominated by curved ceremonial architecture.",
+          "The main shrine has a distinct crescent-shaped roof structure, graceful columns, sweeping eaves and an open central worship chamber.",
+          "Smaller structures include curved pavilions, reflection pools, decorative arches, prayer corridors and water gardens.",
+          "The settlement follows the shoreline in a wide crescent arrangement. A ceremonial causeway connects the main shrine to the land.",
+          "Appearance: Ivory stone, muted lavender-blue roofing, aged silver, pale turquoise water and soft golden lanterns. The signature silhouette is a chain of curved sanctuaries framing a lakeside ceremonial court."
+        ],
+        "rawText": "26. Crescent Shrine — ID 25\n\nIdentity: An elegant lakeside sanctuary dominated by curved ceremonial architecture.\n\nThe main shrine has a distinct crescent-shaped roof structure, graceful columns, sweeping eaves and an open central worship chamber.\n\nSmaller structures include curved pavilions, reflection pools, decorative arches, prayer corridors and water gardens.\n\nThe settlement follows the shoreline in a wide crescent arrangement. A ceremonial causeway connects the main shrine to the land.\n\nAppearance: Ivory stone, muted lavender-blue roofing, aged silver, pale turquoise water and soft golden lanterns. The signature silhouette is a chain of curved sanctuaries framing a lakeside ceremonial court.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Mechanical Yard",
+      "v79Label": "Mechanical Yard",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A practical engineering sect dedicated to machinery, experimentation and construction.",
+      "landmark": "Its dominant hall is a huge rectangular engineering workshop with exposed structural trusses, mechanical gantries, wide industrial doors and roof-mounted ventilation mechanisms.",
+      "supportingStructures": "Supporting sprites include crane towers, open testing yards, repair workshops, gear assemblies, storage warehouses and elevated inspection platforms.",
+      "terrain": "The settlement sits on broad level terrain organized into functional industrial blocks, with wide roads suitable for transporting heavy equipment.",
+      "palette": "Brushed steel, muted yellow brass, industrial blue, brown timber and grey masonry.",
+      "signatureSilhouette": "The silhouette is a busy rectilinear mechanical complex with large overhead cranes and moving machinery.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "27. Mechanical Yard — ID 26",
+        "paragraphs": [
+          "Identity: A practical engineering sect dedicated to machinery, experimentation and construction.",
+          "Its dominant hall is a huge rectangular engineering workshop with exposed structural trusses, mechanical gantries, wide industrial doors and roof-mounted ventilation mechanisms.",
+          "Supporting sprites include crane towers, open testing yards, repair workshops, gear assemblies, storage warehouses and elevated inspection platforms.",
+          "The settlement sits on broad level terrain organized into functional industrial blocks, with wide roads suitable for transporting heavy equipment.",
+          "Appearance: Brushed steel, muted yellow brass, industrial blue, brown timber and grey masonry. The silhouette is a busy rectilinear mechanical complex with large overhead cranes and moving machinery."
+        ],
+        "rawText": "27. Mechanical Yard — ID 26\n\nIdentity: A practical engineering sect dedicated to machinery, experimentation and construction.\n\nIts dominant hall is a huge rectangular engineering workshop with exposed structural trusses, mechanical gantries, wide industrial doors and roof-mounted ventilation mechanisms.\n\nSupporting sprites include crane towers, open testing yards, repair workshops, gear assemblies, storage warehouses and elevated inspection platforms.\n\nThe settlement sits on broad level terrain organized into functional industrial blocks, with wide roads suitable for transporting heavy equipment.\n\nAppearance: Brushed steel, muted yellow brass, industrial blue, brown timber and grey masonry. The silhouette is a busy rectilinear mechanical complex with large overhead cranes and moving machinery.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Mushroom Commune",
+      "v79Label": "Mushroom Commune",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A strange but inviting forest civilization constructed among gigantic fungi.",
+      "landmark": "The main hall is built beneath a tremendous mushroom cap supported by an immense central stem, with rounded timber walls and recessed doorways.",
+      "supportingStructures": "Supporting structures include mushroom cottages, spore laboratories, fungal shrines, glowing lantern fungi, small woodland stores and organic elevated platforms.",
+      "terrain": "The environment is a dense fungal forest featuring mushrooms of dramatically different sizes, soft moss, fallen logs and interconnected clearings.",
+      "palette": "Warm red-brown, cream, pale lavender, muted orange and restrained blue-green bioluminescence.",
+      "signatureSilhouette": "The silhouette is a clustered village of giant mushroom-cap structures, with varied cap shapes rather than identical circles.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "28. Mushroom Commune — ID 27",
+        "paragraphs": [
+          "Identity: A strange but inviting forest civilization constructed among gigantic fungi.",
+          "The main hall is built beneath a tremendous mushroom cap supported by an immense central stem, with rounded timber walls and recessed doorways.",
+          "Supporting structures include mushroom cottages, spore laboratories, fungal shrines, glowing lantern fungi, small woodland stores and organic elevated platforms.",
+          "The environment is a dense fungal forest featuring mushrooms of dramatically different sizes, soft moss, fallen logs and interconnected clearings.",
+          "Appearance: Warm red-brown, cream, pale lavender, muted orange and restrained blue-green bioluminescence. The silhouette is a clustered village of giant mushroom-cap structures, with varied cap shapes rather than identical circles."
+        ],
+        "rawText": "28. Mushroom Commune — ID 27\n\nIdentity: A strange but inviting forest civilization constructed among gigantic fungi.\n\nThe main hall is built beneath a tremendous mushroom cap supported by an immense central stem, with rounded timber walls and recessed doorways.\n\nSupporting structures include mushroom cottages, spore laboratories, fungal shrines, glowing lantern fungi, small woodland stores and organic elevated platforms.\n\nThe environment is a dense fungal forest featuring mushrooms of dramatically different sizes, soft moss, fallen logs and interconnected clearings.\n\nAppearance: Warm red-brown, cream, pale lavender, muted orange and restrained blue-green bioluminescence. The silhouette is a clustered village of giant mushroom-cap structures, with varied cap shapes rather than identical circles.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Snow Ramparts",
+      "v79Label": "Snow Ramparts",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A heavily defended settlement protecting a dangerous frozen mountain passage.",
+      "landmark": "The main hall is constructed from thick stone walls and timber beams, with steeply pitched roofs designed to shed accumulated snow.",
+      "supportingStructures": "Additional buildings include reinforced gatehouses, guard towers, heated barracks, supply bunkers and enclosed mountain shelters.",
+      "terrain": "The terrain features immense snow-covered mountain formations, deep cliff faces, icy rock surfaces and a narrow protected passage through the mountains.",
+      "palette": "Cold blue-grey stone, dark timber, white snow, muted red banners and warm orange window light.",
+      "signatureSilhouette": "The silhouette is a massive fortified mountain gate surrounded by towering snowy cliffs.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "29. Snow Ramparts — ID 28",
+        "paragraphs": [
+          "Identity: A heavily defended settlement protecting a dangerous frozen mountain passage.",
+          "The main hall is constructed from thick stone walls and timber beams, with steeply pitched roofs designed to shed accumulated snow.",
+          "Additional buildings include reinforced gatehouses, guard towers, heated barracks, supply bunkers and enclosed mountain shelters.",
+          "The terrain features immense snow-covered mountain formations, deep cliff faces, icy rock surfaces and a narrow protected passage through the mountains.",
+          "Appearance: Cold blue-grey stone, dark timber, white snow, muted red banners and warm orange window light. The silhouette is a massive fortified mountain gate surrounded by towering snowy cliffs."
+        ],
+        "rawText": "29. Snow Ramparts — ID 28\n\nIdentity: A heavily defended settlement protecting a dangerous frozen mountain passage.\n\nThe main hall is constructed from thick stone walls and timber beams, with steeply pitched roofs designed to shed accumulated snow.\n\nAdditional buildings include reinforced gatehouses, guard towers, heated barracks, supply bunkers and enclosed mountain shelters.\n\nThe terrain features immense snow-covered mountain formations, deep cliff faces, icy rock surfaces and a narrow protected passage through the mountains.\n\nAppearance: Cold blue-grey stone, dark timber, white snow, muted red banners and warm orange window light. The silhouette is a massive fortified mountain gate surrounded by towering snowy cliffs.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Floating Archives",
+      "v79Label": "Floating Archives",
+      "labelMatch": true,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "A secluded scholarly civilization whose libraries and archives occupy islands and floating structures.",
+      "landmark": "The main archive is a grand multi-storey library with tiered roofs, numerous windows, sheltered galleries and a distinctive central reading tower.",
+      "supportingStructures": "Supporting structures include floating library barges, book-storage pavilions, small study halls, manuscript towers, covered docks and observation balconies.",
+      "terrain": "The settlement is spread across natural lake islands, with some structures moored to fixed docks and others connected by bridges.",
+      "palette": "Weathered turquoise roofs, cream stone, rich mahogany, aged brass and misty blue water.",
+      "signatureSilhouette": "The signature silhouette is a linked network of library towers, waterside galleries and floating archive buildings.",
+      "additionalArchitecture": [],
+      "materialDetails": [],
+      "source": {
+        "heading": "30. Floating Archives — ID 29",
+        "paragraphs": [
+          "Identity: A secluded scholarly civilization whose libraries and archives occupy islands and floating structures.",
+          "The main archive is a grand multi-storey library with tiered roofs, numerous windows, sheltered galleries and a distinctive central reading tower.",
+          "Supporting structures include floating library barges, book-storage pavilions, small study halls, manuscript towers, covered docks and observation balconies.",
+          "The settlement is spread across natural lake islands, with some structures moored to fixed docks and others connected by bridges.",
+          "Appearance: Weathered turquoise roofs, cream stone, rich mahogany, aged brass and misty blue water. The signature silhouette is a linked network of library towers, waterside galleries and floating archive buildings."
+        ],
+        "rawText": "30. Floating Archives — ID 29\n\nIdentity: A secluded scholarly civilization whose libraries and archives occupy islands and floating structures.\n\nThe main archive is a grand multi-storey library with tiered roofs, numerous windows, sheltered galleries and a distinctive central reading tower.\n\nSupporting structures include floating library barges, book-storage pavilions, small study halls, manuscript towers, covered docks and observation balconies.\n\nThe settlement is spread across natural lake islands, with some structures moored to fixed docks and others connected by bridges.\n\nAppearance: Weathered turquoise roofs, cream stone, rich mahogany, aged brass and misty blue water. The signature silhouette is a linked network of library towers, waterside galleries and floating archive buildings.\n\n"
+      },
+      "productionTargets": {
+        "status": "required-not-completed",
+        "requiredAssetRoles": [
+          "principal hall",
+          "residential architecture",
+          "specialty structures",
+          "entrance structures",
+          "environmental decorations",
+          "functional navigation assets"
+        ],
+        "minimumMeaningfulArchitecturalVariations": 2,
+        "architecturalVariationRequirement": "Create at least two variations that change shapes, arrangements and construction details while preserving the supplied identity and signature silhouette; colour-only changes do not satisfy the target.",
+        "architecturalVariationStatus": "not-completed",
+        "settlementGrowthVariationsRequired": true,
+        "settlementGrowthRequirement": "Create settlement-growth variations that change shapes, arrangements and construction details, with independent world-grid parts and coherent routes, entrances and foundations at every stage.",
+        "settlementGrowthStatus": "not-completed",
+        "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
+        "completedAssets": [],
+        "designWorkStatus": "brief-available-artwork-unverified"
+      }
+    }
+  ]
+}

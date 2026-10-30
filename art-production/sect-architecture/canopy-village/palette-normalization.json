@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "palette": "palette.json",
+  "assets": [
+    {
+      "asset": "ancient-tree",
+      "master": "masters/ancient-tree.png",
+      "masterSha256": "9d4e06169e010778364b82a48c91df275ebc6e3f3729215e68c49a539f412e6f",
+      "output": "palette-normalized/ancient-tree.png",
+      "outputSha256": "b3f1e9d62ed05a20ffb57fcc9a875512ca0fd4702e8b34162176d67c2d2d863f",
+      "inputVisibleColors": 52,
+      "outputVisibleColors": 22,
+      "alphaChanges": [],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    },
+    {
+      "asset": "hall-a",
+      "master": "masters/hall-a.png",
+      "masterSha256": "9fe31567250d149281bba6388e77f9e453199364cd2f247d1e4a84fd3aa1e967",
+      "output": "palette-normalized/hall-a.png",
+      "outputSha256": "9ec3f791636658d32752e8746c1569f9b5bcc4adbfe280bfd044658475835834",
+      "inputVisibleColors": 20,
+      "outputVisibleColors": 20,
+      "alphaChanges": [],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    },
+    {
+      "asset": "hall-b",
+      "master": "masters/hall-b.png",
+      "masterSha256": "251b29cd38ba45227bd0c04dbb6ed039029ca7a94f308a8924d2392be5fedaec",
+      "output": "palette-normalized/hall-b.png",
+      "outputSha256": "9e4a4d9756c1775c582ee88a09529a36a1d79bc35cd035233343ef995bb6a5ea",
+      "inputVisibleColors": 49,
+      "outputVisibleColors": 21,
+      "alphaChanges": [],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    },
+    {
+      "asset": "house-a",
+      "master": "masters/house-a.png",
+      "masterSha256": "8cd18da3bd6fa8f9d17c3a61f39b49fa3f961ceb06deb42a1640768f3d8b7c6e",
+      "output": "palette-normalized/house-a.png",
+      "outputSha256": "3aae105e8e793b22b550b6025a35f3b0fb42ed702548658ffeb1ff39f5befe5d",
+      "inputVisibleColors": 65,
+      "outputVisibleColors": 21,
+      "alphaChanges": [],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    },
+    {
+      "asset": "house-b",
+      "master": "masters/house-b.png",
+      "masterSha256": "ee5fe244af3233fe2c84f91e1068a924c0f302fe115e20f039d2904fb832f7ac",
+      "output": "palette-normalized/house-b.png",
+      "outputSha256": "3c07dbc5d79ab52b8a66b5f1eef934c7a923521202f60f38d172b21af8fa8e39",
+      "inputVisibleColors": 69,
+      "outputVisibleColors": 21,
+      "alphaChanges": [],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    },
+    {
+      "asset": "root-gate",
+      "master": "masters/root-gate.png",
+      "masterSha256": "8859e55a1f780d541805b88ccaf0855fcd2c61ed6613ce852d6ddd3d64f577b1",
+      "output": "palette-normalized/root-gate.png",
+      "outputSha256": "23aaf01fe7d6c661ff8504b8a45440e982ca1a2f582a363d030c37732e2e97a0",
+      "inputVisibleColors": 51,
+      "outputVisibleColors": 18,
+      "alphaChanges": [],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    },
+    {
+      "asset": "rope-bridge",
+      "master": "masters/rope-bridge.png",
+      "masterSha256": "1d5fe26249af588d3451f7e66906dbbfc344cb92aaca0fee6fef4896112beb39",
+      "output": "palette-normalized/rope-bridge.png",
+      "outputSha256": "e8270e2e13a6506241eaafed06c90c5171bf2aa15b28cd5be9aa050697985473",
+      "inputVisibleColors": 48,
+      "outputVisibleColors": 19,
+      "alphaChanges": [],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    },
+    {
+      "asset": "tree-shrine",
+      "master": "masters/tree-shrine.png",
+      "masterSha256": "66cd38f96d9ca6323230f7a61aca35c4ce5231603a9685a4ba0a3edbbff6a41a",
+      "output": "palette-normalized/tree-shrine.png",
+      "outputSha256": "d82d85e7ca9203b7e955b2f66772ef8c6aad3fdc118c55c99eeff96c23e93547",
+      "inputVisibleColors": 72,
+      "outputVisibleColors": 22,
+      "alphaChanges": [
+        {
+          "x": 37,
+          "y": 78,
+          "from": 255,
+          "to": 0
+        },
+        {
+          "x": 38,
+          "y": 78,
+          "from": 255,
+          "to": 0
+        },
+        {
+          "x": 39,
+          "y": 78,
+          "from": 255,
+          "to": 0
+        },
+        {
+          "x": 50,
+          "y": 78,
+          "from": 255,
+          "to": 0
+        }
+      ],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    },
+    {
+      "asset": "trunk-stairs",
+      "master": "masters/trunk-stairs.png",
+      "masterSha256": "d13c24b1217d738fc18ce9c1d2737c8c72a854567559a577a8a10a36802d14a5",
+      "output": "palette-normalized/trunk-stairs.png",
+      "outputSha256": "7d6e23ed7b32104bca238e6f56142ef9fe064180c3f50ccc87f246f2f78e4d8f",
+      "inputVisibleColors": 47,
+      "outputVisibleColors": 12,
+      "alphaChanges": [],
+      "method": "nearest CIELAB palette color per visible pixel; no resampling; alpha differs only at the explicitly listed cleanup coordinates"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/hall-a.png",
+  "arguments": {
+    "description": "Replace all houses, roots and foliage with one reusable suspended rope-and-timber footbridge, left-to-right across the image. Detailed planks, bound knots, thick hand ropes, vertical posts and reinforced end landings. Shallow three-quarter view shows the walkway surface and front edge. Ends remain unobstructed for attaching platforms. Match the source's wood palette, crisp pixel density, dark selective outlines and upper-left light. Transparent background, no supports or scenery.",
+    "width": 96,
+    "height": 64,
+    "no_background": true,
+    "seed": 330104
+  }
+}

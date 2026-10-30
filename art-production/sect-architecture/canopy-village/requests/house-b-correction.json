@@ -1,0 +1,14 @@
+{
+  "tool": "create_image_pixen",
+  "arguments": {
+    "description": "A small fantasy forest dwelling HANGING IN EMPTY AIR BELOW a single thick horizontal overhead oak branch. Two long suspension ropes descend from that branch to a woven timber house with a steep irregular dark green leaf roof, carved front door, tiny balcony and open access landing. The entire dwelling hangs below the branch; show clear transparent empty air underneath the house. NO supporting tree trunk, NO roots, NO ground platform. Original detailed handcrafted pixel-art sprite, shallow three-quarter view, roof and front visible, warm upper-left light, dark crisp outlines, controlled moss green, bark brown and muted gold palette, deliberate readable pixel clusters. One isolated architectural object only, transparent background, no scenery, no cast shadow, generous margin.",
+    "width": 96,
+    "height": 100,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south",
+    "outline": "selective outline",
+    "detail": "highly detailed",
+    "seed": 330109
+  }
+}

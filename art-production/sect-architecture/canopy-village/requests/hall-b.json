@@ -1,0 +1,11 @@
+{
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/hall-a.png",
+  "arguments": {
+    "description": "Architectural variant B of this living-tree hall: split the massive trunk into two unequal ancient trunks supporting a long asymmetrical suspended ceremonial gallery between them. Add a tall left lookout and a low right leaf-roof chamber, a central carved entrance and visible wraparound stairs. Clearly change massing and roof arrangement, preserving the exact pixel density, forest palette, upper-left lighting, shallow three-quarter camera and transparent background. No scenery or ground shadow.",
+    "width": 144,
+    "height": 144,
+    "no_background": true,
+    "seed": 330037
+  }
+}

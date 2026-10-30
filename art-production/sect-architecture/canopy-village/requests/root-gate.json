@@ -1,0 +1,11 @@
+{
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/hall-a.png",
+  "arguments": {
+    "description": "Replace the hall with one village entrance: two thick sculptural living roots curve upward into an open timber ceremonial gateway, topped by a small layered leaf-shingle cap, carved hanging sign and two restrained golden rope lanterns. The central passage is visibly open, without a door or building behind. Keep refined native pixel clusters, the exact forest-green/brown palette, shallow three-quarter perspective and upper-left lighting. Transparent background, no landscape or ground shadow.",
+    "width": 96,
+    "height": 96,
+    "no_background": true,
+    "seed": 330103
+  }
+}

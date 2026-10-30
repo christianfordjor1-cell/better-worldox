@@ -1,0 +1,11 @@
+{
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/hall-a.png",
+  "arguments": {
+    "description": "Replace the hall with one small tree shrine: an old curved hollow trunk frames a carved ceremonial alcove; a layered deep-green leaf roof, tiny golden votive lanterns, braided wooden trim and three worn timber entrance steps. One specialty structure with visible clear entry. Preserve the source's native pixel density, controlled forest palette, finely clustered rough bark and warm wood, shallow three-quarter game view and upper-left light. Transparent background, no ground patch or cast shadow.",
+    "width": 64,
+    "height": 80,
+    "no_background": true,
+    "seed": 330102
+  }
+}

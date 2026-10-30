@@ -1,0 +1,7 @@
+{
+  "tool": "edit_image_pixen",
+  "job_id": "52728d01-c242-4b1b-a394-3962bcd01b17",
+  "source": "masters/hall-a.png",
+  "receipt": "status: completed\nid: 52728d01-c242-4b1b-a394-3962bcd01b17\njob_id: 52728d01-c242-4b1b-a394-3962bcd01b17\nframes: 1\ntransparent: yes\nasset_id: 7220faca-6c1f-5430-b097-608ed3195005\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/52728d01-c242-4b1b-a394-3962bcd01b17/download",
+  "isError": false
+}
