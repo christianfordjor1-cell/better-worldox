@@ -1,0 +1,17 @@
+{
+  "registryId": 0,
+  "role": "principal hall variant A",
+  "tool": "create_image_pixen",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "A single imposing imperial mountain-fortress main castle as a detailed fantasy game pixel-art building sprite. Four substantial unequal grey-stone corner towers, tall central keep, stepped battlements, narrow arched windows, dark-blue slate roofs at several heights, iron braces, two restrained red-and-gold banners, deep arched front entrance. Weathered individual masonry blocks; convincing heavy castle mass, angular silhouette, no generic square tower. Small integrated rocky foundation only; the enormous mountain, roads, walls and barracks will be separate assets. Shallow three-quarter view with roof and front visible, warm upper-left light, crisp dark selective outline, deliberate readable pixel clusters, controlled muted palette. One isolated building on transparent background, no scenery or cast shadow, clear border and front-foot ground anchor.",
+    "width": 144,
+    "height": 144,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south",
+    "outline": "selective outline",
+    "detail": "highly detailed",
+    "seed": 300001
+  }
+}

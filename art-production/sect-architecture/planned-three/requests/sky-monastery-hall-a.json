@@ -1,0 +1,17 @@
+{
+  "registryId": 1,
+  "role": "principal hall variant A",
+  "tool": "create_image_pixen",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "A single magnificent sacred mountain meditation hall as a detailed fantasy game pixel-art building sprite. Layered elegant traditional temple with three gracefully curved weathered turquoise tile roofs of unequal height, ornamental ridge ends, exposed dark-timber beams, carved open balconies, delicate hanging bells, pale stone steps leading to an obvious front entrance, restrained gold trim. Distinct airy tiered silhouette, fine timber structure and solid summit foundation. The separate mountain peaks, bridges and waterfalls are not in this sprite. Shallow three-quarter view with roof and front visible, warm upper-left light, crisp dark selective outline, deliberate readable pixel clusters, controlled pale-stone/turquoise/timber palette. One isolated building on transparent background, no scenery or cast shadow, clear border and front-foot ground anchor.",
+    "width": 144,
+    "height": 144,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south",
+    "outline": "selective outline",
+    "detail": "highly detailed",
+    "seed": 300101
+  }
+}

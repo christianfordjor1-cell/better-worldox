@@ -1,0 +1,75 @@
+# TINY WORLD — 30 SECT ARCHITECTURAL DESCRIPTIONS
+
+## 1. CITADEL (ID 0)
+**Architectural identity: Imperial mountain fortress**
+
+The Citadel is a grand military fortress built into an enormous rocky mountain. Its central structure is a towering medieval castle with four substantial corner towers, elevated battlements, narrow arched windows and multiple roof levels. The walls are built from individually detailed, weathered grey stone blocks, with dark-blue slate roofs, iron reinforcements and red-and-gold ceremonial banners.
+
+The settlement contains separate barracks, armouries, guardhouses, stables, a training courtyard, residences, defensive towers and a fortified gatehouse with a functional portcullis.
+
+Massive stone walls follow the natural contours of the mountain, rather than forming a decorative rectangle. Winding cobblestone roads, broad stone stairways and fortified bridges connect the different levels.
+
+**Signature silhouette:** A large, imposing castle compound with towers of different heights, substantial battlements and defensive walls climbing an enormous mountain.
+
+## 2. SKY MONASTERY (ID 1)
+**Architectural identity: Sacred monastery among towering mountain peaks**
+
+The Sky Monastery consists of elegant traditional mountain temples positioned on multiple dramatic rock peaks. Buildings feature gracefully curved tiled roofs, ornamental ridge decorations, carved wooden balconies, exposed supporting beams and delicate hanging bells.
+
+Its magnificent main meditation hall occupies the highest accessible summit. Smaller structures include prayer pavilions, monk residences, bell towers, secluded cultivation chambers and open-air meditation platforms.
+
+The surrounding mountains are tall, irregular and naturally fractured, with immense vertical cliff faces. Suspended wooden bridges, narrow stone walkways and long staircases connect the separate summits. Waterfalls descend into mist-filled valleys below.
+
+**Materials:** Pale stone, dark timber, weathered turquoise roofing and restrained gold ornamentation.
+
+**Signature silhouette:** Several elevated monasteries on separate mountain peaks connected by dramatic bridges.
+
+## 3. IRON FOUNDRY (ID 2)
+**Architectural identity: Industrial fortress of blacksmiths and weapon makers**
+
+The Iron Foundry is a heavy industrial settlement dominated by enormous forges, furnace towers and imposing brick chimneys.
+
+Its main forge hall is a large reinforced building with a steep charcoal roof, thick stone walls, iron-framed windows and glowing furnace openings. Giant mechanical hammers, smelting chambers, ore-processing equipment and overhead gantries surround the central forge.
+
+Supporting structures include miners' quarters, workshops, weapon-storage buildings, smithing platforms, coal warehouses and cooling basins.
+
+The environment consists of ore-rich mountains, excavated rock faces, mine entrances and stone industrial yards. Roads must be wide enough for ore carts, while smaller walkways lead between the workshops.
+
+**Materials:** Soot-blackened brick, dark iron, rusted metal, brown timber, copper and orange furnace light.
+
+**Signature silhouette:** A dense industrial complex with huge furnaces, tall chimneys and mechanical structures.
+
+## 4. CANOPY VILLAGE (ID 3)
+**Architectural identity: Elevated forest civilization**
+
+Canopy Village is an intricate settlement built within an immense ancient forest, where enormous living trees serve as the foundations of the architecture.
+
+Detailed wooden houses wrap around massive trunks, with curved roofs, projecting balconies, carved railings and reinforced platforms. Some structures are suspended beneath thick branches, while others occupy open platforms high above the forest floor.
+
+Its main gathering hall is constructed around the largest tree, featuring multiple elevated floors, circular balconies and an expansive ceremonial deck.
+
+Supporting architecture includes hanging residences, lookout nests, woodland shrines, aerial gardens and elevated storage structures.
+
+Rope bridges, trunk staircases, branch pathways and supported wooden walkways connect the village.
+
+**Materials:** Rich brown timber, dark forest green, moss-covered roofs, woven walls and warm amber lanterns.
+
+**Signature silhouette:** Gigantic trees supporting interconnected, multi-level wooden houses and bridges.
+
+## 5. STEP PYRAMID (ID 4)
+**Architectural identity: Monumental ceremonial stone civilization**
+
+The Step Pyramid sect is centred on an enormous tiered stone pyramid built with extraordinary precision.
+
+Each level has detailed stone masonry, recessed ornamental patterns, weathered edges and carefully constructed staircases. A grand ceremonial staircase ascends the front face to a decorated sanctuary at the summit.
+
+Smaller structures include priests' residences, ceremonial courtyards, stone altars, monument platforms and carved gateway buildings.
+
+The settlement occupies a broad, sun-exposed rocky plateau, with formal roads arranged around the pyramid's main axis.
+
+**Materials:** Golden sandstone, terracotta, ochre, faded turquoise inlays and weathered stone carvings.
+
+**Signature silhouette:** One enormous stepped temple dominating an ordered ceremonial settlement.
+
+## 6. CLIFF DWELLINGS (ID 5)
+**Architect

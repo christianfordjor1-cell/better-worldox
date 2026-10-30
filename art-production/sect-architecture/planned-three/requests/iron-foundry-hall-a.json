@@ -1,0 +1,17 @@
+{
+  "registryId": 2,
+  "role": "principal hall variant A",
+  "tool": "create_image_pixen",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "A single heavy industrial fortress main forge hall as a detailed fantasy game pixel-art building sprite. Steep charcoal-black roof with uneven ridges, thick soot-darkened brick and stone walls, iron-framed windows, large orange-glowing furnace mouth, reinforced front doors, exposed copper pipes, one massive side chimney, iron gantry and visible mechanical hammer silhouette. Dense asymmetrical functional structure with clear coal-black, rusty metal and glowing furnace contrast. Separate mine mountain, cooling basin, workshops and other chimneys will be independent assets. Shallow three-quarter view with roof and front visible, warm upper-left light, crisp selective outline, deliberate readable pixel clusters, controlled soot/iron/copper palette. One isolated building on transparent background, no scenery or cast shadow, clear border and front-foot ground anchor.",
+    "width": 144,
+    "height": 144,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south",
+    "outline": "selective outline",
+    "detail": "highly detailed",
+    "seed": 300201
+  }
+}

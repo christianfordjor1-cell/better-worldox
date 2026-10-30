@@ -44,14 +44,14 @@
   "labelReconciliation": {
     "path": "game/reports/sect-registry.json",
     "schema": "tiny-world-v79-sect-architecture-preservation-v1",
-    "status": "All 30 ID/name pairs match the preserved v79 labels; all 27 supplied brief headings match exactly.",
+    "status": "All 30 ID/name pairs match v79; all 30 now have a full user-supplied intended design across two preserved documents.",
     "mismatches": [],
-    "note": "The existing registry preserves implementation facts. This separate registry records intended designs; it does not change or reclassify the preserved implementation."
+    "note": "The existing v79 registry preserves implementation facts. The artwork design registry keeps both user sources distinct; no gameplay or sect style is changed."
   },
   "counts": {
     "totalLabels": 30,
-    "suppliedFullBriefs": 27,
-    "pendingFullBriefs": 3
+    "suppliedFullBriefs": 30,
+    "pendingFullBriefs": 0
   },
   "technicalArtStandard": {
     "heading": "Required technical art standard",
@@ -85,16 +85,35 @@
       "name": "Citadel",
       "v79Label": "Citadel",
       "labelMatch": true,
-      "briefStatus": "awaiting-user-brief",
-      "identity": null,
-      "landmark": null,
-      "supportingStructures": null,
-      "terrain": null,
-      "palette": null,
-      "signatureSilhouette": null,
-      "additionalArchitecture": [],
-      "materialDetails": [],
-      "source": null,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "Imperial mountain fortress.",
+      "landmark": "A towering medieval castle built into an enormous rocky mountain, with four substantial corner towers, elevated battlements, narrow arched windows and multiple roof levels.",
+      "supportingStructures": "Separate barracks, armouries, guardhouses, stables, a training courtyard, residences, defensive towers and a fortified gatehouse with a functional portcullis.",
+      "terrain": "Massive stone walls follow mountain contours; winding cobblestone roads, broad stone stairways and fortified bridges connect distinct elevation levels.",
+      "palette": "Weathered grey stone, dark-blue slate, dark iron, red and gold banners.",
+      "signatureSilhouette": "A large castle compound with towers of different heights, substantial battlements and defensive walls climbing an enormous mountain.",
+      "additionalArchitecture": [
+        "Individually detailed stone blocks, iron reinforcement and multiple roof levels form the castle. Walls must follow natural mountain contours rather than a decorative rectangle."
+      ],
+      "materialDetails": [
+        "Weathered grey stone blocks",
+        "Dark-blue slate roofs",
+        "Iron reinforcements",
+        "Red-and-gold ceremonial banners"
+      ],
+      "source": {
+        "heading": "1. CITADEL (ID 0)",
+        "paragraphs": [
+          "The Citadel is a grand military fortress built into an enormous rocky mountain. Its central structure is a towering medieval castle with four substantial corner towers, elevated battlements, narrow arched windows and multiple roof levels. The walls are built from individually detailed, weathered grey stone blocks, with dark-blue slate roofs, iron reinforcements and red-and-gold ceremonial banners.",
+          "The settlement contains separate barracks, armouries, guardhouses, stables, a training courtyard, residences, defensive towers and a fortified gatehouse with a functional portcullis.",
+          "Massive stone walls follow the natural contours of the mountain, rather than forming a decorative rectangle. Winding cobblestone roads, broad stone stairways and fortified bridges connect the different levels.",
+          "**Signature silhouette:** A large, imposing castle compound with towers of different heights, substantial battlements and defensive walls climbing an enormous mountain."
+        ],
+        "rawText": "## 1. CITADEL (ID 0)\r\n**Architectural identity: Imperial mountain fortress**\r\n\r\nThe Citadel is a grand military fortress built into an enormous rocky mountain. Its central structure is a towering medieval castle with four substantial corner towers, elevated battlements, narrow arched windows and multiple roof levels. The walls are built from individually detailed, weathered grey stone blocks, with dark-blue slate roofs, iron reinforcements and red-and-gold ceremonial banners.\r\n\r\nThe settlement contains separate barracks, armouries, guardhouses, stables, a training courtyard, residences, defensive towers and a fortified gatehouse with a functional portcullis.\r\n\r\nMassive stone walls follow the natural contours of the mountain, rather than forming a decorative rectangle. Winding cobblestone roads, broad stone stairways and fortified bridges connect the different levels.\r\n\r\n**Signature silhouette:** A large, imposing castle compound with towers of different heights, substantial battlements and defensive walls climbing an enormous mountain.\r\n\r\n",
+        "document": "references/sect-descriptions-ids-0-5-partial.txt",
+        "documentSha256": "978d4307cc4d15a81408e78921a698dd34beafc0287fe89a4f21bdfcba5bdfc8",
+        "complete": true
+      },
       "productionTargets": {
         "status": "required-not-completed",
         "requiredAssetRoles": [
@@ -113,8 +132,8 @@
         "settlementGrowthStatus": "not-completed",
         "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
         "completedAssets": [],
-        "designWorkStatus": "pending-full-brief",
-        "note": "The label is known from the preserved v79 registry. No architectural definition has been inferred from that label or from comparisons in other briefs."
+        "designWorkStatus": "brief-recorded-art-production-pending",
+        "note": "Full definition supplied in the second user document. Artwork and functional navigation remain pending."
       }
     },
     {
@@ -122,16 +141,36 @@
       "name": "Sky Monastery",
       "v79Label": "Sky Monastery",
       "labelMatch": true,
-      "briefStatus": "awaiting-user-brief",
-      "identity": null,
-      "landmark": null,
-      "supportingStructures": null,
-      "terrain": null,
-      "palette": null,
-      "signatureSilhouette": null,
-      "additionalArchitecture": [],
-      "materialDetails": [],
-      "source": null,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "Sacred monastery among towering mountain peaks.",
+      "landmark": "The main meditation hall occupies the highest accessible summit among several separate, dramatic rock peaks.",
+      "supportingStructures": "Prayer pavilions, monk residences, bell towers, secluded cultivation chambers and open-air meditation platforms.",
+      "terrain": "Tall, irregular fractured mountains and vertical cliffs; suspended wooden bridges, narrow stone walkways and long stairs connect peaks, while waterfalls descend into mist-filled valleys.",
+      "palette": "Pale stone, dark timber, weathered turquoise roofing and restrained gold ornamentation.",
+      "signatureSilhouette": "Several elevated monasteries on separate mountain peaks connected by dramatic bridges.",
+      "additionalArchitecture": [
+        "Gracefully curved tiled roofs, ornamental ridge decorations, carved wooden balconies, exposed supporting beams and hanging bells."
+      ],
+      "materialDetails": [
+        "Pale stone",
+        "Dark timber",
+        "Weathered turquoise roof tiles",
+        "Restrained gold ornamentation"
+      ],
+      "source": {
+        "heading": "2. SKY MONASTERY (ID 1)",
+        "paragraphs": [
+          "The Sky Monastery consists of elegant traditional mountain temples positioned on multiple dramatic rock peaks. Buildings feature gracefully curved tiled roofs, ornamental ridge decorations, carved wooden balconies, exposed supporting beams and delicate hanging bells.",
+          "Its magnificent main meditation hall occupies the highest accessible summit. Smaller structures include prayer pavilions, monk residences, bell towers, secluded cultivation chambers and open-air meditation platforms.",
+          "The surrounding mountains are tall, irregular and naturally fractured, with immense vertical cliff faces. Suspended wooden bridges, narrow stone walkways and long staircases connect the separate summits. Waterfalls descend into mist-filled valleys below.",
+          "**Materials:** Pale stone, dark timber, weathered turquoise roofing and restrained gold ornamentation.",
+          "**Signature silhouette:** Several elevated monasteries on separate mountain peaks connected by dramatic bridges."
+        ],
+        "rawText": "## 2. SKY MONASTERY (ID 1)\r\n**Architectural identity: Sacred monastery among towering mountain peaks**\r\n\r\nThe Sky Monastery consists of elegant traditional mountain temples positioned on multiple dramatic rock peaks. Buildings feature gracefully curved tiled roofs, ornamental ridge decorations, carved wooden balconies, exposed supporting beams and delicate hanging bells.\r\n\r\nIts magnificent main meditation hall occupies the highest accessible summit. Smaller structures include prayer pavilions, monk residences, bell towers, secluded cultivation chambers and open-air meditation platforms.\r\n\r\nThe surrounding mountains are tall, irregular and naturally fractured, with immense vertical cliff faces. Suspended wooden bridges, narrow stone walkways and long staircases connect the separate summits. Waterfalls descend into mist-filled valleys below.\r\n\r\n**Materials:** Pale stone, dark timber, weathered turquoise roofing and restrained gold ornamentation.\r\n\r\n**Signature silhouette:** Several elevated monasteries on separate mountain peaks connected by dramatic bridges.\r\n\r\n",
+        "document": "references/sect-descriptions-ids-0-5-partial.txt",
+        "documentSha256": "978d4307cc4d15a81408e78921a698dd34beafc0287fe89a4f21bdfcba5bdfc8",
+        "complete": true
+      },
       "productionTargets": {
         "status": "required-not-completed",
         "requiredAssetRoles": [
@@ -150,8 +189,8 @@
         "settlementGrowthStatus": "not-completed",
         "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
         "completedAssets": [],
-        "designWorkStatus": "pending-full-brief",
-        "note": "The label is known from the preserved v79 registry. No architectural definition has been inferred from that label or from comparisons in other briefs."
+        "designWorkStatus": "brief-recorded-art-production-pending",
+        "note": "Full definition supplied in the second user document. Artwork and functional navigation remain pending."
       }
     },
     {
@@ -159,16 +198,37 @@
       "name": "Iron Foundry",
       "v79Label": "Iron Foundry",
       "labelMatch": true,
-      "briefStatus": "awaiting-user-brief",
-      "identity": null,
-      "landmark": null,
-      "supportingStructures": null,
-      "terrain": null,
-      "palette": null,
-      "signatureSilhouette": null,
-      "additionalArchitecture": [],
-      "materialDetails": [],
-      "source": null,
+      "briefStatus": "user-supplied-intended-design",
+      "identity": "Industrial fortress of blacksmiths and weapon makers.",
+      "landmark": "A large reinforced main forge hall with a steep charcoal roof, thick stone walls, iron-framed windows and glowing furnace openings.",
+      "supportingStructures": "Separate miners' quarters, workshops, weapon-storage buildings, smithing platforms, coal warehouses and cooling basins.",
+      "terrain": "Ore-rich mountains, excavated rock faces, mine entrances and stone industrial yards; roads wide enough for ore carts and narrower workshop walks.",
+      "palette": "Soot-blackened brick, dark iron, rusted metal, brown timber, copper and orange furnace light.",
+      "signatureSilhouette": "A dense industrial complex with huge furnaces, tall chimneys and mechanical structures.",
+      "additionalArchitecture": [
+        "Giant mechanical hammers, smelting chambers, ore-processing equipment, overhead gantries, furnace towers and imposing brick chimneys remain separate architectural elements."
+      ],
+      "materialDetails": [
+        "Soot-blackened brick",
+        "Dark iron and rusted metal",
+        "Brown timber and copper",
+        "Orange furnace light"
+      ],
+      "source": {
+        "heading": "3. IRON FOUNDRY (ID 2)",
+        "paragraphs": [
+          "The Iron Foundry is a heavy industrial settlement dominated by enormous forges, furnace towers and imposing brick chimneys.",
+          "Its main forge hall is a large reinforced building with a steep charcoal roof, thick stone walls, iron-framed windows and glowing furnace openings. Giant mechanical hammers, smelting chambers, ore-processing equipment and overhead gantries surround the central forge.",
+          "Supporting structures include miners' quarters, workshops, weapon-storage buildings, smithing platforms, coal warehouses and cooling basins.",
+          "The environment consists of ore-rich mountains, excavated rock faces, mine entrances and stone industrial yards. Roads must be wide enough for ore carts, while smaller walkways lead between the workshops.",
+          "**Materials:** Soot-blackened brick, dark iron, rusted metal, brown timber, copper and orange furnace light.",
+          "**Signature silhouette:** A dense industrial complex with huge furnaces, tall chimneys and mechanical structures."
+        ],
+        "rawText": "## 3. IRON FOUNDRY (ID 2)\r\n**Architectural identity: Industrial fortress of blacksmiths and weapon makers**\r\n\r\nThe Iron Foundry is a heavy industrial settlement dominated by enormous forges, furnace towers and imposing brick chimneys.\r\n\r\nIts main forge hall is a large reinforced building with a steep charcoal roof, thick stone walls, iron-framed windows and glowing furnace openings. Giant mechanical hammers, smelting chambers, ore-processing equipment and overhead gantries surround the central forge.\r\n\r\nSupporting structures include miners' quarters, workshops, weapon-storage buildings, smithing platforms, coal warehouses and cooling basins.\r\n\r\nThe environment consists of ore-rich mountains, excavated rock faces, mine entrances and stone industrial yards. Roads must be wide enough for ore carts, while smaller walkways lead between the workshops.\r\n\r\n**Materials:** Soot-blackened brick, dark iron, rusted metal, brown timber, copper and orange furnace light.\r\n\r\n**Signature silhouette:** A dense industrial complex with huge furnaces, tall chimneys and mechanical structures.\r\n\r\n",
+        "document": "references/sect-descriptions-ids-0-5-partial.txt",
+        "documentSha256": "978d4307cc4d15a81408e78921a698dd34beafc0287fe89a4f21bdfcba5bdfc8",
+        "complete": true
+      },
       "productionTargets": {
         "status": "required-not-completed",
         "requiredAssetRoles": [
@@ -187,8 +247,8 @@
         "settlementGrowthStatus": "not-completed",
         "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
         "completedAssets": [],
-        "designWorkStatus": "pending-full-brief",
-        "note": "The label is known from the preserved v79 registry. No architectural definition has been inferred from that label or from comparisons in other briefs."
+        "designWorkStatus": "brief-recorded-art-production-pending",
+        "note": "Full definition supplied in the second user document. Artwork and functional navigation remain pending."
       }
     },
     {
@@ -238,7 +298,25 @@
         "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
         "completedAssets": [],
         "designWorkStatus": "brief-available-artwork-unverified"
-      }
+      },
+      "supplementalSources": [
+        {
+          "heading": "4. CANOPY VILLAGE (ID 3)",
+          "paragraphs": [
+            "Canopy Village is an intricate settlement built within an immense ancient forest, where enormous living trees serve as the foundations of the architecture.",
+            "Detailed wooden houses wrap around massive trunks, with curved roofs, projecting balconies, carved railings and reinforced platforms. Some structures are suspended beneath thick branches, while others occupy open platforms high above the forest floor.",
+            "Its main gathering hall is constructed around the largest tree, featuring multiple elevated floors, circular balconies and an expansive ceremonial deck.",
+            "Supporting architecture includes hanging residences, lookout nests, woodland shrines, aerial gardens and elevated storage structures.",
+            "Rope bridges, trunk staircases, branch pathways and supported wooden walkways connect the village.",
+            "**Materials:** Rich brown timber, dark forest green, moss-covered roofs, woven walls and warm amber lanterns.",
+            "**Signature silhouette:** Gigantic trees supporting interconnected, multi-level wooden houses and bridges."
+          ],
+          "rawText": "## 4. CANOPY VILLAGE (ID 3)\r\n**Architectural identity: Elevated forest civilization**\r\n\r\nCanopy Village is an intricate settlement built within an immense ancient forest, where enormous living trees serve as the foundations of the architecture.\r\n\r\nDetailed wooden houses wrap around massive trunks, with curved roofs, projecting balconies, carved railings and reinforced platforms. Some structures are suspended beneath thick branches, while others occupy open platforms high above the forest floor.\r\n\r\nIts main gathering hall is constructed around the largest tree, featuring multiple elevated floors, circular balconies and an expansive ceremonial deck.\r\n\r\nSupporting architecture includes hanging residences, lookout nests, woodland shrines, aerial gardens and elevated storage structures.\r\n\r\nRope bridges, trunk staircases, branch pathways and supported wooden walkways connect the village.\r\n\r\n**Materials:** Rich brown timber, dark forest green, moss-covered roofs, woven walls and warm amber lanterns.\r\n\r\n**Signature silhouette:** Gigantic trees supporting interconnected, multi-level wooden houses and bridges.\r\n\r\n",
+          "document": "references/sect-descriptions-ids-0-5-partial.txt",
+          "documentSha256": "978d4307cc4d15a81408e78921a698dd34beafc0287fe89a4f21bdfcba5bdfc8",
+          "complete": true
+        }
+      ]
     },
     {
       "id": 4,
@@ -286,7 +364,24 @@
         "largeLandmarkLayers": "Mountains, enormous trees, waterfalls and other large landmarks require independent world-aligned layers when present.",
         "completedAssets": [],
         "designWorkStatus": "brief-available-artwork-unverified"
-      }
+      },
+      "supplementalSources": [
+        {
+          "heading": "5. STEP PYRAMID (ID 4)",
+          "paragraphs": [
+            "The Step Pyramid sect is centred on an enormous tiered stone pyramid built with extraordinary precision.",
+            "Each level has detailed stone masonry, recessed ornamental patterns, weathered edges and carefully constructed staircases. A grand ceremonial staircase ascends the front face to a decorated sanctuary at the summit.",
+            "Smaller structures include priests' residences, ceremonial courtyards, stone altars, monument platforms and carved gateway buildings.",
+            "The settlement occupies a broad, sun-exposed rocky plateau, with formal roads arranged around the pyramid's main axis.",
+            "**Materials:** Golden sandstone, terracotta, ochre, faded turquoise inlays and weathered stone carvings.",
+            "**Signature silhouette:** One enormous stepped temple dominating an ordered ceremonial settlement."
+          ],
+          "rawText": "## 5. STEP PYRAMID (ID 4)\r\n**Architectural identity: Monumental ceremonial stone civilization**\r\n\r\nThe Step Pyramid sect is centred on an enormous tiered stone pyramid built with extraordinary precision.\r\n\r\nEach level has detailed stone masonry, recessed ornamental patterns, weathered edges and carefully constructed staircases. A grand ceremonial staircase ascends the front face to a decorated sanctuary at the summit.\r\n\r\nSmaller structures include priests' residences, ceremonial courtyards, stone altars, monument platforms and carved gateway buildings.\r\n\r\nThe settlement occupies a broad, sun-exposed rocky plateau, with formal roads arranged around the pyramid's main axis.\r\n\r\n**Materials:** Golden sandstone, terracotta, ochre, faded turquoise inlays and weathered stone carvings.\r\n\r\n**Signature silhouette:** One enormous stepped temple dominating an ordered ceremonial settlement.\r\n\r\n",
+          "document": "references/sect-descriptions-ids-0-5-partial.txt",
+          "documentSha256": "978d4307cc4d15a81408e78921a698dd34beafc0287fe89a4f21bdfcba5bdfc8",
+          "complete": true
+        }
+      ]
     },
     {
       "id": 5,
@@ -1450,6 +1545,22 @@
         "completedAssets": [],
         "designWorkStatus": "brief-available-artwork-unverified"
       }
+    }
+  ],
+  "additionalSourceDocuments": [
+    {
+      "path": "references/sect-descriptions-ids-0-5-partial.txt",
+      "sha256": "978d4307cc4d15a81408e78921a698dd34beafc0287fe89a4f21bdfcba5bdfc8",
+      "authority": "User-supplied architectural descriptions",
+      "completeBriefIds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "truncatedBriefId": 5,
+      "use": "Primary source for IDs 0–2; supplemental source for IDs 3–4. The partial ID 5 section does not replace the complete first brief."
     }
   ]
 }
