@@ -4,6 +4,7 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 import argparse, json, threading, time
+from urllib.parse import quote
 from playwright.sync_api import sync_playwright, Error as BrowserError
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -18,10 +19,12 @@ class Quiet(SimpleHTTPRequestHandler):
     def log_message(self,*args):pass
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--chromium',default='/usr/bin/chromium');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--chromium',default='/usr/bin/chromium');parser.add_argument('--build',default='dist/Tiny-World-v79-Modular.html');args=parser.parse_args()
+    build=ROOT/args.build
+    report_path=ROOT/'reports/browser-validation.json' if args.build=='dist/Tiny-World-v79-Modular.html' else build.parent/'browser-validation.json'
     server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(ROOT)))
     threading.Thread(target=server.serve_forever,daemon=True).start()
-    url=f'http://127.0.0.1:{server.server_port}/dist/Tiny-World-v79-Modular.html'
+    url=f'http://127.0.0.1:{server.server_port}/{quote(args.build)}'
     checks=[];errors=[];report={'browser':'Chromium','checks':checks,'pageErrors':errors}
     def check(name,value,detail=None):
         checks.append({'name':name,'passed':bool(value),**({'detail':detail} if detail is not None else {})})
@@ -94,7 +97,7 @@ def main():
         check('IndexedDB resumes the current world when the local copy is absent',page.evaluate('G.time')==EXPECTED['time']+7 and page.evaluate('G.state.integrationRegression.kept'))
         # Game screenshot, using the real camera and complete simulation world.
         page.evaluate('''()=>{tw52Speed(0);const c=G.cre.find(c=>c.type==='human');cam.z=32;cam.x=c.x-18;cam.y=c.y-8;G.uiHide=false;G.state.sel=c.id;renderInfo(G);}''')
-        page.wait_for_timeout(2500);page.screenshot(path=str(ROOT/'reports/playable-world.png'))
+        page.wait_for_timeout(2500);page.screenshot(path=str(report_path.parent/'playable-world.png'))
         report['rendering']=page.evaluate('TinyWorldVisuals.diagnostics()')
         ctx.close()
         # Corrupt save must remain recoverable and must stop automatic overwriting.
@@ -109,7 +112,7 @@ def main():
         op=offline.new_page();op.on('pageerror',lambda e:errors.append(str(e)))
         op.on('request',lambda r:requests.append(r.url) if r.url.startswith(('http:','https:')) else None)
         try:
-          op.goto((ROOT/'dist/Tiny-World-v79-Modular.html').as_uri(),wait_until='load',timeout=120000)
+          op.goto(build.as_uri(),wait_until='load',timeout=120000)
           report['fileURLTest']='passed'
         except BrowserError as error:
           if 'ERR_BLOCKED_BY_ADMINISTRATOR' not in str(error):raise
@@ -139,6 +142,6 @@ def main():
     except Exception as error:
       report['passed']=False;report['failure']=str(error);raise
     finally:
-      server.shutdown();(ROOT/'reports/browser-validation.json').write_text(json.dumps(report,indent=2)+'\n')
+      server.shutdown();report_path.write_text(json.dumps(report,indent=2)+'\n')
       print(json.dumps({'passed':report.get('passed'),'checks':len(checks),'failure':report.get('failure')},indent=2))
 if __name__=='__main__':main()

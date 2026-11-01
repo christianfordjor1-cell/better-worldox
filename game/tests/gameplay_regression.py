@@ -4,7 +4,7 @@ from pathlib import Path
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from functools import partial
 from threading import Thread
-import hashlib, json, time
+import hashlib, json, time, os
 from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -12,6 +12,8 @@ class Quiet(SimpleHTTPRequestHandler):
     def log_message(self,*args): pass
 
 def run():
+    build=os.environ.get('TW79_TEST_BUILD','dist/Tiny-World-v79-Modular.html')
+    report_dir=ROOT/'reports' if build=='dist/Tiny-World-v79-Modular.html' else (ROOT/build).parent
     server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(ROOT)))
     Thread(target=server.serve_forever,daemon=True).start()
     base=f'http://127.0.0.1:{server.server_port}/'
@@ -32,7 +34,7 @@ def run():
         context.close()
         context=browser.new_context(viewport={'width':1280,'height':900},accept_downloads=True)
         page=context.new_page();page.on('pageerror',lambda e:page_errors.append(str(e)));page.on('dialog',lambda d:d.accept())
-        page.goto(base+'dist/Tiny-World-v79-Modular.html',wait_until='domcontentloaded',timeout=120000)
+        page.goto(base+build,wait_until='domcontentloaded',timeout=120000)
         page.wait_for_function('typeof Session!=="undefined"&&Session.phase==="ready"',timeout=60000)
         current=page.evaluate('''()=>{tw52Speed(0);return {classes:Object.keys(CLS),specs:Object.fromEntries(Object.entries(SPECIAL).map(([k,v])=>[k,v.family])),races:Object.keys(RACES),creatures:Object.keys(G.creatures),systems:G.systems.map(s=>s.key),roots:tw74.ROOTS,techniques:tw74.TECHNIQUES.map(t=>[t.id,t.name,t.root,t.branch,t.rank]),realms:CLASS_RANKS}}''')
         check('Native registries and simulation systems preserved',reference==current,{'classes':len(current['classes']),'specialisations':len(current['specs']),'existingMechanicRaces':len(current['races']),'existingActorTypes':len(current['creatures']),'systems':len(current['systems']),'roots':len(current['roots']),'techniques':len(current['techniques']),'separateBranches':sorted({t[3] for t in current['techniques']})})
@@ -49,7 +51,7 @@ def run():
         companions=page.evaluate("""()=>{const tamer=regressionActors[2],tp=G.person(tamer);tp.cls='archer';tp.spec='beastmaster';const wild=G.spawn('wolf',tamer.x,tamer.y,true);tw74.initBeast(wild,G);const bonded=tw7418.attach(G,tamer,wild);const summoner=regressionActors[3],sp=G.person(summoner);sp.cls='mage';sp.spec='summoner';const animals=G.cre.filter(c=>c.type!=='human'&&c.hp>0);let site=-1;for(let i=0;i<G.map.length;i+=19){const x=i%G.W,y=i/G.W|0;if(G.walk(x,y)&&animals.every(c=>(c.x-x)**2+(c.y-y)**2>144)){site=i;break}}if(site<0)return {error:'No isolated summoner site'};summoner.x=site%G.W;summoner.y=site/G.W|0;summoner.rx=summoner.x;summoner.ry=summoner.y;const repaired=tw7421.repair(G,summoner),bound=tw7421.owned(G,summoner);return {bonded,tamerMaster:wild.tw74Beast.master,tamerUid:tamer.uid,tamerIsSummoner:tw7421.isSummoner(tp),repaired,summons:bound.map(c=>({type:c.type,bloodline:c.tw74Beast.bloodline,master:c.tw74Beast.master})),summonerUid:summoner.uid,summonerIsTamer:tw7421.isTamer(sp)}}""")
         check('Beastmaster contract and independent spirit summoning',companions.get('bonded') and companions['tamerMaster']==companions['tamerUid'] and not companions['tamerIsSummoner'] and companions.get('repaired') and not companions['summonerIsTamer'] and any(c['bloodline']=='Spirit Conjuration' and c['master']==companions['summonerUid'] for c in companions['summons']),companions)
         sect=page.evaluate('''()=>{let town=null;for(let i=0;i<G.map.length&&!town;i+=11){const x=i%G.W,y=i/G.W|0;if(stableFoundation(x,y)&&buildFits('hall',x,y))town=foundTown(x,y)}if(!town)return {error:'No town foundation found'};const master=regressionActors[2],disciple=regressionActors[3],mp=G.person(master),dp=G.person(disciple);master.town=disciple.town=town.id;master.k=disciple.k=town.k;mp.tier=6;mp.cls='warrior';mp.disciples=[];mp.sect='Regression Azure Sect';dp.tier=1;dp.master=0;dp.disciples=[];G.time=120;for(let n=0;n<20&&!G.state.sects?.[mp.sect];n++){G.systems.find(s=>s.key==='cultivationExtras').tick(G)}const s=G.state.sects?.[mp.sect];if(!s)return {error:'Native founding did not find a retreat',town:town.name};s.level=2;G.time=140;G.systems.find(s=>s.key==='sectMountain').tick(G);const m=s.mt;return {name:s.name,founder:s.founder,disciple:dp.master,master:mp.id,mountain:m?{tiles:m.tiles.length,rooms:m.rooms.length,terraces:m.T}:null,veins:(G.state.veins||[]).length}}''')
-        check('Native sect founding and procedural mountain generation',sect.get('name')=='Regression Azure Sect' and sect.get('disciple')==sect.get('master') and sect.get('mountain',{}).get('tiles',0)>100,sect)
+        check('Native sect founding and procedural mountain generation',sect.get('name')=='Regression Azure Sect' and sect.get('disciple')==sect.get('master') and (sect.get('mountain') or {}).get('tiles',0)>100,sect)
         # Existing controls: dispatch the real range input event, then let the live loop advance.
         page.evaluate('''()=>{const slider=document.getElementById('hud-speed');slider.value='3';slider.dispatchEvent(new Event('input',{bubbles:true}))}''')
         control=page.evaluate('''()=>({speed:G.speed,paused:G.paused,time:G.time})''')
@@ -94,11 +96,11 @@ def run():
         raise
     finally:
         server.shutdown()
-        result={'build':'dist/Tiny-World-v79-Modular.html','suite':'actual-gameplay-browser-smoke','elapsedSeconds':round(time.time()-started,2),'passed':all(c['passed'] for c in checks),'checks':checks,'pageErrors':page_errors,'scope':'Smoke tests exercise existing native gameplay/API and actual file controls; they do not prove long-running balance, every ability or every world layout.'}
-        (ROOT/'reports/gameplay-regression.json').write_text(json.dumps(result,indent=2)+'\n')
+        result={'build':build,'suite':'actual-gameplay-browser-smoke','elapsedSeconds':round(time.time()-started,2),'passed':all(c['passed'] for c in checks),'checks':checks,'pageErrors':page_errors,'scope':'Smoke tests exercise existing native gameplay/API and actual file controls; they do not prove long-running balance, every ability or every world layout.'}
+        (report_dir/'gameplay-regression.json').write_text(json.dumps(result,indent=2)+'\n')
         lines=['# Playable gameplay regression','',f"Result: {'PASS' if result['passed'] else 'FAIL'}. Chromium, isolated temporary browser profile, {result['elapsedSeconds']} seconds.",'']
         lines += [f"- {'PASS' if c['passed'] else 'FAIL'} — {c['name']}" for c in checks]
         lines += ['',result['scope'],'','The suite compares all 15 classes, 48 specialisations, existing actor/race mechanics, simulation systems, realms and 1,260 techniques to the untouched v79 loaded in a separate profile. It does not create mechanics for the five artwork-only beast species.']
-        (ROOT/'reports/gameplay-regression.md').write_text('\n'.join(lines)+'\n')
+        (report_dir/'gameplay-regression.md').write_text('\n'.join(lines)+'\n')
     print(json.dumps({'passed':True,'checks':len(checks),'seconds':round(time.time()-started,2)}))
 if __name__=='__main__':run()

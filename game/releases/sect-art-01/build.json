@@ -1,0 +1,26 @@
+{
+  "release": "Tiny World v79 \u2014 Provisional Sect Art Update 01",
+  "baseline": "dist/Tiny-World-v79-Modular.html",
+  "baselineSha256": "5dc749ce392bdb4495efbb9311a611ef65859e05af5f10a394beff2ffa636c9a",
+  "playableHtml": "Tiny World v79 \u2014 Provisional Sect Art Update 01.html",
+  "playableHtmlSha256": "af3fba61d229df1f12f35bd4b62562622c67d8994e7628e07d94c04841634c11",
+  "approvedReviewZipSha256": "1684f1dfb05fcc10ab943d7e7139cb78e9fc8793557430e00e51062c257b1c4c",
+  "approvedAssetSha256": {
+    "citadel-hall-a": "3d231c7bc3726768c7ae9e4b3f01e4019771472b1eff581c5c2a219e85d46921",
+    "citadel-gatehouse": "85bc8daba77d2c6f01043f68c60924eaa9a1c29e099de532e8e0319b1454e472",
+    "citadel-mountain": "55eb36780132dcd639a6d69a76093c035162cca3399785c6c571a4ff8c012eac",
+    "sky-monastery-hall-a": "4c79ff07b64abe82ddf6f373033d396a420710ecd876a396b16a1fb169abb9d7",
+    "sky-monastery-peak": "00777abce422f8c9ded8b7225308d1a2472460b3c0640b968605d4592516434e",
+    "sky-monastery-bridge": "286aaefefb4b736886dfbf7a30b3821a480943e2061f2a3d3a33e286a06b1fca",
+    "iron-foundry-hall-a": "5fcdbcdbe78588174b6efa4199c3ebee611dc75fb86cdaa7fefa37a470e32f7f",
+    "iron-foundry-furnace-tower": "cde2d74a9d86e29a0fa2d5796ecf62ded58bb69a3ab2223318fbf04308c2b958",
+    "iron-foundry-workshop": "6aa1f0403550d6096b4c523e2e14a630771c403bade8cc6d0bc1ea033818c422"
+  },
+  "approvedSectIds": [
+    0,
+    1,
+    2
+  ],
+  "otherSectIds": "3\u201329 retain original v79 default building rendering",
+  "originalBaselineUnchanged": true
+}

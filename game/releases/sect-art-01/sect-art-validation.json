@@ -1,0 +1,1048 @@
+{
+  "build": "Tiny World v79 \u2014 Provisional Sect Art Update 01.html",
+  "suite": "approved-sect-in-game-browser-validation",
+  "checks": [
+    {
+      "name": "Complete v79 game boots and exactly nine approved PNGs decode",
+      "passed": true,
+      "evidence": {
+        "phase": "ready",
+        "assets": [
+          "citadel-hall-a",
+          "citadel-gatehouse",
+          "citadel-mountain",
+          "sky-monastery-hall-a",
+          "sky-monastery-peak",
+          "sky-monastery-bridge",
+          "iron-foundry-hall-a",
+          "iron-foundry-furnace-tower",
+          "iron-foundry-workshop"
+        ],
+        "states": {
+          "citadel-hall-a": "ready",
+          "citadel-gatehouse": "ready",
+          "citadel-mountain": "ready",
+          "sky-monastery-hall-a": "ready",
+          "sky-monastery-peak": "ready",
+          "sky-monastery-bridge": "ready",
+          "iron-foundry-hall-a": "ready",
+          "iron-foundry-furnace-tower": "ready",
+          "iron-foundry-workshop": "ready"
+        },
+        "sects": 30,
+        "roots": 30,
+        "races": 19,
+        "beasts": 17
+      }
+    },
+    {
+      "name": "Thirty sect styles and distinct root registry remain",
+      "passed": true,
+      "evidence": {
+        "phase": "ready",
+        "assets": [
+          "citadel-hall-a",
+          "citadel-gatehouse",
+          "citadel-mountain",
+          "sky-monastery-hall-a",
+          "sky-monastery-peak",
+          "sky-monastery-bridge",
+          "iron-foundry-hall-a",
+          "iron-foundry-furnace-tower",
+          "iron-foundry-workshop"
+        ],
+        "states": {
+          "citadel-hall-a": "ready",
+          "citadel-gatehouse": "ready",
+          "citadel-mountain": "ready",
+          "sky-monastery-hall-a": "ready",
+          "sky-monastery-peak": "ready",
+          "sky-monastery-bridge": "ready",
+          "iron-foundry-hall-a": "ready",
+          "iron-foundry-furnace-tower": "ready",
+          "iron-foundry-workshop": "ready"
+        },
+        "sects": 30,
+        "roots": 30,
+        "races": 19,
+        "beasts": 17
+      }
+    },
+    {
+      "name": "Existing 19 race and 17 beast art registries remain",
+      "passed": true,
+      "evidence": {
+        "phase": "ready",
+        "assets": [
+          "citadel-hall-a",
+          "citadel-gatehouse",
+          "citadel-mountain",
+          "sky-monastery-hall-a",
+          "sky-monastery-peak",
+          "sky-monastery-bridge",
+          "iron-foundry-hall-a",
+          "iron-foundry-furnace-tower",
+          "iron-foundry-workshop"
+        ],
+        "states": {
+          "citadel-hall-a": "ready",
+          "citadel-gatehouse": "ready",
+          "citadel-mountain": "ready",
+          "sky-monastery-hall-a": "ready",
+          "sky-monastery-peak": "ready",
+          "sky-monastery-bridge": "ready",
+          "iron-foundry-hall-a": "ready",
+          "iron-foundry-furnace-tower": "ready",
+          "iron-foundry-workshop": "ready"
+        },
+        "sects": 30,
+        "roots": 30,
+        "races": 19,
+        "beasts": 17
+      }
+    },
+    {
+      "name": "Three native sect terrain plans carve with IDs 0, 1, 2",
+      "passed": true,
+      "evidence": [
+        {
+          "id": 0,
+          "name": "Ashen Citadel",
+          "x": 212,
+          "y": 20,
+          "cx": 222,
+          "top": 20,
+          "style": 0,
+          "rooms": [
+            {
+              "type": "sectGate",
+              "i": 12510
+            },
+            {
+              "type": "house",
+              "i": 12116
+            },
+            {
+              "type": "house",
+              "i": 12130
+            },
+            {
+              "type": "sectHall",
+              "i": 9054
+            }
+          ],
+          "path": [
+            222,
+            33,
+            34
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Sky Monastery of Storm",
+          "x": 92,
+          "y": 36,
+          "cx": 106,
+          "top": 42,
+          "style": 1,
+          "rooms": [
+            {
+              "type": "sectGate",
+              "i": 20842
+            },
+            {
+              "type": "house",
+              "i": 20462
+            },
+            {
+              "type": "house",
+              "i": 20445
+            },
+            {
+              "type": "house",
+              "i": 18924
+            },
+            {
+              "type": "sectHall",
+              "i": 17386
+            }
+          ],
+          "path": [
+            106,
+            55,
+            56
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Iron Foundry of Phoenix",
+          "x": 156,
+          "y": 36,
+          "cx": 162,
+          "top": 36,
+          "style": 2,
+          "rooms": [
+            {
+              "type": "sectGate",
+              "i": 18594
+            },
+            {
+              "type": "house",
+              "i": 18224
+            },
+            {
+              "type": "house",
+              "i": 18218
+            },
+            {
+              "type": "tower",
+              "i": 18198
+            },
+            {
+              "type": "tower",
+              "i": 16669
+            },
+            {
+              "type": "blacksmith",
+              "i": 16677
+            },
+            {
+              "type": "sectHall",
+              "i": 15138
+            },
+            {
+              "type": "tower",
+              "i": 15134
+            },
+            {
+              "type": "tower",
+              "i": 15143
+            }
+          ],
+          "path": [
+            162,
+            49,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Approved building slots exist in native layout",
+      "passed": true,
+      "evidence": [
+        {
+          "id": 0,
+          "name": "Ashen Citadel",
+          "x": 212,
+          "y": 20,
+          "cx": 222,
+          "top": 20,
+          "style": 0,
+          "rooms": [
+            {
+              "type": "sectGate",
+              "i": 12510
+            },
+            {
+              "type": "house",
+              "i": 12116
+            },
+            {
+              "type": "house",
+              "i": 12130
+            },
+            {
+              "type": "sectHall",
+              "i": 9054
+            }
+          ],
+          "path": [
+            222,
+            33,
+            34
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Sky Monastery of Storm",
+          "x": 92,
+          "y": 36,
+          "cx": 106,
+          "top": 42,
+          "style": 1,
+          "rooms": [
+            {
+              "type": "sectGate",
+              "i": 20842
+            },
+            {
+              "type": "house",
+              "i": 20462
+            },
+            {
+              "type": "house",
+              "i": 20445
+            },
+            {
+              "type": "house",
+              "i": 18924
+            },
+            {
+              "type": "sectHall",
+              "i": 17386
+            }
+          ],
+          "path": [
+            106,
+            55,
+            56
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Iron Foundry of Phoenix",
+          "x": 156,
+          "y": 36,
+          "cx": 162,
+          "top": 36,
+          "style": 2,
+          "rooms": [
+            {
+              "type": "sectGate",
+              "i": 18594
+            },
+            {
+              "type": "house",
+              "i": 18224
+            },
+            {
+              "type": "house",
+              "i": 18218
+            },
+            {
+              "type": "tower",
+              "i": 18198
+            },
+            {
+              "type": "tower",
+              "i": 16669
+            },
+            {
+              "type": "blacksmith",
+              "i": 16677
+            },
+            {
+              "type": "sectHall",
+              "i": 15138
+            },
+            {
+              "type": "tower",
+              "i": 15134
+            },
+            {
+              "type": "tower",
+              "i": 15143
+            }
+          ],
+          "path": [
+            162,
+            49,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Characters step through preserved native sect approach paths",
+      "passed": true,
+      "evidence": [
+        {
+          "id": 0,
+          "open": true,
+          "before": [
+            222,
+            33
+          ],
+          "after": [
+            222,
+            34
+          ],
+          "moved": true
+        },
+        {
+          "id": 1,
+          "open": true,
+          "before": [
+            106,
+            55
+          ],
+          "after": [
+            106,
+            56
+          ],
+          "moved": true
+        },
+        {
+          "id": 2,
+          "open": true,
+          "before": [
+            162,
+            49
+          ],
+          "after": [
+            162,
+            50
+          ],
+          "moved": true
+        }
+      ]
+    },
+    {
+      "name": "Only approved ID 0\u20132 buildings draw PixelLab and both approved peaks draw",
+      "passed": true,
+      "evidence": {
+        "diag": {
+          "loaded": {
+            "citadel-hall-a": "ready",
+            "citadel-gatehouse": "ready",
+            "citadel-mountain": "ready",
+            "sky-monastery-hall-a": "ready",
+            "sky-monastery-peak": "ready",
+            "sky-monastery-bridge": "ready",
+            "iron-foundry-hall-a": "ready",
+            "iron-foundry-furnace-tower": "ready",
+            "iron-foundry-workshop": "ready"
+          },
+          "assetDrawn": {
+            "citadel-hall-a": 31,
+            "citadel-gatehouse": 31,
+            "citadel-mountain": 31,
+            "sky-monastery-hall-a": 42,
+            "sky-monastery-peak": 42,
+            "sky-monastery-bridge": 0,
+            "iron-foundry-hall-a": 40,
+            "iron-foundry-furnace-tower": 160,
+            "iron-foundry-workshop": 40
+          },
+          "drawn": [
+            62,
+            42,
+            240
+          ],
+          "terrainDrawn": [
+            31,
+            42,
+            0
+          ],
+          "fallback": [
+            62,
+            168,
+            120
+          ],
+          "defaultDrawn": [
+            62,
+            168,
+            120,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "blockedLegacySpriteCalls": 0,
+          "blockedLegacyTerrainCalls": 113,
+          "defaultForUnrepresented": true,
+          "source": "approved PixelLab PNG masters"
+        },
+        "routes": [
+          [
+            {
+              "type": "sectGate",
+              "id": 0
+            },
+            {
+              "type": "house",
+              "id": 0
+            },
+            {
+              "type": "house",
+              "id": 0
+            },
+            {
+              "type": "sectHall",
+              "id": 0
+            }
+          ],
+          [
+            {
+              "type": "sectGate",
+              "id": 1
+            },
+            {
+              "type": "house",
+              "id": 1
+            },
+            {
+              "type": "house",
+              "id": 1
+            },
+            {
+              "type": "house",
+              "id": 1
+            },
+            {
+              "type": "sectHall",
+              "id": 1
+            }
+          ],
+          [
+            {
+              "type": "sectGate",
+              "id": 2
+            },
+            {
+              "type": "house",
+              "id": 2
+            },
+            {
+              "type": "house",
+              "id": 2
+            },
+            {
+              "type": "tower",
+              "id": 2
+            },
+            {
+              "type": "tower",
+              "id": 2
+            },
+            {
+              "type": "blacksmith",
+              "id": 2
+            },
+            {
+              "type": "sectHall",
+              "id": 2
+            },
+            {
+              "type": "tower",
+              "id": 2
+            },
+            {
+              "type": "tower",
+              "id": 2
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Three-sect live draw remains responsive in headless Chromium",
+      "passed": true,
+      "evidence": {
+        "samples": 36,
+        "medianMs": 0.29999998211860657,
+        "p95Ms": 6.199999988079071,
+        "maxMs": 7.199999988079071
+      }
+    },
+    {
+      "name": "IDs 3\u201329 use default v79 architecture with no rejected sprite cache use",
+      "passed": true,
+      "evidence": {
+        "used": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "defaultCounts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "approvedBefore": [
+          86,
+          54,
+          318
+        ],
+        "approvedAfter": [
+          86,
+          54,
+          318
+        ],
+        "legacySpriteCacheBefore": 0,
+        "legacySpriteCacheAfter": 0
+      }
+    },
+    {
+      "name": "Saved sect styles, native terrain and occupied rooms survive world restore",
+      "passed": true,
+      "evidence": {
+        "same": true,
+        "bytes": 608669,
+        "after": [
+          {
+            "name": "Ashen Citadel",
+            "style": 0,
+            "rooms": [
+              [
+                12510,
+                "sectGate"
+              ],
+              [
+                12116,
+                "house"
+              ],
+              [
+                12130,
+                "house"
+              ],
+              [
+                9054,
+                "sectHall"
+              ]
+            ],
+            "tiles": 311
+          },
+          {
+            "name": "Sky Monastery of Storm",
+            "style": 1,
+            "rooms": [
+              [
+                20842,
+                "sectGate"
+              ],
+              [
+                20462,
+                "house"
+              ],
+              [
+                20445,
+                "house"
+              ],
+              [
+                18924,
+                "house"
+              ],
+              [
+                17386,
+                "sectHall"
+              ]
+            ],
+            "tiles": 391
+          },
+          {
+            "name": "Iron Foundry of Phoenix",
+            "style": 2,
+            "rooms": [
+              [
+                18594,
+                "sectGate"
+              ],
+              [
+                18224,
+                "house"
+              ],
+              [
+                18218,
+                "house"
+              ],
+              [
+                18198,
+                "tower"
+              ],
+              [
+                16669,
+                "tower"
+              ],
+              [
+                16677,
+                "blacksmith"
+              ],
+              [
+                15138,
+                "sectHall"
+              ],
+              [
+                15134,
+                "tower"
+              ],
+              [
+                15143,
+                "tower"
+              ]
+            ],
+            "tiles": 422
+          }
+        ]
+      }
+    },
+    {
+      "name": "Existing actor-art toggle cannot reveal rejected sect sprites",
+      "passed": true,
+      "evidence": {
+        "actorArtEnabled": false,
+        "before": 86,
+        "after": 87
+      }
+    },
+    {
+      "name": "No missing images or JavaScript exceptions",
+      "passed": true,
+      "evidence": {
+        "page": [],
+        "console": []
+      }
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "scene": [
+    {
+      "id": 0,
+      "name": "Ashen Citadel",
+      "x": 212,
+      "y": 20,
+      "cx": 222,
+      "top": 20,
+      "style": 0,
+      "rooms": [
+        {
+          "type": "sectGate",
+          "i": 12510
+        },
+        {
+          "type": "house",
+          "i": 12116
+        },
+        {
+          "type": "house",
+          "i": 12130
+        },
+        {
+          "type": "sectHall",
+          "i": 9054
+        }
+      ],
+      "path": [
+        222,
+        33,
+        34
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Sky Monastery of Storm",
+      "x": 92,
+      "y": 36,
+      "cx": 106,
+      "top": 42,
+      "style": 1,
+      "rooms": [
+        {
+          "type": "sectGate",
+          "i": 20842
+        },
+        {
+          "type": "house",
+          "i": 20462
+        },
+        {
+          "type": "house",
+          "i": 20445
+        },
+        {
+          "type": "house",
+          "i": 18924
+        },
+        {
+          "type": "sectHall",
+          "i": 17386
+        }
+      ],
+      "path": [
+        106,
+        55,
+        56
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Iron Foundry of Phoenix",
+      "x": 156,
+      "y": 36,
+      "cx": 162,
+      "top": 36,
+      "style": 2,
+      "rooms": [
+        {
+          "type": "sectGate",
+          "i": 18594
+        },
+        {
+          "type": "house",
+          "i": 18224
+        },
+        {
+          "type": "house",
+          "i": 18218
+        },
+        {
+          "type": "tower",
+          "i": 18198
+        },
+        {
+          "type": "tower",
+          "i": 16669
+        },
+        {
+          "type": "blacksmith",
+          "i": 16677
+        },
+        {
+          "type": "sectHall",
+          "i": 15138
+        },
+        {
+          "type": "tower",
+          "i": 15134
+        },
+        {
+          "type": "tower",
+          "i": 15143
+        }
+      ],
+      "path": [
+        162,
+        49,
+        50
+      ]
+    }
+  ],
+  "rendering": {
+    "loaded": {
+      "citadel-hall-a": "ready",
+      "citadel-gatehouse": "ready",
+      "citadel-mountain": "ready",
+      "sky-monastery-hall-a": "ready",
+      "sky-monastery-peak": "ready",
+      "sky-monastery-bridge": "ready",
+      "iron-foundry-hall-a": "ready",
+      "iron-foundry-furnace-tower": "ready",
+      "iron-foundry-workshop": "ready"
+    },
+    "assetDrawn": {
+      "citadel-hall-a": 31,
+      "citadel-gatehouse": 31,
+      "citadel-mountain": 31,
+      "sky-monastery-hall-a": 42,
+      "sky-monastery-peak": 42,
+      "sky-monastery-bridge": 0,
+      "iron-foundry-hall-a": 40,
+      "iron-foundry-furnace-tower": 160,
+      "iron-foundry-workshop": 40
+    },
+    "drawn": [
+      62,
+      42,
+      240
+    ],
+    "terrainDrawn": [
+      31,
+      42,
+      0
+    ],
+    "fallback": [
+      62,
+      168,
+      120
+    ],
+    "defaultDrawn": [
+      62,
+      168,
+      120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "blockedLegacySpriteCalls": 0,
+    "blockedLegacyTerrainCalls": 113,
+    "defaultForUnrepresented": true,
+    "source": "approved PixelLab PNG masters"
+  },
+  "fallback": {
+    "used": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "defaultCounts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "approvedBefore": [
+      86,
+      54,
+      318
+    ],
+    "approvedAfter": [
+      86,
+      54,
+      318
+    ],
+    "legacySpriteCacheBefore": 0,
+    "legacySpriteCacheAfter": 0
+  },
+  "performance": {
+    "samples": 36,
+    "medianMs": 0.29999998211860657,
+    "p95Ms": 6.199999988079071,
+    "maxMs": 7.199999988079071
+  },
+  "passed": true,
+  "elapsedSeconds": 4.48
+}
