@@ -1,0 +1,17 @@
+{
+  "registryId": 1,
+  "role": "separate suspended footbridge",
+  "tool": "create_image_pixen",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "One isolated narrow suspended timber footbridge for a sacred mountain monastery, shown across a transparent gap with clearly open left and right connection ends. Slight natural sag, dozens of individually readable weathered wooden planks, paired supporting ropes and a few small hanging bells, dark timber with pale-stone end brackets and restrained turquoise ties. Practical bridge silhouette, no cliff, temple, background, text or cast shadow. Shallow three-quarter view consistent with roofs and front faces, upper-left light, crisp selective outline, deliberate refined pixel clusters. Transparent background and generous margin.",
+    "width": 96,
+    "height": 64,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south",
+    "outline": "selective outline",
+    "detail": "highly detailed",
+    "seed": 300103
+  }
+}

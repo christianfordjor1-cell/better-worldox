@@ -1,0 +1,17 @@
+{
+  "registryId": 0,
+  "role": "separate rocky mountain landmark",
+  "tool": "create_image_pixen",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "One enormous rugged grey rocky mountain mass as a SEPARATE fantasy strategy-game pixel-art landscape landmark. Three irregular climbing cliff faces, fractured weathered stone, natural ledges and a broad uneven top terrace large enough to suggest a fortress could be placed there later; winding recesses carved into the rock, dark cracks and small patches of muted moss. Strong steep vertical silhouette, no decorative square base. No castle, towers, buildings, road, text, sky, ground scenery or cast shadow: this is only the mountain layer. Shallow three-quarter view, upper-left warm light, deliberate crisp pixel clusters, grey stone and dark iron palette matching an imperial fortress. Transparent background and clean lower ground anchor.",
+    "width": 128,
+    "height": 160,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south",
+    "outline": "selective outline",
+    "detail": "highly detailed",
+    "seed": 300003
+  }
+}

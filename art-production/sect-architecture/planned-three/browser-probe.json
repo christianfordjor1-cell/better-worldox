@@ -1,0 +1,49 @@
+{
+  "status": "temporary browser rendering probe",
+  "gameSourceChanged": false,
+  "persistentSavesChanged": false,
+  "integrationClaim": false,
+  "landmarksPlacedInGame": false,
+  "elevatedNavigationVerified": false,
+  "browser": "154.0.8037.57",
+  "site": [
+    14,
+    10
+  ],
+  "loadedCanvasSizes": {
+    "citadel-hall-a": [
+      147,
+      141
+    ],
+    "sky-monastery-hall-a": [
+      147,
+      141
+    ],
+    "iron-foundry-hall-a": [
+      147,
+      141
+    ],
+    "citadel-gatehouse": [
+      96,
+      90
+    ],
+    "iron-foundry-workshop": [
+      106,
+      109
+    ]
+  },
+  "placedGameSlotBuildings": [
+    "citadel-hall-a",
+    "sky-monastery-hall-a",
+    "iron-foundry-hall-a",
+    "citadel-gatehouse",
+    "iron-foundry-workshop"
+  ],
+  "images": [
+    "previews/v79-in-memory-16px.png",
+    "previews/v79-in-memory-32px.png"
+  ],
+  "pageErrors": [],
+  "passed": true,
+  "note": "Building PNGs were drawn at existing PLOTS dimensions through an in-memory raceBuilding override. This proves rendering and scale only; landmarks and routes are not installed."
+}

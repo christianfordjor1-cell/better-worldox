@@ -33,7 +33,7 @@ def job_id(result: dict) -> str:
     return match.group(1)
 
 
-def finish(name: str, job: str) -> None:
+def finish(name: str, job: str, tool: str = "create_image_pixen") -> None:
     start = time.monotonic()
     while time.monotonic() - start < 420:
         result = call("get_image", {"job_id": job}, timeout=55)
@@ -44,7 +44,7 @@ def finish(name: str, job: str) -> None:
                 raise RuntimeError(f"Unexpected PixelLab image result for {name}")
             (ROOT / "masters" / f"{name}.png").write_bytes(base64.b64decode(images[0]["data"]))
             (ROOT / "receipts" / f"{name}.json").write_text(json.dumps({
-                "tool": "create_image_pixen", "job_id": job,
+                "tool": tool, "job_id": job,
                 "receipt": text_result(result), "isError": False,
             }, indent=2) + "\n")
             print(json.dumps({"name": name, "status": "completed", "job": job}), flush=True)

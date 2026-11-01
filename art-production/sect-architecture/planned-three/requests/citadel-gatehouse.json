@@ -1,0 +1,14 @@
+{
+  "registryId": 0,
+  "role": "fortified entrance",
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/citadel-hall-a.png",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "Redesign this castle as a separate compact Citadel gatehouse: two squat unequal battlement towers flank one broad arched carriage entrance with a visible lowered iron portcullis. Weathered grey masonry, arrow slits, dark-blue slate caps and restrained red-gold pennants. Strong asymmetric gate silhouette, not a keep. Match source pixel density, shallow three-quarter view, upper-left light and selective outlines. Transparent; remove grassy base, road, scene and cast shadow.",
+    "width": 96,
+    "height": 100,
+    "no_background": true,
+    "seed": 300002
+  }
+}

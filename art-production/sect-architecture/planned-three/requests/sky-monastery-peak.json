@@ -1,0 +1,17 @@
+{
+  "registryId": 1,
+  "role": "separate fractured mountain peak",
+  "tool": "create_image_pixen",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "One towering irregular pale-stone mountain peak as a SEPARATE fantasy strategy-game pixel-art landmark. Dramatic fractured vertical cliff faces, split ridges, deep crevices, jutting natural ledges, small flat monastery-support terrace near the summit and sparse moss in cracks. Slim high silhouette with a substantial rocky base, visibly different from a rounded hill. No temple, buildings, bridges, waterfall, mist, text, sky, ground scenery or cast shadow: this is the independent cliff layer for a sacred monastery among multiple peaks. Shallow three-quarter view, upper-left warm light, crisp dark selective outlines and deliberate readable pixel clusters. Controlled pale grey, cool blue-grey and subdued turquoise accent. Transparent background and clear lower ground anchor.",
+    "width": 128,
+    "height": 160,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south",
+    "outline": "selective outline",
+    "detail": "highly detailed",
+    "seed": 300102
+  }
+}

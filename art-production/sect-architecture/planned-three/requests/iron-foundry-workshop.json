@@ -1,0 +1,14 @@
+{
+  "registryId": 2,
+  "role": "separate weapons workshop",
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/iron-foundry-hall-a.png",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "Redesign this forge into a separate low weapons workshop: long uneven charcoal shed roof, blackened brick walls, broad front double doors, iron workbench below a side awning, short copper vent and muted orange forge opening. Different silhouette from main hall; no tall chimney or scene. Match source dark iron/copper palette, crisp pixel clusters, shallow three-quarter view, upper-left light and selective outlines; transparent.",
+    "width": 96,
+    "height": 100,
+    "no_background": true,
+    "seed": 300203
+  }
+}

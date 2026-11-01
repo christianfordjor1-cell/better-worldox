@@ -1,0 +1,14 @@
+{
+  "registryId": 2,
+  "role": "separate furnace and hammer tower",
+  "tool": "edit_image_pixen",
+  "sourceFile": "masters/iron-foundry-hall-a.png",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "Redesign this forge into a separate tall furnace tower: soot-black brick chimney above a broad smelter, orange fire through arched iron grate, copper pipes, heavy metal bands and one mechanical hammer arm. Strong vertical machinery silhouette, detailed bricks and metal clusters. No hall, surrounding buildings, ground tile or shadow. Match source dark industrial palette, crisp pixels, shallow three-quarter view, upper-left light and selective outlines; transparent.",
+    "width": 96,
+    "height": 128,
+    "no_background": true,
+    "seed": 300202
+  }
+}

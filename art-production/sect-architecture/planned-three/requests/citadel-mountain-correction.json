@@ -1,0 +1,17 @@
+{
+  "registryId": 0,
+  "role": "replacement rocky mountain landmark",
+  "tool": "create_image_pixen",
+  "expectedFreeGenerations": 1,
+  "arguments": {
+    "description": "A broad NATURAL jagged mountain ridge for a fantasy strategy game, as an isolated detailed pixel-art landscape layer. Three uneven summits of different heights, a sloping main cliff, deep irregular cracks, sharp rock shelves, rough ledges, weathered grey stone and sparse muted moss. Wide organic foothills taper into terrain; dramatic varied silhouette. This is an enormous rocky mountain rising naturally from the world, NOT a square tower, NOT stacked stone blocks, NOT a podium, NOT a pedestal or flat tile. No castle, building, road, grass tile, text, sky or cast shadow. Shallow three-quarter view, warm upper-left light, crisp dark selective outlines, deliberate detailed pixel clusters. Transparent background and lower ground anchor.",
+    "width": 160,
+    "height": 160,
+    "no_background": true,
+    "view": "low top-down",
+    "direction": "south",
+    "outline": "selective outline",
+    "detail": "highly detailed",
+    "seed": 300004
+  }
+}

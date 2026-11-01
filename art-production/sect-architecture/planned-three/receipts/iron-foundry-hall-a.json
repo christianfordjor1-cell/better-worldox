@@ -1,0 +1,6 @@
+{
+  "tool": "create_image_pixen",
+  "job_id": "e551a6f4-8428-4f31-b324-eeafec258847",
+  "receipt": "status: completed\nid: e551a6f4-8428-4f31-b324-eeafec258847\njob_id: e551a6f4-8428-4f31-b324-eeafec258847\nframes: 1\ntransparent: yes\nasset_id: 2851cdc6-5528-5540-9516-86a2c8013050\nasset_type: image\nasset_status: saved\ngallery: saved to your PixelLab gallery (pixellab.ai/create)\ncharged: 1 generation\ndownload: https://api.pixellab.ai/mcp/images/e551a6f4-8428-4f31-b324-eeafec258847/download",
+  "isError": false
+}

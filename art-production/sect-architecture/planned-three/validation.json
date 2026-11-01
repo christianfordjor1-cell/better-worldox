@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "technicalPass": true,
+  "assets": [
+    {
+      "id": "citadel-hall-a",
+      "registryId": 0,
+      "sect": "Citadel",
+      "role": "principal hall",
+      "status": "provisional",
+      "sourceMaster": "masters/citadel-hall-a.png",
+      "sourceSha256": "3d231c7bc3726768c7ae9e4b3f01e4019771472b1eff581c5c2a219e85d46921",
+      "generationRequest": "requests/citadel-hall-a.json",
+      "generationReceipt": "receipts/citadel-hall-a.json",
+      "rejectedIteration": null,
+      "paletteNormalized": "palette-normalized/citadel-hall-a.png",
+      "file": "assets/citadel-hall-a.png",
+      "sha256": "912124a3a8a7ef42438d26a60cd1fb33800422a8bbfba0e91a892464fd781385",
+      "sourceCanvas": [
+        144,
+        144
+      ],
+      "sourceVisibleBounds": [
+        4,
+        1,
+        140,
+        141
+      ],
+      "declaredCanvas": [
+        147,
+        141
+      ],
+      "reviewCanvas": [
+        147,
+        141
+      ],
+      "anchor": [
+        73.5,
+        141
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": "sectHall",
+      "currentGameSlotFit": true,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 75,
+      "normalizedVisibleColorCount": 23,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    },
+    {
+      "id": "citadel-gatehouse",
+      "registryId": 0,
+      "sect": "Citadel",
+      "role": "gatehouse",
+      "status": "provisional",
+      "sourceMaster": "masters/citadel-gatehouse.png",
+      "sourceSha256": "85bc8daba77d2c6f01043f68c60924eaa9a1c29e099de532e8e0319b1454e472",
+      "generationRequest": "requests/citadel-gatehouse.json",
+      "generationReceipt": "receipts/citadel-gatehouse.json",
+      "rejectedIteration": null,
+      "paletteNormalized": "palette-normalized/citadel-gatehouse.png",
+      "file": "assets/citadel-gatehouse.png",
+      "sha256": "2b28409ebe50bc9e4d58e6869d0450bdafdbcf2d7275241bc6d29ee5766d19bb",
+      "sourceCanvas": [
+        96,
+        100
+      ],
+      "sourceVisibleBounds": [
+        8,
+        12,
+        89,
+        92
+      ],
+      "declaredCanvas": [
+        96,
+        90
+      ],
+      "reviewCanvas": [
+        96,
+        90
+      ],
+      "anchor": [
+        48.0,
+        90
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": "sectGate",
+      "currentGameSlotFit": true,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 59,
+      "normalizedVisibleColorCount": 19,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    },
+    {
+      "id": "citadel-mountain",
+      "registryId": 0,
+      "sect": "Citadel",
+      "role": "separate mountain landmark",
+      "status": "provisional",
+      "sourceMaster": "masters/citadel-mountain.png",
+      "sourceSha256": "55eb36780132dcd639a6d69a76093c035162cca3399785c6c571a4ff8c012eac",
+      "generationRequest": "requests/citadel-mountain-correction.json",
+      "generationReceipt": "receipts/citadel-mountain.json",
+      "rejectedIteration": "iterations/citadel-mountain-square-block.png",
+      "paletteNormalized": "palette-normalized/citadel-mountain.png",
+      "file": "assets/citadel-mountain.png",
+      "sha256": "1c6889a466ab800d25811973711e6360a1e70cf415688f4f58645061d78516cf",
+      "sourceCanvas": [
+        160,
+        160
+      ],
+      "sourceVisibleBounds": [
+        6,
+        15,
+        154,
+        151
+      ],
+      "declaredCanvas": [
+        160,
+        160
+      ],
+      "reviewCanvas": [
+        160,
+        160
+      ],
+      "anchor": [
+        80.0,
+        160
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": null,
+      "currentGameSlotFit": null,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 83,
+      "normalizedVisibleColorCount": 26,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    },
+    {
+      "id": "sky-monastery-hall-a",
+      "registryId": 1,
+      "sect": "Sky Monastery",
+      "role": "principal hall",
+      "status": "provisional",
+      "sourceMaster": "masters/sky-monastery-hall-a.png",
+      "sourceSha256": "4c79ff07b64abe82ddf6f373033d396a420710ecd876a396b16a1fb169abb9d7",
+      "generationRequest": "requests/sky-monastery-hall-a.json",
+      "generationReceipt": "receipts/sky-monastery-hall-a.json",
+      "rejectedIteration": null,
+      "paletteNormalized": "palette-normalized/sky-monastery-hall-a.png",
+      "file": "assets/sky-monastery-hall-a.png",
+      "sha256": "77518e18f625d9f95af9593623c546031fdab02c419169df58371d29b2656309",
+      "sourceCanvas": [
+        144,
+        144
+      ],
+      "sourceVisibleBounds": [
+        12,
+        13,
+        126,
+        132
+      ],
+      "declaredCanvas": [
+        147,
+        141
+      ],
+      "reviewCanvas": [
+        147,
+        141
+      ],
+      "anchor": [
+        73.5,
+        141
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": "sectHall",
+      "currentGameSlotFit": true,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 76,
+      "normalizedVisibleColorCount": 27,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    },
+    {
+      "id": "sky-monastery-peak",
+      "registryId": 1,
+      "sect": "Sky Monastery",
+      "role": "separate mountain peak",
+      "status": "provisional",
+      "sourceMaster": "masters/sky-monastery-peak.png",
+      "sourceSha256": "00777abce422f8c9ded8b7225308d1a2472460b3c0640b968605d4592516434e",
+      "generationRequest": "requests/sky-monastery-peak.json",
+      "generationReceipt": "receipts/sky-monastery-peak.json",
+      "rejectedIteration": null,
+      "paletteNormalized": "palette-normalized/sky-monastery-peak.png",
+      "file": "assets/sky-monastery-peak.png",
+      "sha256": "e7c1b058fb36720f7f244a5b3b74006b57e0978bb4a8d1296ad2a8fe46a9bdda",
+      "sourceCanvas": [
+        128,
+        160
+      ],
+      "sourceVisibleBounds": [
+        6,
+        4,
+        121,
+        158
+      ],
+      "declaredCanvas": [
+        128,
+        160
+      ],
+      "reviewCanvas": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.0,
+        160
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": null,
+      "currentGameSlotFit": null,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 67,
+      "normalizedVisibleColorCount": 20,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    },
+    {
+      "id": "sky-monastery-bridge",
+      "registryId": 1,
+      "sect": "Sky Monastery",
+      "role": "suspended bridge",
+      "status": "provisional",
+      "sourceMaster": "masters/sky-monastery-bridge.png",
+      "sourceSha256": "286aaefefb4b736886dfbf7a30b3821a480943e2061f2a3d3a33e286a06b1fca",
+      "generationRequest": "requests/sky-monastery-bridge.json",
+      "generationReceipt": "receipts/sky-monastery-bridge.json",
+      "rejectedIteration": null,
+      "paletteNormalized": "palette-normalized/sky-monastery-bridge.png",
+      "file": "assets/sky-monastery-bridge.png",
+      "sha256": "75c41ee2940fda182e5cf166c298ba8c589091724acd93001e16649ada3df4b0",
+      "sourceCanvas": [
+        96,
+        64
+      ],
+      "sourceVisibleBounds": [
+        4,
+        2,
+        92,
+        61
+      ],
+      "declaredCanvas": [
+        96,
+        80
+      ],
+      "reviewCanvas": [
+        96,
+        80
+      ],
+      "anchor": [
+        48.0,
+        80
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": null,
+      "currentGameSlotFit": null,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 47,
+      "normalizedVisibleColorCount": 25,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    },
+    {
+      "id": "iron-foundry-hall-a",
+      "registryId": 2,
+      "sect": "Iron Foundry",
+      "role": "principal hall",
+      "status": "provisional",
+      "sourceMaster": "masters/iron-foundry-hall-a.png",
+      "sourceSha256": "5fcdbcdbe78588174b6efa4199c3ebee611dc75fb86cdaa7fefa37a470e32f7f",
+      "generationRequest": "requests/iron-foundry-hall-a.json",
+      "generationReceipt": "receipts/iron-foundry-hall-a.json",
+      "rejectedIteration": null,
+      "paletteNormalized": "palette-normalized/iron-foundry-hall-a.png",
+      "file": "assets/iron-foundry-hall-a.png",
+      "sha256": "55323fe62e80563d61b423dfc7a15dad23164101f2fbabeddfd14dc6ffcac4a1",
+      "sourceCanvas": [
+        144,
+        144
+      ],
+      "sourceVisibleBounds": [
+        15,
+        7,
+        131,
+        139
+      ],
+      "declaredCanvas": [
+        147,
+        141
+      ],
+      "reviewCanvas": [
+        147,
+        141
+      ],
+      "anchor": [
+        73.5,
+        141
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": "sectHall",
+      "currentGameSlotFit": true,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 31,
+      "normalizedVisibleColorCount": 25,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    },
+    {
+      "id": "iron-foundry-furnace-tower",
+      "registryId": 2,
+      "sect": "Iron Foundry",
+      "role": "furnace tower",
+      "status": "provisional",
+      "sourceMaster": "masters/iron-foundry-furnace-tower.png",
+      "sourceSha256": "cde2d74a9d86e29a0fa2d5796ecf62ded58bb69a3ab2223318fbf04308c2b958",
+      "generationRequest": "requests/iron-foundry-furnace-tower.json",
+      "generationReceipt": "receipts/iron-foundry-furnace-tower.json",
+      "rejectedIteration": null,
+      "paletteNormalized": "palette-normalized/iron-foundry-furnace-tower.png",
+      "file": "assets/iron-foundry-furnace-tower.png",
+      "sha256": "bf51680af9b5ce8ccd3193af6f54506efdd94fbd7f8340c51e09ea9e27c56d00",
+      "sourceCanvas": [
+        96,
+        128
+      ],
+      "sourceVisibleBounds": [
+        15,
+        5,
+        87,
+        124
+      ],
+      "declaredCanvas": [
+        96,
+        128
+      ],
+      "reviewCanvas": [
+        96,
+        128
+      ],
+      "anchor": [
+        48.0,
+        128
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": null,
+      "currentGameSlotFit": null,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 56,
+      "normalizedVisibleColorCount": 30,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    },
+    {
+      "id": "iron-foundry-workshop",
+      "registryId": 2,
+      "sect": "Iron Foundry",
+      "role": "weapons workshop",
+      "status": "provisional",
+      "sourceMaster": "masters/iron-foundry-workshop.png",
+      "sourceSha256": "6aa1f0403550d6096b4c523e2e14a630771c403bade8cc6d0bc1ea033818c422",
+      "generationRequest": "requests/iron-foundry-workshop.json",
+      "generationReceipt": "receipts/iron-foundry-workshop.json",
+      "rejectedIteration": null,
+      "paletteNormalized": "palette-normalized/iron-foundry-workshop.png",
+      "file": "assets/iron-foundry-workshop.png",
+      "sha256": "7991ef2b1669263667071ce4c44601a0656441540dd028210a159db4b43a28cf",
+      "sourceCanvas": [
+        96,
+        100
+      ],
+      "sourceVisibleBounds": [
+        9,
+        13,
+        84,
+        97
+      ],
+      "declaredCanvas": [
+        106,
+        109
+      ],
+      "reviewCanvas": [
+        106,
+        109
+      ],
+      "anchor": [
+        53.0,
+        109
+      ],
+      "anchorMeaning": "bottom-centre review reference; actual physical contact needs human review",
+      "currentGameSlot": "blacksmith",
+      "currentGameSlotFit": true,
+      "sourceEdgeContacts": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "sourceVisibleColorCount": 46,
+      "normalizedVisibleColorCount": 30,
+      "checks": {
+        "sourceCanvasExpected": true,
+        "binaryAlpha": true,
+        "normalizationAlphaUnchanged": true,
+        "familyPaletteSubset": true,
+        "atMost32Colours": true,
+        "allVisibleRgbaPixelsPreservedInCanvasAdaptation": true,
+        "fitsDeclaredCanvas": true
+      },
+      "technicalPass": true,
+      "artQualityReview": "pending",
+      "navigationReview": "not implemented"
+    }
+  ],
+  "humanArtReview": "pending",
+  "limitations": [
+    "Three identities have provisional principal and support art, not complete architecture packs.",
+    "No residence, growth-stage, measured port, elevated path, collision or integrated terrain system is claimed.",
+    "An isolated source PNG cannot prove a clean foundation or that generated artwork was not clipped at its own edge.",
+    "The current v79 game, renderer, saves and published environment were not changed."
+  ]
+}
